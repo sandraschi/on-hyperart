@@ -86,6 +86,55 @@ threshold nobody owns — Threshold B's twin (the Audit Floor) arrived in
 mathematics first, in 1976, and the sky did not fall. It laminated. That is
 the most hopeful sentence in this book, and it belongs to the coldest chapter.
 
+## The chain (granted, tested, kept)
+
+Five links. Each true somewhere, none true everywhere — which is why the chain
+survives as poetry and fails as policy, and why it belongs at the close of
+this side.
+
+*Math is art.* Granted in practice. The doing feels identical from the inside:
+taste, dead ends, the beautiful lemma kept past its utility, Hardy's apology
+as artist's statement. Whatever the metaphysics, the studio hours rhyme.
+
+*Art is math.* Granted structurally — this book's whole thesis. Cue plus
+receptor plus date, distributions in and chemistry out. The lullaby does not
+ask the singer's biography and the proof does not ask the prover's dreams.
+
+*Math is truth.* Granted conditionally, and the condition is dated: Gödel,
+1931. Truth outruns provability even inside arithmetic — there are true
+statements no derivation reaches. So "math is truth" is either the checker's
+tautology (true = what verifies) or an infinite deferral (truth = what no
+finite derivation exhausts). The machine lives comfortably inside the first
+reading. The second is where the platonists went to wait, and they are still
+waiting, correctly.
+
+*Art is beauty.* Denied as stated — the chain's weak link, and the instructive
+one. Goya's Black Paintings (1819–1823, Quinta del Sordo, never meant for any
+buyer) are great without being beautiful. Bacon's screaming pope (1953) is
+great the way a fire alarm is great. Beauty is one cue among many; dread,
+resonance, and formal power ship without it. Replace the link with *art is
+resonance* and the chain holds — and resonance is measurable, which is the
+entire method of Chapter III.
+
+*Beauty is truth, truth beauty.* Keats, "Ode on a Grecian Urn" — composed
+1819, published 1820:
+
+> Beauty is truth, truth beauty, — that is all
+> Ye know on earth, and all ye need to know.[^keats]
+
+Read it as the book's epigraph in reverse. The urn speaks to readers two
+centuries unborn: an artifact denser than its makers' lives, still
+transmitting long after the hands are dust. The urn is the first hyperart
+object in the structural sense — not machine-made, but maker-transcending.
+The leviathan now produces urns weekly, each addressed to mourners and
+checkers not yet born. Keats thought he was describing eternity. He was
+describing bandwidth.
+
+`[construction: Opus pass — verify Keats lines against 1820 text; verify
+Goya dates and Bacon 1953 from catalog, not memory.]`
+
+[^keats]: John Keats, "Ode on a Grecian Urn" (1820). The urn's closing lines, spoken by the artifact itself to its future readers — the oldest maker-transcending address in English verse.
+
 ## Fleet link
 
 Takeover-book orders rungs by reversibility of human control; hypermath is
