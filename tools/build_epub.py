@@ -50,13 +50,13 @@ body {
     line-height: 1.6;
     margin: 5%;
     text-align: justify;
-    color: #1a1a1a;
+    color: inherit;
 }
 h1, h2, h3, h4 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.25;
     text-align: left;
-    color: #111827;
+    color: inherit;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
@@ -68,17 +68,17 @@ blockquote {
     margin: 1em 0 1em 1.5em;
     padding-left: 1em;
     border-left: 3px solid #6366f1;
-    color: #4b5563;
+    color: inherit;
     font-style: italic;
 }
 code {
     font-family: "Courier New", Courier, monospace;
     font-size: 0.9em;
-    background-color: #f3f4f6;
+    background-color: transparent;
     padding: 0.1em 0.3em;
 }
 pre {
-    background-color: #f3f4f6;
+    background-color: transparent;
     padding: 0.8em;
     overflow-x: auto;
     font-size: 0.85em;
@@ -96,14 +96,14 @@ th, td {
     padding: 0.4em 0.6em;
     text-align: left;
 }
-th { background-color: #f9fafb; font-weight: bold; }
+th { font-weight: bold; }
 hr { border: none; border-top: 1px solid #e5e7eb; margin: 2em 0; }
 .title-page { text-align: center; margin-top: 20%; }
 .title-page h1 { font-size: 2.2em; border: none; text-align: center; }
-.title-page .subtitle { font-size: 1.2em; color: #4b5563; margin-top: 0.5em; }
+.title-page .subtitle { font-size: 1.2em; color: inherit; margin-top: 0.5em; }
 .title-page .author { font-size: 1.1em; margin-top: 2em; }
-.title-page .draft { font-size: 0.9em; color: #6b7280; margin-top: 1em; }
-.title-page .epigraph { font-style: italic; color: #4b5563; margin-top: 3em; }
+.title-page .draft { font-size: 0.9em; color: inherit; margin-top: 1em; }
+.title-page .epigraph { font-style: italic; color: inherit; margin-top: 3em; }
 section.endnotes { margin-top: 2em; }
 section.endnotes h2 { font-size: 1.1em; }
 section.endnotes li { font-size: 0.9em; }
