@@ -14,8 +14,8 @@ first, ugly draft, variants, red-team, read aloud. Every commit carries its
 trailer so you know which hands held the pen. That is the honest, boring,
 checkable level, and it is the one the method chapters enforce.
 
-On another level, it was written by all of humanity. A model is ten billion
-collective years of published trial and error, compressed into interpolation
+On another level, it was written by all of humanity. A model is five millennia
+of recorded trial and error, compressed into interpolation
 weights: every tragedy, score, proof, and late-night forum post about impact
 frames, averaged into a voice that can speak in all of them at once. When this
 book explains what a Kanada smear does to your nervous system, the knowledge
@@ -29,7 +29,7 @@ encyclopedia nobody could read alone.
 Hold both levels at once or neither works. The first without the second is a
 blogging project with delusions. The second without the first is the flood
 itself — infinite competent text with no one willing to be wrong in public at
-forty-four specific points.
+twenty-four rungs and five thresholds.
 
 ## The Allgemeinbildung problem, answered with apparatus
 

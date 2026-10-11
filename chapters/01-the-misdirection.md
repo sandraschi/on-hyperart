@@ -11,7 +11,7 @@ say no to a shipped artifact, how fast, and what happens when the answer
 arrives after the premiere?
 
 Three slides, and only three. **In the loop:** the human decides every cut;
-the machine executes. A cel painter in 1988 inking a smear frame she chose.
+the machine executes. A key animator in 1988 drawing a smear frame she chose.
 **On the loop:** the machine nominates, the human approves — a dubbing mixer
 at 02:00 approving the tenth "final" stem that night, ears fatigued, pressing
 green because red means another hour. **Told afterwards:** the machine ships,
@@ -38,7 +38,7 @@ qualia, mortality, soul.
 They inverted the physics.
 
 Moving concrete is slow. Smelting titanium is slow. Permits are slow. Fatigue
-is real: vocal folds hemorrhage, hands cramp, studios go bankrupt drawing
+is real: vocal folds hemorrhage, hands cramp, schedules slip by years drawing
 24 frames per second at peak intensity for 100 minutes (Akira, 1988; Redline,
 2009 — cites in Issue #5). The speed of light is not negotiable and neither
 is payroll.

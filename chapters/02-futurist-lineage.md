@@ -73,4 +73,4 @@ Pre-Kahn nuclear discourse refused intermediate rungs: deterrence holds or
 everyone dies. Pre-ladder AI discourse refused them too: aligned or extinct.
 Pre-collapse art discourse refuses them now: human soul or slop. The ladder
 method is the same refusal to accept the binary — forty-four rungs there,
-twenty-four Bands here (Ch IV), each dateable, each contestable.
+six Bands and twenty-four rungs here (Ch IV), each dateable, each contestable.

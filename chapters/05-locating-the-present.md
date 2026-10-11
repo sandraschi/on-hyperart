@@ -17,7 +17,7 @@ Where we stand, to the best of public evidence, October 2026:
 | 1988-07 | Akira ships, 2,212 shots, ~160,000 cels | pre-stack baseline | peak hand-drawn intensity priced as industrial suicide; the ceiling the stack later removes |
 | 1994 | Farinelli (film) ships; IRCAM splice claim `[construction: Issue #1 — verify engineers, singers, method before citing]` | Band II precedent | biologically impossible voice theatrically released — if the splice account holds; otherwise a beautiful rumor, marked as such |
 | 2009-12 | Avatar ships, ~$237M production | pre-stack baseline | spectacle corner of the triangle at maximum capex; script flattened to postcard for recoup |
-| 2009 | Redline premieres (Annecy), seven-year hand-drawn production, ~100 min | pre-stack baseline | velocity corner priced as studio hemorrhage; the last proof that craft at that intensity could not survive its own premiere |
+| 2009-08-14 `[construction: verify]` | Redline premieres (Locarno, slipped from Annecy), seven-year hand-drawn production, ~100 min; Japan release 2010-10-09 `[construction: verify]` | pre-stack baseline | velocity corner priced beyond repetition — the production could not even make its own festival date; *The Boy and the Heron* (2023, hand-drawn, multi-year `[construction: verify]`) is the priced exception, financed by Miyazaki's name |
 | 2020-2024 | Theatrical window collapses, studio by studio `[construction: Issue #4 — 5 dated rows, 90-day to day-and-date to streaming-first]` | Band V in motion | Threshold D approached: runtime and venue stop being set by projectors and bladders |
 | 2024 | Song-stack models go mass-market; temp-to-master collapse in bedrooms `[construction: Issue #5 context — name versions + model cards with dates]` | Bands I-III crossed for music | drafting-to-substitution for song form happened first because song form is short, cheap, and harmonically documented |
 | 2024-03 `[construction: verify]` | Tennessee ELVIS Act signed | Threshold C attempt | first statute naming voice/likeness as protectable against synthesis; owner named, enforceability untested against latent interpolation |
@@ -52,7 +52,7 @@ In takeover-book coordinates this is the equivalent of rung 13-14: the audit
 floor is cracking under us. We can still, barely, reconstruct why a given
 released artifact sounds and looks the way it does. The week we cannot — the
 week the provenance chain goes from "fatigued mixer approved it" to "nobody
-can say what approved it" — is Threshold B's aesthetic twin, and it will not
+can say what approved it" — is the Audit Floor's aesthetic twin, and it will not
 announce itself. It will look like a very productive Tuesday.
 
 ## Fleet link

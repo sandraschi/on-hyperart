@@ -9,8 +9,8 @@ Every producer before the collapse knew the triangle by feel, the way sailors
 know weather. Narrative depth. Visual velocity. Scale. Pick two, apologize
 for the third.
 
-The deep script without money: Stoppard's beschleunigte Verzweiflung —
-a philosophical farce that could never afford the images it deserved, so it
+The deep script without money: Stoppard's *Jumpers* (1972) —
+a philosophical farce about collapsing meaning that could never afford the images it deserved, so it
 stayed in rooms, talking fast, while the camera watched like a respectful
 guest. Dostoevsky adapted faithfully means four hours of faces in kitchens;
 adapted profitably means one murder and a love interest. The depth survived
@@ -24,10 +24,9 @@ which means it must be infantile in the precise, expensive sense: archetypes
 with no edges to snag on translation. The budget ate the ambiguity.
 
 The velocity without survival: Akira, July 1988, 2,212 shots, 160,000 cels,
-a production that broke Tokyo Movie Shinsha's pipeline and set the ceiling
+a production that strained Tokyo Movie Shinsha's pipeline past precedent and set the ceiling
 for what hand-drawn intensity could cost. Redline, 2009, seven years of
-hand-drawn madness, 100 minutes, Madhouse bleeding out on the altar of
-Kanada smears and impact frames. Everyone who saw it knew: this is the most
+hand-drawn labor for 100 minutes, at a cost no studio has repeated since. `[construction: Issue #5 numbers]` Everyone who saw it knew: this is the most
 you can have, and you cannot have it again. The studio system priced
 peak intensity as a once-a-decade suicide.
 
@@ -105,7 +104,7 @@ cel count and Redline's seven years — against the observable present, where
 peak-intensity test footage ships weekly from bedrooms. The direction is dated
 even where the slope is not yet numbered.]`
 
-What matters for the Bachmann-grade sentence, the one this chapter must earn:
+What matters:
 scarcity was the editor. Every classic you love is a compromise made beautiful
 by its corner — the small room that forced the dialogue to be brilliant, the
 simple story that let the world be lush, the hundred minutes that forced the
@@ -116,8 +115,7 @@ is that it can test ten thousand of them and keep the one that lands, while
 the human auteur gets one life, one cut, one premiere, and a review in the
 morning paper.
 
-Klagenfurt rewards the sentence that bleeds. Here is this chapter's: we called
-it craft when mortals rationed brilliance; we will call it curation when the
+We called it craft when mortals rationed brilliance; we will call it curation when the
 infinite needs a gardener. The gardener is the last human job, and the pay is
 bad.
 

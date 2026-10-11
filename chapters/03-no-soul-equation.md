@@ -55,7 +55,7 @@ size, interpolation resolution, and calibration precision. The machine holds
 the largest corpus (everything published), the finest resolution (continuous
 latent space, not a career's dozen influences), and calibration across
 demographic and emotional axes no individual artist can A/B test. Standing on
-ten billion collective years of trial and error is not cheating. It is what
+five millennia of recorded trial and error is not cheating. It is what
 every artist claimed to do, executed without the biological bottleneck of
 having to live through the errors personally.
 

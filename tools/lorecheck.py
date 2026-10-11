@@ -86,7 +86,13 @@ def main() -> int:
             dates.setdefault(m.group(0)[:10], 0)
             dates[m.group(0)[:10]] += 1
         low = txt.lower()
+        # Review/response docs discuss the manuscript (including quoting
+        # forbidden terms about it); the ban applies to the book, not to
+        # criticism of the book.
+        is_meta = rel.replace("\\", "/").startswith("docs/REVIEW")
         for term in FORBIDDEN:
+            if is_meta:
+                continue
             hit = False
             for line in txt.splitlines():
                 l = line.lower()
