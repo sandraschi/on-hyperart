@@ -40,9 +40,7 @@ has never once in history paid a salary.
 without flinching. The inconsolable infant, 3 a.m., and two voices: the
 parent's, cracked with love and fatigue, breaking at the phrase that always
 breaks — and the leviathan's, tireless, perfectly contoured to the formant
-where mammalian distress goes to sleep. The child sleeps faster to the second.
-This is observable, repeatable, and devastating in exactly the way Chapter III
-predicted: the receptor does not check ID. What does the parent do with that
+where mammalian distress goes to sleep. Take the scene as a thought experiment with a stated test, not an observed fact — and split it three ways. At L2 the parent wins: the child knows that voice (identity recognition is real; newborns prefer the mother's voice `[construction: DeCasper & Fifer 1980, verify]`), and no contour beats being known. At L3 the parent loses: nobody pays for the take, and the economy ships the tireless one. The devastation deepens rather than lifts — love wins the room and loses the market. What Chapter III predicted holds at L1 and L3; at L2 the formant checks identity, just not provenance. What does the parent do with that
 knowledge? Nothing dramatic. The parent keeps singing, worse, loved anyway —
 and keeps the acoustic guitar in the corner of the room. Not because it sings
 better. Because someone in the house should still know how the song is made.

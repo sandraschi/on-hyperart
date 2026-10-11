@@ -39,9 +39,9 @@ to the README voice, red-team for flab, read aloud (declaim pipeline),
 lore-keep chapter numbers and dates. No single-pass AI chapters. Attribute
 with `Co-Authored-By:` trailers where model lines survive.
 
-Analytical coldness: treat culture, cinema, voice, painting as technological
+Analytical coldness about conclusions, warmth about sentences: treat culture, cinema, voice, painting as technological
 artifacts and information channels. Never mourn displacement; dissect the
-economic and physical mechanisms that made it inevitable.
+economic and physical mechanisms that made it inevitable. But this book, by principal's decision, runs lyrical where its sisters run Kahn-flat — declarative with earned aphorism (max one per section, never in place of a cite). Art is the warm subject; the prose may bleed where war prose must not.
 
 Technical precision (hard gate): not "animation" generically — sakuga,
 impact frames, Kanada smears, cel-count constraints, spatial distortion.

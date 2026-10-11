@@ -51,7 +51,7 @@ millennia of human civilization had obligingly published it: poetics, counterpoi
 chiaroscuro manuals, screenwriting beats, honkaku deduction rules, melodrama
 cue sheets. An unauthenticated interface, scraped at scale.
 
-So the machine did not arrive as an accountant. It arrived as a kami with
+So the machine did not arrive as an accountant. It arrived as a kami[^kami] with
 perfect pitch.
 
 ## What this book will not do
@@ -74,3 +74,5 @@ time. On-ai-takeover liquidated the $50/seat SaaS moat one dependency at a
 time. This book liquidates the studio's compromise envelope one trade-off at
 a time. Same math, other domain: reversibility lost in small dated steps,
 each defensible alone, terminal together.
+
+[^kami]: Japanese: divine being, spirit of place. Deliberate and rationed: it names the human *position* — dwarfed, dependent, petitioning — under superior aesthetic power, not the machine's interior. L2 vocabulary, marked metaphor. See RESPONSE R-25.

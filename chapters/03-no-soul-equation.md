@@ -12,7 +12,7 @@ looser: living creation carries an impetus no mechanism reproduces. The
 contemporary pop version: machines cannot make genuine art because they lack
 mortality, grief, love — the friction that supposedly authenticates.
 
-Grant every premise. It changes nothing about the receiver.
+Grant every premise. It changes nothing about the object; it changes the receiver's beliefs — and beliefs are where the price lives.
 
 The infant does not run a Searle test on the lullaby. The mourner does not
 ask whether the funeral march suffered. Tears are triggered by distributions:
@@ -25,6 +25,12 @@ itself, and a good story — just not a load-bearing one.
 "Soul," in this book's usage, is therefore a non-falsifiable rhetorical
 evasion unless cashed out. Name the cue, name the receptor, name the date it
 shipped. Everything else is liturgy.
+
+> **Three layers: value, response, price.** L1 — *artistic value*: properties of the object (structure, cue, resonance). Provenance-insensitive; the object is unchanged by its paperwork (Lessing 1965, "What Is Wrong with a Forgery?" `[construction: verify]`). L2 — *experienced response*: what a given receiver reports and feels. Provenance-sensitive, measurably: identical AI images rate lower on liking, beauty, profundity and worth when labelled "AI" (Bellaiche et al. 2023 `[web-verified per Opus review 2026-10-11; primary pending]`); newborns prefer the mother's voice (DeCasper & Fifer 1980 `[construction: verify]`). L3 — *price*: what markets and institutions pay. Catastrophically provenance-sensitive (van Meegeren; every certification regime). **Thresholds A–E live in L3.** And the book's thesis restated precisely: the formant does not check provenance; the listener's beliefs do, and beliefs are trainable.
+>
+> **Prediction, dated 2026-10-11, checkable:** the AI-label discount measured by Bellaiche shrinks as synthetic provenance normalises. If it persists at full strength, the receiver theory in this chapter needs revision.
+>
+> **Dutton's objection, answered, not dodged:** achievement is real, but it is a property of the *maker's history* — L3 information, not an L1 property of the object (Dutton, *Artistic Crimes* 1979 / *The Art Instinct* 2009 `[construction: verify]`). Name it, price it; do not smuggle it into the object.
 
 ## The open port
 
