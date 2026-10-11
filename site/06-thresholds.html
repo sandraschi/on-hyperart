@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VI. Thresholds as Attachment Points - On Hyperart</title>
+  <style>
+:root {
+  --bg: #09090b;
+  --surface: #18181b;
+  --surface-hover: #27272a;
+  --border: #27272a;
+  --text: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --heading: #fafafa;
+  --accent: #818cf8;
+  --accent-visited: #c4b5fd;
+  --code-bg: #1f1f23;
+  --callout-border: #6366f1;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 5rem;
+}
+nav.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(9, 9, 11, 0.85);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-size: 0.9rem;
+}
+nav.top a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+nav.top a:hover { color: var(--accent); }
+nav.top .links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+nav.top .epub-tag {
+  background: #312e81;
+  color: #c7d2fe;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav.top .epub-tag:hover {
+  background: #3730a3;
+  color: #ffffff;
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+a:visited { color: var(--accent-visited); }
+a:hover { color: #a5b4fc; }
+
+h1, h2, h3, h4 {
+  line-height: 1.28;
+  color: var(--heading);
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-weight: 600;
+}
+h1 { font-size: 2rem; margin-top: 1em; border-bottom: 1px solid var(--border); padding-bottom: 0.4em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+code {
+  background: var(--code-bg);
+  padding: 0.15em 0.4em;
+  border-radius: 0.35em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace;
+  font-size: 0.88em;
+  color: #f472b6;
+}
+pre {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+pre code {
+  background: none;
+  padding: 0;
+  color: var(--text);
+  font-size: 0.9em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+}
+th {
+  background: var(--surface);
+  color: var(--heading);
+  font-weight: 600;
+}
+blockquote {
+  border-left: 3px solid var(--callout-border);
+  background: rgba(99, 102, 241, 0.05);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.25rem;
+  color: var(--text-muted);
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+footer.pn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+.btn-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #312e81;
+  color: #e0e7ff !important;
+  text-decoration: none !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  margin: 1rem 0 2rem;
+}
+.btn-box:hover { background: #3730a3; }
+.toc-list { list-style: none; padding-left: 0; }
+.toc-list li {
+  margin: 0.6rem 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+}
+.toc-list li:hover {
+  background: var(--surface);
+  border-color: var(--border);
+}
+.toc-list a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--heading);
+  display: block;
+}
+.toc-list a:hover { color: var(--accent); }
+audio { width: 100%; margin: 1.2rem 0; }
+</style>
+</head>
+<body>
+  <nav class="top">
+    <a href="index.html"><strong>On Hyperart</strong></a>
+    <div class="links">
+      <a href="index.html">Contents</a>
+      <a href="assessment.html">Assessment</a>
+      <a href="references.html">References</a>
+      <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
+    </div>
+  </nav>
+  <main>
+    <h1>VI. Thresholds as Attachment Points</h1>
+    
+    <h1 id="vi-thresholds-as-attachment-points">VI. Thresholds as Attachment Points</h1>
+<p><strong>Status:</strong> Draft v0.2 2026-10-11, Muse Spark 1.3 (Opus pass pending). Photocopiable target. <strong>Revision date:</strong> 2026-10-11.</p>
+<h2 id="why-thresholds-not-rungs">Why thresholds, not rungs</h2>
+<p>"Withhold synthesis as needed" is not a policy. It is the shape of a policy that has nowhere to be written down — Pachocki's alien-mind phrasing applies word for word to the studio that promises restraint without naming the line. A rung describes. A threshold binds: do not cross without an audit regime, a named owner, and a verification the rival can observe. Kahn's thresholds had names crews could remember in the dark — Don't Rock the Boat, No Nuclear Use, Central Sanctuary. Ours need the same memorability, because the crossing will happen at 02:00 with a fatigued mixer at the desk, and nobody reads footnotes at 02:00.</p>
+<p>Each threshold below: definition, crossing test, owner, precedent. A threshold nobody owns is a wish. Wishes are Chapter VII's subject, not this one's.</p>
+<h2 id="a-the-last-take-vocal">A — The Last Take (vocal)</h2>
+<p><strong>Definition:</strong> the last shipped lead vocal that is one human, one room, one unbroken performance. <strong>Crossing test:</strong> stem-level audit shows every shipped lead contains a synthetic splice, chimera layer, or timing/pitch field no larynx produced — or the label cannot produce the unbroken take on demand. <strong>Owner:</strong> labels and unions first, statute second <code>[construction: ELVIS Act + AB 1836/2602 — Issue #2; union contract language with dates]</code>. <strong>Precedent:</strong> the temp that stayed. Every mixer alive has kept a scratch vocal because the "real" session never beat it for feel. Threshold A is the day the scratch stops being the exception and becomes the master, and nobody writes it down because writing it down would require a meeting about what a singer is.</p>
+<p>The terror here is not replacement. It is continuity: the audience will not notice. The formant where mammalian distress lives does not check ID.</p>
+<h2 id="b-the-last-frame-visual-labor">B — The Last Frame (visual labor)</h2>
+<p><strong>Definition:</strong> the last shipped frame drawn by a human hand. <strong>Crossing test:</strong> pipeline audit — input logs show no hand-drawn key or in-between in the finished cut, or the studio cannot name the artist per shot on demand. <strong>Owner:</strong> studios and unions <code>[construction: contract rows with dates]</code>; award bodies as secondary witnesses. <strong>Precedent:</strong> previz lock. The previsualization cut, once a sketch, became the film before casting finished — the sketch that ate the shoot. The Last Frame is previz's final victory: the drawing that was never a drawing, only a prompt's confident child.</p>
+<p>Exhilaration, honestly logged: every frame at Redline intensity without the seven-year hemorrhage. The end of the suicide premium. Nobody has to sleep under the desk again. The price is that nobody can point at a smear and name the wrist. Craft becomes curation — the gardener's job from Chapter IV, now with a union steward watching the garden get gardened.</p>
+<h2 id="c-the-last-face-likeness">C — The Last Face (likeness)</h2>
+<p><strong>Definition:</strong> the last lead likeness that is a contracted human face. <strong>Crossing test:</strong> the deniable archetype — a face the audience reads as star-grade, the lab reads as interpolation between icons, and the lawyer reads as no one. Granite jaw remembered from somewhere, glottal anxiety borrowed from nowhere actionable. <strong>Owner:</strong> right-of-publicity regime, and that is the problem <code>[construction: Issue #2 — statute text vs latent continuity]</code>. <strong>Precedent:</strong> Artists Equity-style liquidation — talent converting face-equity into unburnable assets while the pipeline still prices faces <code>[construction: date the exit, name the terms, or flag]</code>.</p>
+<p>This is the most legally doomed threshold, stated flatly so Opus cannot soften it: discrete statutes cannot bind continuous space. The law names persons; the latent walks between them. Every named face is an island; the model is the sea. You cannot sue the sea for resembling your island from a distance. Threshold C will be crossed deniably, repeatedly, and the first lawsuit will settle without admission because admission would require explaining interpolation to a jury at billable rates. The brake that needs a jury's intuition about high-dimensional geometry is not a brake. It is a seminar.</p>
+<h2 id="d-the-last-cut-exhibition">D — The Last Cut (exhibition)</h2>
+<p><strong>Definition:</strong> the last runtime cut for biology — bladders, projector turnover, the 120-minute custom. <strong>Crossing test:</strong> an unbroken multi-day synthetic run ships to paying viewers without a biological intermission cut, or a streamer publishes a 72-hour single-arc work as one title, one premiere. <strong>Owner:</strong> theaters, streamers, award bodies <code>[construction: Issue #4 — window rows, eligibility rulings]</code>. <strong>Precedent:</strong> the window's corpse. The 90-day window became 45, became day-and-date, became custom, became nostalgia. Nobody voted; the custom just stopped being enforceable when the living room out-rendered the multiplex and the catalog outweighed the premiere.</p>
+<p>The exhilaration is real and should not be laundered: institutional decay tracked across centuries without cutting away — the thing the novel could do and cinema never could, because cinema had to let you pee. The terror is the same object from the other side: nobody can watch it either, so "premiere" becomes "deployment." Culture as infrastructure update. You do not attend the 72-hour work. You live near it while it runs.</p>
+<h2 id="e-the-last-venue-immersion">E — The Last Venue (immersion)</h2>
+<p><strong>Definition:</strong> the last master mixed for flat glass. <strong>Crossing test:</strong> the spatial/BCI master ships first and the cinema cut is labeled downmix — the word "downmix" appearing in dated production notes. <strong>Owner:</strong> device makers and medical regulators, the strangest owners on this list and the most honest: the only brakes left are the ones that can seize hardware or deny a trial. <strong>Precedent:</strong> stereo-to-mono in reverse. Every prior format kept the old venue as the master and the new one as garnish. Threshold E inverts the garnish.</p>
+<p><code>[construction: signal chain or cut. Vestibular induction claims need device + protocol + date or they stay in Chapter IX as speculation, clearly labeled.]</code></p>
+<h2 id="how-to-use-this-chapter">How to use this chapter</h2>
+<p>Photocopy it. That is the design brief — one page per threshold on the wall of every cutting room, dub stage, and commissioning desk. Not as decoration. As the thing the tired person at 02:00 can read without waking the lawyer: have we crossed A? Who do I call? What do they need to see? If the answer to the third question is "nothing observable," the threshold is already crossed and this chapter becomes archaeology. Archaeology is also useful. Someone should date the ruins.</p>
+<p><code>[construction: Opus pass — one-page distillations per threshold, boxed, with owner contact-class (not person, office). Kahn's thresholds fit on index cards; so must these.]</code></p>
+<h2 id="fleet-link">Fleet link</h2>
+<p>Takeover-book's Threshold B (Audit Floor) is "no human institution can independently verify a claim about model behavior." Hyperwar's thresholds are export chokepoints and hotlines that work at machine speed. Ours are the same shape in the mirror: A-E mark where verification of human provenance stops being available. Three books, one sentence: the brake must be ownable before the crossing, or it is literature afterwards. This chapter aims to be hardware.</p>
+    <footer class="pn"><a href="05-locating-the-present.html">&larr; V. Locating the Present</a><a href="07-control-case.html">VII. The Control Case and Why It Fails &rarr;</a></footer>
+  </main>
+</body>
+</html>

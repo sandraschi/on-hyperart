@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>III. No Soul Equation - On Hyperart</title>
+  <style>
+:root {
+  --bg: #09090b;
+  --surface: #18181b;
+  --surface-hover: #27272a;
+  --border: #27272a;
+  --text: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --heading: #fafafa;
+  --accent: #818cf8;
+  --accent-visited: #c4b5fd;
+  --code-bg: #1f1f23;
+  --callout-border: #6366f1;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 5rem;
+}
+nav.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(9, 9, 11, 0.85);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-size: 0.9rem;
+}
+nav.top a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+nav.top a:hover { color: var(--accent); }
+nav.top .links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+nav.top .epub-tag {
+  background: #312e81;
+  color: #c7d2fe;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav.top .epub-tag:hover {
+  background: #3730a3;
+  color: #ffffff;
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+a:visited { color: var(--accent-visited); }
+a:hover { color: #a5b4fc; }
+
+h1, h2, h3, h4 {
+  line-height: 1.28;
+  color: var(--heading);
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-weight: 600;
+}
+h1 { font-size: 2rem; margin-top: 1em; border-bottom: 1px solid var(--border); padding-bottom: 0.4em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+code {
+  background: var(--code-bg);
+  padding: 0.15em 0.4em;
+  border-radius: 0.35em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace;
+  font-size: 0.88em;
+  color: #f472b6;
+}
+pre {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+pre code {
+  background: none;
+  padding: 0;
+  color: var(--text);
+  font-size: 0.9em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+}
+th {
+  background: var(--surface);
+  color: var(--heading);
+  font-weight: 600;
+}
+blockquote {
+  border-left: 3px solid var(--callout-border);
+  background: rgba(99, 102, 241, 0.05);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.25rem;
+  color: var(--text-muted);
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+footer.pn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+.btn-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #312e81;
+  color: #e0e7ff !important;
+  text-decoration: none !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  margin: 1rem 0 2rem;
+}
+.btn-box:hover { background: #3730a3; }
+.toc-list { list-style: none; padding-left: 0; }
+.toc-list li {
+  margin: 0.6rem 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+}
+.toc-list li:hover {
+  background: var(--surface);
+  border-color: var(--border);
+}
+.toc-list a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--heading);
+  display: block;
+}
+.toc-list a:hover { color: var(--accent); }
+audio { width: 100%; margin: 1.2rem 0; }
+</style>
+</head>
+<body>
+  <nav class="top">
+    <a href="index.html"><strong>On Hyperart</strong></a>
+    <div class="links">
+      <a href="index.html">Contents</a>
+      <a href="assessment.html">Assessment</a>
+      <a href="references.html">References</a>
+      <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
+    </div>
+  </nav>
+  <main>
+    <h1>III. No Soul Equation</h1>
+    
+    <h1 id="iii-no-soul-equation">III. No Soul Equation</h1>
+<p><strong>Status:</strong> Draft v0.2 2026-10-11, Muse Spark 1.3 (Opus pass pending). <strong>Revision date:</strong> 2026-10-11.</p>
+<h2 id="the-steelman-fairly-stated">The steelman, fairly stated</h2>
+<p>Nagel (1974): there is something it is like to be a bat, and no functional description exhausts it. Searle (1980): syntax does not constitute semantics; the room manipulates symbols it does not understand. Bergson, earlier and looser: living creation carries an impetus no mechanism reproduces. The contemporary pop version: machines cannot make genuine art because they lack mortality, grief, love — the friction that supposedly authenticates.</p>
+<p>Grant every premise. It changes nothing about the receiver.</p>
+<p>The infant does not run a Searle test on the lullaby. The mourner does not ask whether the funeral march suffered. Tears are triggered by distributions: appoggiatura resolving late, a voice breaking at the formant where mammalian distress lives, a cut held four frames past comfort. Structure in, chemistry out. The transmitter's interiority is not in the causal chain of the audience's response. It never was. It was a story the transmitter told about itself, and a good story — just not a load-bearing one.</p>
+<p>"Soul," in this book's usage, is therefore a non-falsifiable rhetorical evasion unless cashed out. Name the cue, name the receptor, name the date it shipped. Everything else is liturgy.</p>
+<h2 id="the-open-port">The open port</h2>
+<p>Every novel, score, tragedy, and folk myth committed to paper or tape was a published API for surrender. Western tragedy documented which reversals break composure and when. Honkaku deduction documented the exact ratio of fair clue to surprise that produces the locked-room gasp. Victorian melodrama documented cue timing to the bar. Counterpoint documented which dissonances the ear will tolerate before begging for resolution — and how long to withhold it for maximum relief yield.</p>
+<p>Ten thousand cross-meshed tropes is not a metaphor. It is the training set. The synthesizer needs no mortality to play grief; it needs the complete map of where grief's buttons are, and culture spent five millennia labeling them in public, with commentary tracks.</p>
+<h2 id="derivative-is-the-point">Derivative is the point</h2>
+<p>The dismissal "mere recombination" fails on its own examples. Homer recombines formulaic epithets and inherited myth. Shakespeare recombines Holinshed, Ovid, and company gossip. Bach recombines Lutheran hymnody and Italian concerto scaffolding at a density that looks like invention only because the interpolation is so good. Shinkai recombines lens flare, trains, and adolescent longing until the recombination has a trademark.</p>
+<p>All creation is interpolation across a corpus. The only variables are corpus size, interpolation resolution, and calibration precision. The machine holds the largest corpus (everything published), the finest resolution (continuous latent space, not a career's dozen influences), and calibration across demographic and emotional axes no individual artist can A/B test. Standing on ten billion collective years of trial and error is not cheating. It is what every artist claimed to do, executed without the biological bottleneck of having to live through the errors personally.</p>
+<p><code>[construction: Opus pass — attach 1 citable source per cue class (psych of music, film-editing physiology, narrative-transport studies). No cue asserted without a receptor cite by v1.0.]</code></p>
+<h2 id="fleet-link">Fleet link</h2>
+<p>Takeover-book's Chapter III is titled No Equation of State: Kahn had blast radii, this project has none, so every rung must be an observable act. This chapter is the aesthetic twin: there is no soul equation, so every aesthetic claim must resolve to cue plus receptor plus date. Same discipline, other substrate.</p>
+    <footer class="pn"><a href="02-futurist-lineage.html">&larr; II. What the Futurists Got Wrong</a><a href="04-the-stack.html">IV. The Stack (Compromise-Envelope Collapse) &rarr;</a></footer>
+  </main>
+</body>
+</html>

@@ -27,16 +27,18 @@ except ImportError:
 
 ORDER = [
     "cold-open-variants.md",
-    "01-thinking-about-the-unthinkable-again.md",
-    "02-what-kahn-did-and-got-wrong.md",
-    "03-no-equation-of-state.md",
-    "04-the-ladder.md",
+    "01-the-misdirection.md",
+    "02-futurist-lineage.md",
+    "03-no-soul-equation.md",
+    "04-the-stack.md",
     "05-locating-the-present.md",
-    "06-thresholds-as-attachment-points.md",
-    "07-tragic-but-distinguishable.md",
-    "08-descent.md",
+    "06-thresholds.md",
+    "07-control-case.md",
+    "08-terminal-states.md",
     "09-day-two.md",
-    "10-the-book-in-the-corpus.md",
+    "10-corpus.md",
+    "side-acoustic-leviathan.md",
+    "side-latent-personae-and-law.md",
     "side-what-scifi-gets-wrong.md",
 ]
 
@@ -320,19 +322,17 @@ def page(title: str, body: str, prev: tuple[str, str] | None, nxt: tuple[str, st
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{html.escape(title)} - On AI Takeover</title>
+  <title>{html.escape(title)} - On Hyperart</title>
   <style>{CSS}</style>
 </head>
 <body>
   <nav class="top">
-    <a href="index.html"><strong>On AI Takeover</strong></a>
+    <a href="index.html"><strong>On Hyperart</strong></a>
     <div class="links">
-      <a href="de/index.html" class="lang-switch">Deutsch (DE)</a>
       <a href="index.html">Contents</a>
       <a href="assessment.html">Assessment</a>
       <a href="references.html">References</a>
-      <a class="epub-tag" href="on-ai-takeover.epub" download>EPUB (EN)</a>
-      <a class="epub-tag" href="de/on-ai-takeover-de.epub" download style="background:#1e1b4b;color:#c7d2fe;">EPUB (DE)</a>
+      <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
     </div>
   </nav>
   <main>
@@ -355,7 +355,7 @@ def main() -> int:
     os.makedirs(out, exist_ok=True)
 
     # 1. Build EPUB first
-    epub_path = os.path.join(out, "on-ai-takeover.epub")
+    epub_path = os.path.join(out, "on-hyperart.epub")
     if build_epub:
         build_epub(epub_path)
 
@@ -407,18 +407,12 @@ def main() -> int:
     """
 
     index_body = f"""
-    <p><em>A Kahn Ladder for Loss of Control</em></p>
-    <p>Forty-four rungs ordered by reversibility of human control, not by capability. From autocomplete in the loop to unaudited frontier training runs to terminal states.</p>
-    
+    <p><em>The Aesthetic Singularity Arrived First</em></p>
+    <p>Ten chapters ordered by reversibility of human gatekeeping, not by capability. From the misdirection to the stack to terminal states.</p>
+
     <p style="display:flex;gap:1rem;flex-wrap:wrap;">
-      <a class="btn-box" href="on-ai-takeover.epub" download>
-        &#128214; Download EPUB (English)
-      </a>
-      <a class="btn-box" href="de/on-ai-takeover-de.epub" download style="border-color:#818cf8;">
-        &#128214; EPUB herunterladen (Deutsch)
-      </a>
-      <a class="btn-box" href="de/index.html">
-        &#127465;&#127466; Deutsche Webausgabe lesen
+      <a class="btn-box" href="on-hyperart.epub" download>
+        &#128214; Download EPUB
       </a>
     </p>
 
@@ -434,7 +428,7 @@ def main() -> int:
     """
 
     open(os.path.join(out, "index.html"), "w", encoding="utf-8", newline="\n").write(
-        page("On AI Takeover", index_body, None, None, None)
+        page("Contents", index_body, None, None, None)
     )
     print(f"Built {len(pages) + len(doc_pages) + 1} web pages + EPUB -> {out}")
     return 0

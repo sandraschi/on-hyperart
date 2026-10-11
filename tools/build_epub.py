@@ -4,7 +4,7 @@ No third-party dependencies required. Produces a compliant EPUB archive
 with valid mimetype, container.xml, content.opf, nav.xhtml, and toc.ncx.
 
 Usage:
-  python tools/build_epub.py [--out site/on-ai-takeover.epub]
+  python tools/build_epub.py [--out site/on-hyperart.epub]
 """
 from __future__ import annotations
 
@@ -19,23 +19,25 @@ from datetime import datetime, timezone
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHAPTERS_DIR = os.path.join(REPO_ROOT, "chapters")
 
-BOOK_TITLE = "On AI Takeover: A Kahn Ladder for Loss of Control"
+BOOK_TITLE = "On Hyperart: The Aesthetic Singularity Arrived First"
 BOOK_AUTHOR = "Sandra"
 BOOK_IDENTIFIER = "urn:uuid:8b34f682-142e-4b61-9c17-1f4803738b55"
 BOOK_LANGUAGE = "en"
 
 ORDER = [
     "cold-open-variants.md",
-    "01-thinking-about-the-unthinkable-again.md",
-    "02-what-kahn-did-and-got-wrong.md",
-    "03-no-equation-of-state.md",
-    "04-the-ladder.md",
+    "01-the-misdirection.md",
+    "02-futurist-lineage.md",
+    "03-no-soul-equation.md",
+    "04-the-stack.md",
     "05-locating-the-present.md",
-    "06-thresholds-as-attachment-points.md",
-    "07-tragic-but-distinguishable.md",
-    "08-descent.md",
+    "06-thresholds.md",
+    "07-control-case.md",
+    "08-terminal-states.md",
     "09-day-two.md",
-    "10-the-book-in-the-corpus.md",
+    "10-corpus.md",
+    "side-acoustic-leviathan.md",
+    "side-latent-personae-and-law.md",
     "side-what-scifi-gets-wrong.md",
 ]
 
@@ -330,7 +332,7 @@ def build_epub(output_path: str, title: str = BOOK_TITLE, author: str = BOOK_AUT
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build EPUB 3 from chapters")
-    ap.add_argument("--out", default=os.path.join(REPO_ROOT, "site", "on-ai-takeover.epub"))
+    ap.add_argument("--out", default=os.path.join(REPO_ROOT, "site", "on-hyperart.epub"))
     args = ap.parse_args()
     build_epub(args.out)
     return 0

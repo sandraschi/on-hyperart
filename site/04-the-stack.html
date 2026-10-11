@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IV. The Stack (Compromise-Envelope Collapse) - On Hyperart</title>
+  <style>
+:root {
+  --bg: #09090b;
+  --surface: #18181b;
+  --surface-hover: #27272a;
+  --border: #27272a;
+  --text: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --heading: #fafafa;
+  --accent: #818cf8;
+  --accent-visited: #c4b5fd;
+  --code-bg: #1f1f23;
+  --callout-border: #6366f1;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 5rem;
+}
+nav.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(9, 9, 11, 0.85);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-size: 0.9rem;
+}
+nav.top a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+nav.top a:hover { color: var(--accent); }
+nav.top .links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+nav.top .epub-tag {
+  background: #312e81;
+  color: #c7d2fe;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav.top .epub-tag:hover {
+  background: #3730a3;
+  color: #ffffff;
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+a:visited { color: var(--accent-visited); }
+a:hover { color: #a5b4fc; }
+
+h1, h2, h3, h4 {
+  line-height: 1.28;
+  color: var(--heading);
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-weight: 600;
+}
+h1 { font-size: 2rem; margin-top: 1em; border-bottom: 1px solid var(--border); padding-bottom: 0.4em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+code {
+  background: var(--code-bg);
+  padding: 0.15em 0.4em;
+  border-radius: 0.35em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace;
+  font-size: 0.88em;
+  color: #f472b6;
+}
+pre {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+pre code {
+  background: none;
+  padding: 0;
+  color: var(--text);
+  font-size: 0.9em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+}
+th {
+  background: var(--surface);
+  color: var(--heading);
+  font-weight: 600;
+}
+blockquote {
+  border-left: 3px solid var(--callout-border);
+  background: rgba(99, 102, 241, 0.05);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.25rem;
+  color: var(--text-muted);
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+footer.pn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+.btn-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #312e81;
+  color: #e0e7ff !important;
+  text-decoration: none !important;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  margin: 1rem 0 2rem;
+}
+.btn-box:hover { background: #3730a3; }
+.toc-list { list-style: none; padding-left: 0; }
+.toc-list li {
+  margin: 0.6rem 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+}
+.toc-list li:hover {
+  background: var(--surface);
+  border-color: var(--border);
+}
+.toc-list a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--heading);
+  display: block;
+}
+.toc-list a:hover { color: var(--accent); }
+audio { width: 100%; margin: 1.2rem 0; }
+</style>
+</head>
+<body>
+  <nav class="top">
+    <a href="index.html"><strong>On Hyperart</strong></a>
+    <div class="links">
+      <a href="index.html">Contents</a>
+      <a href="assessment.html">Assessment</a>
+      <a href="references.html">References</a>
+      <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
+    </div>
+  </nav>
+  <main>
+    <h1>IV. The Stack (Compromise-Envelope Collapse)</h1>
+    
+    <h1 id="iv-the-stack-compromise-envelope-collapse">IV. The Stack (Compromise-Envelope Collapse)</h1>
+<p><strong>Status:</strong> Draft v0.3 2026-10-11, Muse Spark 1.3 (Opus pass pending). <strong>Revision date:</strong> 2026-10-11.</p>
+<h2 id="pick-two">Pick two</h2>
+<p>Every producer before the collapse knew the triangle by feel, the way sailors know weather. Narrative depth. Visual velocity. Scale. Pick two, apologize for the third.</p>
+<p>The deep script without money: Stoppard's beschleunigte Verzweiflung — a philosophical farce that could never afford the images it deserved, so it stayed in rooms, talking fast, while the camera watched like a respectful guest. Dostoevsky adapted faithfully means four hours of faces in kitchens; adapted profitably means one murder and a love interest. The depth survived by accepting smallness.</p>
+<p>The spectacle without density: Avatar, December 2009, $237 million in production cost, a world rendered leaf by leaf around a script that could be summarized on a postcard. This is not contempt — it is bookkeeping. At that capital expenditure the story must be legible to every market simultaneously, which means it must be infantile in the precise, expensive sense: archetypes with no edges to snag on translation. The budget ate the ambiguity.</p>
+<p>The velocity without survival: Akira, July 1988, 2,212 shots, 160,000 cels, a production that broke Tokyo Movie Shinsha's pipeline and set the ceiling for what hand-drawn intensity could cost. Redline, 2009, seven years of hand-drawn madness, 100 minutes, Madhouse bleeding out on the altar of Kanada smears and impact frames. Everyone who saw it knew: this is the most you can have, and you cannot have it again. The studio system priced peak intensity as a once-a-decade suicide.</p>
+<p>Three compromises, three apologias, one envelope. The envelope held for a century because each corner was guarded by a different scarcity: writers are cheap but slow, render is fast but stupid, craft is brilliant but mortal. To breach one corner you needed money. To breach all three at once you needed a miracle, and miracles do not take meetings.</p>
+<p>Then the price of the miracle went to zero.</p>
+<h2 id="bands-i-vi-the-rungs-of-the-slide">Bands I-VI: the rungs of the slide</h2>
+<p>Ordered, like the sister books, by reversibility of human gatekeeping. Reading downward is descending. Each rung names an observable artifact, not an intention.</p>
+<p><strong>Band I — Drafting (1-4).</strong> The machine drafts, the human revises. Coverage reads generated overnight. Temp tracks laid without a composer in the room. The human still chooses, but the choice set is no longer human-made. Observable: dated draft with model credit in the margins, 2023-2024, everywhere at once. Nobody announced it because nobody had to — the temp became the table read before anyone voted.</p>
+<p><strong>Band II — Performance (5-8).</strong> Synthetic coverage voices. Previz locked before casting. The scratch vocal that stays because the "real" session never beats it for timing. Here the larynx meets its replacement politely, as a placeholder that overstays. Observable: placeholder stems in dated sessions, the mixer at 02:00 keeping the temp because the singer went home. <code>[construction: 2 dated session anecdotes with union-safe sourcing — Issue #3.]</code></p>
+<p><strong>Band III — Substitution (9-12).</strong> The lead vocal chimera ships. The face becomes a deniable archetype — granite jaw remembered from somewhere, glottal anxiety borrowed from nowhere actionable. Score stems no human hand played. The credit block still lists humans, the way old maps listed sea monsters: decoratively, at the edges of the known. Crossing test: remove the human names and nothing audible changes.</p>
+<p><strong>Band IV — Convergence (13-16).</strong> Every frame at peak sakuga intensity with monograph density in the script. No trade-off. The Stoppard farce rendered like the Redline finale, for as many hours as the story needs. This is the rung the old envelope called impossible, which is why it is the rung this book watches hardest. <code>[construction: Opus pass — pick ONE convergence artifact with date or admit none shipped. No vibes.]</code></p>
+<p><strong>Band V — Exhibition (17-20).</strong> The 120-minute biological limit — bladders, projector schedules, attention as payroll — stops binding. Unbroken multi-day architectures drafted; the theatrical window, already a ruin by 2020-2024, becomes unenforceable custom. Award categories contested: whose eligibility when no take is a take? <code>[construction: Issue #4 table.]</code></p>
+<p><strong>Band VI — Immersion (21-24).</strong> Flat glass optional. Spatial master with the cinema cut as downmix. Vestibular induction drafts — narrative felt in the inner ear, not watched through a frustum. The device and the medical regulator become the last owners. <code>[construction: signal chain or cut. No mysticism.]</code></p>
+<blockquote><p><strong>THRESHOLD A — THE LAST TAKE.</strong> Past which no shipped vocal is a single human take. <strong>THRESHOLD B — THE LAST FRAME.</strong> Past which no shipped frame is hand-drawn. <strong>THRESHOLD C — THE LAST FACE.</strong> Past which the lead likeness is a deniable archetype. <strong>THRESHOLD D — THE LAST CUT.</strong> Past which runtime is not cut for biology. <strong>THRESHOLD E — THE LAST VENUE.</strong> Past which flat glass is a legacy output.</p></blockquote>
+<p>Thresholds, not rungs, are what policy can grip. A rung describes. A threshold promises: do not cross without an audit regime, an owner, a verification. Ch VI makes them photocopiable. Here, note only their shape — each is the moment a scarcity stops being physical and starts being merely customary. Custom is enforceable for exactly as long as the institutions are awake.</p>
+<h2 id="the-zero-marginal-cost-box">The zero-marginal-cost box</h2>
+<p><code>[construction: Issue #5 — render-cost table goes here. Three columns: 1988 / 2019 / 2026. Rows: dollars per second of peak intensity, sustainable seconds per production week, headcount per finished minute. Proxy labeled as proxy. Until filled: the argument stands on the two dated suicides — Akira's cel count and Redline's seven years — against the observable present, where peak-intensity test footage ships weekly from bedrooms. The direction is dated even where the slope is not yet numbered.]</code></p>
+<p>What matters for the Bachmann-grade sentence, the one this chapter must earn: scarcity was the editor. Every classic you love is a compromise made beautiful by its corner — the small room that forced the dialogue to be brilliant, the simple story that let the world be lush, the hundred minutes that forced the cut to kill its darlings. Remove scarcity and you do not get freedom. You get unfiltered intention at infinite length. Most intentions, at infinite length, are unbearable. The kami's advantage is not that it has better intentions. It is that it can test ten thousand of them and keep the one that lands, while the human auteur gets one life, one cut, one premiere, and a review in the morning paper.</p>
+<p>Klagenfurt rewards the sentence that bleeds. Here is this chapter's: we called it craft when mortals rationed brilliance; we will call it curation when the infinite needs a gardener. The gardener is the last human job, and the pay is bad.</p>
+<h2 id="fleet-link">Fleet link</h2>
+<p>The Pentagon's loops went in-the-loop to on-the-loop to told-afterwards. The SaaS moat went from per-seat rent to dependency to replacement. The studio goes from final cut to approved cut to generated cut. Same clock, other face.</p>
+    <footer class="pn"><a href="03-no-soul-equation.html">&larr; III. No Soul Equation</a><a href="05-locating-the-present.html">V. Locating the Present &rarr;</a></footer>
+  </main>
+</body>
+</html>
