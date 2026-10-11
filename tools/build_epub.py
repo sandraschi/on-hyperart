@@ -25,6 +25,7 @@ BOOK_IDENTIFIER = "urn:uuid:8b34f682-142e-4b61-9c17-1f4803738b55"
 BOOK_LANGUAGE = "en"
 
 ORDER = [
+    "00-preface.md",
     "cold-open-variants.md",
     "01-the-misdirection.md",
     "02-futurist-lineage.md",
@@ -113,8 +114,65 @@ def inline_xhtml(md: str) -> str:
     return out
 
 
+FN_DEF_RE = re.compile(r"^\[\^([^\]]+)\]:\s*(.+?)\s*$")
+FN_REF_RE = re.compile(r"\[\^([^\]]+)\]")
+
+
+def split_footnotes(md: str) -> tuple[str, list[str], dict[str, str]]:
+    """Strip `[^key]: text` defs; tokenize `[^key]` refs outside fences."""
+    defs: dict[str, str] = {}
+    order: list[str] = []
+    out_lines: list[str] = []
+    in_fence = False
+    for line in md.split("\n"):
+        s = line.strip()
+        if s.startswith("```"):
+            in_fence = not in_fence
+            out_lines.append(line)
+            continue
+        if in_fence:
+            out_lines.append(line)
+            continue
+        m = FN_DEF_RE.match(s)
+        if m:
+            defs.setdefault(m.group(1), m.group(2))
+            continue
+
+        def ref_sub(mo: re.Match) -> str:
+            key = mo.group(1)
+            if key not in order:
+                order.append(key)
+            return f"\ue000FN:{key}\ue001"
+
+        out_lines.append(FN_REF_RE.sub(ref_sub, line))
+    return "\n".join(out_lines), order, defs
+
+
+def resolve_footnotes(html_text: str, order: list[str], defs: dict[str, str]) -> str:
+    """Replace ref tokens with numbered sup links; append Notes section (XHTML)."""
+    for key in order:
+        n = order.index(key) + 1
+        if key in defs:
+            link = f'<sup><a href="#fn-{key}" id="fnref-{key}">{n}</a></sup>'
+        else:
+            link = f"<sup>{n}</sup>"
+        html_text = html_text.replace(f"\ue000FN:{key}\ue001", link)
+    notes = [k for k in order if k in defs]
+    if not notes:
+        return html_text
+    items = "\n".join(
+        f'<li id="fn-{k}">{inline_xhtml(defs[k])} <a href="#fnref-{k}">\u21a9</a></li>'
+        for k in notes
+    )
+    return html_text + (
+        "\n" + '<section class="endnotes"><hr /><h2>Notes</h2>\n<ol>\n'
+        + items + "\n</ol>\n</section>"
+    )
+
+
 def md_to_xhtml(md: str) -> tuple[str, str]:
     """Converts markdown to strictly valid XHTML for EPUB."""
+    md, fn_order, fn_defs = split_footnotes(md)
     lines = md.split("\n")
     parts: list[str] = []
     title = "Untitled"
@@ -191,7 +249,7 @@ def md_to_xhtml(md: str) -> tuple[str, str]:
             buf.append(lines[i].strip())
             i += 1
         parts.append("<p>" + inline_xhtml(" ".join(buf)) + "</p>")
-    return title, "\n".join(parts)
+    return title, resolve_footnotes("\n".join(parts), fn_order, fn_defs)
 
 
 def build_epub(output_path: str, title: str = BOOK_TITLE, author: str = BOOK_AUTHOR) -> None:

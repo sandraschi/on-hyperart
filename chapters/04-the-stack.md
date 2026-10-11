@@ -65,7 +65,7 @@ The credit block still lists humans, the way old maps listed sea monsters:
 decoratively, at the edges of the known. Crossing test: remove the human names
 and nothing audible changes.
 
-**Band IV — Convergence (13-16).** Every frame at peak sakuga intensity with
+**Band IV — Convergence (13-16).** Every frame at peak sakuga[^sakuga] intensity with
 monograph density in the script. No trade-off. The Stoppard farce rendered
 like the Redline finale, for as many hours as the story needs. This is the
 rung the old envelope called impossible, which is why it is the rung this
@@ -126,3 +126,5 @@ bad.
 The Pentagon's loops went in-the-loop to on-the-loop to told-afterwards.
 The SaaS moat went from per-seat rent to dependency to replacement. The studio
 goes from final cut to approved cut to generated cut. Same clock, other face.
+
+[^sakuga]: Peak-intensity animated craft: animator-credited cuts at maximum expressive density. Full entry in the Glossary.

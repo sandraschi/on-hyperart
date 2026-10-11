@@ -70,7 +70,7 @@ The word *orthogonal* does heavy lifting and must earn it. Prior cinema
 maximized one dial by sacrificing the others — depth or velocity or scale.
 Hypercinema maxes all dials at once and ships the proof: Nobel-density script
 (formal philosophy, real physics, no dumbed exposition) rendered at Redline
-intensity (Itano circuses, impact frames, Kanada smears, gouache cascades out
+intensity (Itano circuses[^itano], impact frames, Kanada smears, gouache cascades out
 of Belladonna and Fischinger) at 72-hour unbroken scale (institutional decay
 across centuries, no cut for bladders). Three dials, no apology.
 
@@ -134,3 +134,5 @@ face is still load-bearing in any shipped artifact — or only ceremonial, known
 by its holder to be ceremonial. Three books, one question asked three ways:
 what is the smallest observable unit of control, and who holds it on the
 night it matters.
+
+[^itano]: Missile-swarm choreography from Macross (animator Ichiro Itano): dozens of individually tracked contrails. Full entry in the Glossary.

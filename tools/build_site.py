@@ -26,6 +26,7 @@ except ImportError:
     build_epub = None
 
 ORDER = [
+    "00-preface.md",
     "cold-open-variants.md",
     "01-the-misdirection.md",
     "02-futurist-lineage.md",
@@ -231,7 +232,70 @@ def inline(md: str) -> str:
     return out
 
 
+FN_DEF_RE = re.compile(r"^\[\^([^\]]+)\]:\s*(.+?)\s*$")
+FN_REF_RE = re.compile(r"\[\^([^\]]+)\]")
+
+
+def split_footnotes(md: str) -> tuple[str, list[str], dict[str, str]]:
+    """Strip `[^key]: text` defs; tokenize `[^key]` refs outside fences.
+
+    Returns (clean_md, ref_order, defs). Tokens are private-use spans that
+    survive html.escape and inline(); resolved in resolve_footnotes.
+    Convention: one line per def; defs may sit anywhere (end of file reads best).
+    """
+    defs: dict[str, str] = {}
+    order: list[str] = []
+    out_lines: list[str] = []
+    in_fence = False
+    for line in md.split("\n"):
+        s = line.strip()
+        if s.startswith("```"):
+            in_fence = not in_fence
+            out_lines.append(line)
+            continue
+        if in_fence:
+            out_lines.append(line)
+            continue
+        m = FN_DEF_RE.match(s)
+        if m:
+            defs.setdefault(m.group(1), m.group(2))
+            continue
+
+        def ref_sub(mo: re.Match) -> str:
+            key = mo.group(1)
+            if key not in order:
+                order.append(key)
+            return f"\ue000FN:{key}\ue001"
+
+        out_lines.append(FN_REF_RE.sub(ref_sub, line))
+    return "\n".join(out_lines), order, defs
+
+
+def resolve_footnotes(html_text: str, order: list[str], defs: dict[str, str]) -> str:
+    """Replace ref tokens with numbered sup links; append Notes section."""
+    for key in order:
+        n = order.index(key) + 1
+        if key in defs:
+            link = f'<sup><a href="#fn-{key}" id="fnref-{key}">{n}</a></sup>'
+        else:
+            link = f"<sup>{n}</sup>"
+        html_text = html_text.replace(f"\ue000FN:{key}\ue001", link)
+    notes = [k for k in order if k in defs]
+    if not notes:
+        return html_text
+    items = "\n".join(
+        f'<li id="fn-{k}">{inline(defs[k])} <a href="#fnref-{k}">\u21a9</a></li>'
+        for k in notes
+    )
+    return html_text + (
+        "\n" + '<section class="endnotes" style="margin-top:2.5rem;'
+        'border-top:1px solid var(--border);padding-top:0.5rem;">'
+        "\n<h2>Notes</h2>\n<ol>\n" + items + "\n</ol>\n</section>"
+    )
+
+
 def md_to_html(md: str) -> tuple[str, str]:
+    md, fn_order, fn_defs = split_footnotes(md)
     lines = md.split("\n")
     parts: list[str] = []
     title = "Untitled"
@@ -308,7 +372,7 @@ def md_to_html(md: str) -> tuple[str, str]:
             buf.append(lines[i].strip())
             i += 1
         parts.append("<p>" + inline(" ".join(buf)) + "</p>")
-    return title, "\n".join(parts)
+    return title, resolve_footnotes("\n".join(parts), fn_order, fn_defs)
 
 
 def page(title: str, body: str, prev: tuple[str, str] | None, nxt: tuple[str, str] | None, audio: str | None) -> str:
@@ -333,6 +397,7 @@ def page(title: str, body: str, prev: tuple[str, str] | None, nxt: tuple[str, st
       <a href="index.html">Contents</a>
       <a href="assessment.html">Assessment</a>
       <a href="references.html">References</a>
+      <a href="glossary.html">Glossary</a>
       <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
     </div>
   </nav>
@@ -388,6 +453,7 @@ def main() -> int:
     doc_pages = [
         ("ASSESSMENT.md", "assessment.html"),
         ("REFERENCES.md", "references.html"),
+        ("GLOSSARY.md", "glossary.html"),
     ]
     for src, dst in doc_pages:
         src_path = os.path.join(DOCS_DIR, src)
@@ -405,6 +471,7 @@ def main() -> int:
     doc_items = """
       <li><a href="assessment.html">Strategic Assessment & Methodological Evaluation</a></li>
       <li><a href="references.html">Scholarly Apparatus & Academic Bibliography</a></li>
+      <li><a href="glossary.html">Glossary of Terms of Art</a></li>
     """
 
     index_body = f"""

@@ -30,7 +30,7 @@ shipped. Everything else is liturgy.
 
 Every novel, score, tragedy, and folk myth committed to paper or tape was a
 published API for surrender. Western tragedy documented which reversals break
-composure and when. Honkaku deduction documented the exact ratio of fair clue
+composure and when. Honkaku[^honkaku] deduction documented the exact ratio of fair clue
 to surprise that produces the locked-room gasp. Victorian melodrama documented
 cue timing to the bar. Counterpoint documented which dissonances the ear will
 tolerate before begging for resolution — and how long to withhold it for
@@ -70,3 +70,5 @@ radii, this project has none, so every rung must be an observable act. This
 chapter is the aesthetic twin: there is no soul equation, so every aesthetic
 claim must resolve to cue plus receptor plus date. Same discipline, other
 substrate.
+
+[^honkaku]: Japanese orthodox detective fiction (honkaku = "orthodox"): fair-play deduction, locked rooms, impossible crimes. Full entry in the Glossary.
