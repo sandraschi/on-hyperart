@@ -1,4 +1,4 @@
-# 0. How This Was Written (and How to Read It)
+# Preface
 
 **Status:** Draft v0.2 2026-10-11, Muse Spark 1.3 (Opus pass pending). Front matter.
 **Revision date:** 2026-10-11.

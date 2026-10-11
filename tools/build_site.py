@@ -322,6 +322,11 @@ def md_to_html(md: str) -> tuple[str, str]:
         if not s:
             i += 1
             continue
+        if re.match(r"^\*\*(Status|Revision date)\b", s):
+            # Render discipline: source keeps status/revision metadata
+            # (lorecheck reads source); readers get clean headings.
+            i += 1
+            continue
         m = re.match(r"^(#{1,3})\s+(.*)$", s)
         if m:
             level = len(m.group(1))

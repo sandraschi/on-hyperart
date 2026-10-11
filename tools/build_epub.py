@@ -19,8 +19,9 @@ from datetime import datetime, timezone
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHAPTERS_DIR = os.path.join(REPO_ROOT, "chapters")
 
-BOOK_TITLE = "On Hyperart: The Aesthetic Singularity Arrived First"
-BOOK_AUTHOR = "Sandra"
+BOOK_TITLE = "On Hyperart"
+BOOK_SUBTITLE = "The Aesthetic Singularity Arrived First"
+BOOK_AUTHOR = "Sandra Schipal"
 BOOK_IDENTIFIER = "urn:uuid:8b34f682-142e-4b61-9c17-1f4803738b55"
 BOOK_LANGUAGE = "en"
 
@@ -97,6 +98,19 @@ th, td {
 }
 th { background-color: #f9fafb; font-weight: bold; }
 hr { border: none; border-top: 1px solid #e5e7eb; margin: 2em 0; }
+.title-page { text-align: center; margin-top: 20%; }
+.title-page h1 { font-size: 2.2em; border: none; text-align: center; }
+.title-page .subtitle { font-size: 1.2em; color: #4b5563; margin-top: 0.5em; }
+.title-page .author { font-size: 1.1em; margin-top: 2em; }
+.title-page .draft { font-size: 0.9em; color: #6b7280; margin-top: 1em; }
+.title-page .epigraph { font-style: italic; color: #4b5563; margin-top: 3em; }
+section.endnotes { margin-top: 2em; }
+section.endnotes h2 { font-size: 1.1em; }
+section.endnotes li { font-size: 0.9em; }
+nav#toc ol { list-style: none; padding-left: 0; }
+nav#toc ol ol { padding-left: 1.2em; }
+nav#toc li { margin: 0.25em 0; }
+nav#toc .toc-group { font-weight: bold; margin-top: 0.8em; }
 """
 
 
@@ -199,6 +213,11 @@ def md_to_xhtml(md: str) -> tuple[str, str]:
         if not s:
             i += 1
             continue
+        if re.match(r"^\*\*(Status|Revision date)\b", s):
+            # Render discipline: source keeps status/revision metadata
+            # (lorecheck reads source); readers get clean headings.
+            i += 1
+            continue
         m = re.match(r"^(#{1,3})\s+(.*)$", s)
         if m:
             level = len(m.group(1))
@@ -269,7 +288,34 @@ def build_epub(output_path: str, title: str = BOOK_TITLE, author: str = BOOK_AUT
             "filename": filename,
             "title": ch_title,
             "body": body_xhtml,
+            "source": fn,
         })
+
+    rev_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    title_body = (
+        '<section class="title-page">\n<h1>On Hyperart</h1>\n'
+        f'<p class="subtitle">{html.escape(BOOK_SUBTITLE)}</p>\n'
+        f'<p class="author">{html.escape(author)}</p>\n'
+        f'<p class="draft">Construction draft — {rev_date}</p>\n'
+        '<p class="epigraph">Beauty is truth, truth beauty, — that is all<br />\n'
+        'Ye know on earth, and all ye need to know.<br />— John Keats, 1820</p>\n'
+        "</section>"
+    )
+    chapters.insert(0, {
+        "id": "titlepage",
+        "filename": "titlepage.xhtml",
+        "title": "Title Page",
+        "body": title_body,
+        "source": "",
+        "notoc": True,
+    })
+
+    def _group(fn: str) -> str:
+        if fn in ("00-preface.md", "cold-open-variants.md"):
+            return "Front Matter"
+        if fn.startswith("side-"):
+            return "Sides"
+        return "Chapters"
 
     pub_date = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -281,11 +327,25 @@ def build_epub(output_path: str, title: str = BOOK_TITLE, author: str = BOOK_AUT
   </rootfiles>
 </container>"""
 
-    # Generate nav.xhtml (EPUB 3 TOC)
-    nav_items = "\n".join(
-        f'        <li><a href="{ch["filename"]}">{html.escape(ch["title"])}</a></li>'
-        for ch in chapters
-    )
+    # Generate nav.xhtml (EPUB 3 TOC, grouped: front matter / chapters / sides)
+    GROUP_ORDER = ["Front Matter", "Chapters", "Sides"]
+    grouped: dict[str, list[dict[str, str]]] = {g: [] for g in GROUP_ORDER}
+    for ch in chapters:
+        if ch.get("notoc"):
+            continue
+        grouped.setdefault(_group(ch.get("source", "")), []).append(ch)
+    nav_groups = []
+    for g in GROUP_ORDER:
+        items = grouped.get(g, [])
+        if not items:
+            continue
+        lis = "\n".join(
+            f'        <li><a href="{c["filename"]}">{html.escape(c["title"])}</a></li>'
+            for c in items
+        )
+        nav_groups.append(
+            f'      <li><span class="toc-group">{g}</span>\n      <ol>\n{lis}\n      </ol>\n      </li>'
+        )
     nav_xhtml = f"""<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="{BOOK_LANGUAGE}">
@@ -295,21 +355,21 @@ def build_epub(output_path: str, title: str = BOOK_TITLE, author: str = BOOK_AUT
 </head>
 <body>
   <nav epub:type="toc" id="toc">
-    <h1>Table of Contents</h1>
+    <h1>Contents</h1>
     <ol>
-{nav_items}
+{chr(10).join(nav_groups)}
     </ol>
   </nav>
 </body>
 </html>"""
 
-    # Generate toc.ncx (EPUB 2 backward compatibility)
+    # Generate toc.ncx (EPUB 2 backward compatibility; title page excluded)
     ncx_navpoints = "\n".join(
         f"""    <navPoint id="navpoint-{idx}" playOrder="{idx}">
       <navLabel><text>{html.escape(ch["title"])}</text></navLabel>
       <content src="{ch["filename"]}"/>
     </navPoint>"""
-        for idx, ch in enumerate(chapters, 1)
+        for idx, ch in enumerate([c for c in chapters if not c.get("notoc")], 1)
     )
     toc_ncx = f"""<?xml version="1.0" encoding="UTF-8"?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
