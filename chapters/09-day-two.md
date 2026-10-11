@@ -16,9 +16,8 @@ slow discovery that your lifetime of craft now prices as folk performance.
 
 Say it with the precedent that holds. The empire of China ran on the
 calligrapher's hand for two millennia — examinations, edicts, the entire
-bureaucracy of meaning passed through a wrist. Then print, then type, and the
-hand demoted: from infrastructure to ceremony, from the clerk who ran the
-world to the master admired for limitation. Nobody mourns the clerk. Everybody
+bureaucracy of meaning passed through a wrist. Print coexisted with the brush for a millennium; the imperial examinations stayed handwritten until abolished in 1905 `[construction: verify]` — and then the hand demoted: from infrastructure to ceremony, from the clerk who ran the
+world to the master admired for limitation. The institution set the date, not the technology — precisely this book's thesis. Nobody mourns the clerk. Everybody
 honors the master, funds the school at the margin, hangs the scroll where the
 contract used to be. The hand did not die. It changed employment. Biological
 art is changing employment now — from the pipeline to the preserve, from the

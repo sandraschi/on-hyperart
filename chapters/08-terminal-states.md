@@ -60,9 +60,7 @@ extending publicity rights into geometry. You cannot deed the sea.
 
 The demotion has a precedent nobody likes to cite: the stunt double. The face
 was already detachable for the dangerous parts; now the dangerous part is all
-of it. Affleck-style exits — converting face-equity into unburnable assets
-while the pipeline still prices faces — read in hindsight as the smartest
-trades of the decade: sell the island before the sea chart is published.
+of it. Face-equity flight — talent converting contracted-likeness value into asset classes no pipeline prices `[construction: dated transactions or cut]` — reads in hindsight as the decade's most rational trade: sell the island before the sea chart is published.
 
 ## 3. Orthogonal hypercinema
 

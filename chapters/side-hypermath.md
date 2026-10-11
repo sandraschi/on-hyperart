@@ -23,15 +23,10 @@ tivism (Brouwer, Bishop):** existence without construction is empty talk; a
 proof is an artifact built by rule, and unconstructive existence claims are
 theology. The mathematician is a craftsperson, and the craft authenticates.
 
-The machine does not resolve the metaphysics. It dissolves the sociology.
+The machine does not dissolve the debate. It audits it. Lean's kernel is constructive type theory: classical reasoning enters only through explicit axioms, and `#print axioms` shows exactly which proofs invoke `Classical.choice`.
 When derivation ships at superhuman bandwidth — conjectures, lemmas, full
 formalizations produced faster than any seminar can survey — the question
-"was it discovered or built?" becomes unaskable in practice, because no human
-was present at either event. The platonist cannot point at the discovery
-moment; the constructivist cannot inspect the hands. Both positions assumed a
-human witness. Remove the witness and the debate continues the way liturgy
-continues after the congregation leaves: correctly, beautifully, to an empty
-room. The checker, which never had a metaphysics, keeps accepting proofs.
+"was it discovered or built?" becomes answerable per proof, mechanically, where the seminar could only argue it. Brouwer's question survives the witness's departure: not liturgy in an empty room, but an audit log no human could have kept. The checker, which never had a metaphysics, keeps the receipts.
 
 ## The 2026 explosion (flagged rows, not asserted lore)
 
@@ -82,7 +77,7 @@ than Nagel's bat — grant mathematics its Book, then show the witness problem.
 **Chapter VIII:** hypercinema's intellectual dimension (Nobel-density scripts)
 is hypermath with costumes on; the day a proof and a premiere share a
 pipeline, the trilogy's three legs meet. **Chapter VI:** surveyability is a
-threshold nobody owns — Threshold B's twin (the Audit Floor) arrived in
+threshold nobody owns — the Audit Floor's twin arrived in
 mathematics first, in 1976, and the sky did not fall. It laminated. That is
 the most hopeful sentence in this book, and it belongs to the coldest chapter.
 
@@ -100,8 +95,8 @@ as artist's statement. Whatever the metaphysics, the studio hours rhyme.
 receptor plus date, distributions in and chemistry out. The lullaby does not
 ask the singer's biography and the proof does not ask the prover's dreams.
 
-*Math is truth.* Granted conditionally, and the condition is dated: Gödel,
-1931. Truth outruns provability even inside arithmetic — there are true
+*Math is truth.* Granted conditionally, and the condition is dated: Godel,
+1931. Truth outruns provability inside any consistent, effectively axiomatized system strong enough for arithmetic — there are true
 statements no derivation reaches. So "math is truth" is either the checker's
 tautology (true = what verifies) or an infinite deferral (truth = what no
 finite derivation exhausts). The machine lives comfortably inside the first
@@ -109,8 +104,7 @@ reading. The second is where the platonists went to wait, and they are still
 waiting, correctly.
 
 *Art is beauty.* Denied as stated — the chain's weak link, and the instructive
-one, because "art is beauty" is really the Pre-Raphaelite creed (Brotherhood,
-1848: truth to nature, beauty as doctrine), and that creed did not survive the
+one, because "art is beauty" is the Aestheticist doctrine (Pater, 1870s `[construction: verify]`), and that creed did not survive the
 twentieth century. Duchamp killed it first with a urinal: *Fountain*, 1917,
 signed R. Mutt — beauty replaced by the idea plus the signature, the gallery
 forced to exhibit plumbing or admit the rules were social. Beuys buried it in
@@ -141,10 +135,10 @@ checkers not yet born. Keats thought he was describing eternity. He was
 describing bandwidth.
 
 `[construction: Opus pass — verify Keats lines against 1820 text; verify
-Goya dates, Bacon 1953, Duchamp 1917 provenance, Beuys 1964/1970 works, and
+Bacon 1953, Duchamp 1917 provenance, Beuys 1964/1970 works, and
 Actionism 1960s rows from catalogs, not memory.]`
 
-[^keats]: John Keats, "Ode on a Grecian Urn" (1820). The urn's closing lines, spoken by the artifact itself to its future readers — the oldest maker-transcending address in English verse.
+[^keats]: John Keats, "Ode on a Grecian Urn" (1820). The urn's closing lines, spoken by the artifact itself to its future readers — the oldest maker-transcending address in English verse. (Textual crux: the 1820 punctuation leaves open whether the urn or the narrator speaks the closing lines; the reading above takes the urn.)
 
 ## Fleet link
 

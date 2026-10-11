@@ -59,7 +59,7 @@ date creates the politics. It is an argument against surprise. Anyone who
 promises you the filter holds, the watermark sticks, the certificate means it
 — ask them for the crossing test from Chapter VI. Ask what the tired person at
 02:00 sees. If the answer is a dashboard that is green by default, you are
-looking at Threshold B's aesthetic twin already crossed, with the green light
+looking at the Audit Floor's aesthetic twin already crossed, with the green light
 still on.
 
 `[construction: Opus pass — one worked example per brake with full dates,

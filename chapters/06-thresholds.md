@@ -6,7 +6,7 @@
 ## Why thresholds, not rungs
 
 "Withhold synthesis as needed" is not a policy. It is the shape of a policy
-that has nowhere to be written down — Pachocki's alien-mind phrasing applies
+that has nowhere to be written down — Pachocki's alien-mind phrasing (OpenAI, Sept 2026: commitments to withhold scaling "as needed", with no threshold to attach them to `[construction: verify cite]`) applies
 word for word to the studio that promises restraint without naming the line.
 A rung describes. A threshold binds: do not cross without an audit regime, a
 named owner, and a verification the rival can observe. Kahn's thresholds had
@@ -59,12 +59,10 @@ star-grade, the lab reads as interpolation between icons, and the lawyer reads
 as no one. Granite jaw remembered from somewhere, glottal anxiety borrowed
 from nowhere actionable. **Owner:** right-of-publicity regime, and that is the
 problem `[construction: Issue #2 — statute text vs latent continuity]`.
-**Precedent:** Artists Equity-style liquidation — talent converting face-equity
-into unburnable assets while the pipeline still prices faces `[construction:
-date the exit, name the terms, or flag]`.
+**Precedent:** Face-equity flight — talent converting contracted-likeness value into asset classes no pipeline prices
+into unburnable assets while the pipeline still prices faces `[construction: dated transactions or cut]`.
 
-This is the most legally doomed threshold, stated flatly so Opus cannot soften
-it: discrete statutes cannot bind continuous space. The law names persons; the
+This is the most legally exposed threshold: discrete statutes cannot bind continuous space. The law names persons; the
 latent walks between them. Every named face is an island; the model is the sea.
 You cannot sue the sea for resembling your island from a distance. Threshold C
 will be crossed deniably, repeatedly, and the first lawsuit will settle without

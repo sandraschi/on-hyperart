@@ -78,13 +78,20 @@ still preferred). Tilly Norwood becomes the first real Threshold C row
 rows — the reviewer's knowledge cutoff is stated honestly and inherited
 as a gap, not papered over.
 
-## R-06 Stoppard hallucination: ACCEPT + ownership
+## R-06 Stoppard phrase: USAGE wrong regardless; term legitimacy OPEN (new issue)
 
-"Stoppard's beschleunigte Verzweiflung" is Spark's invention (Ch IV
-draft), not Sandra's. No such work. Apologies to the record. Fix:
-*Jumpers* (1972) in the slot. Answers Q5: it came from a model reaching
-for a German-flavoured philosophical farce and confabulating. Kept out of
-the book by exactly the apparatus that caught it.
+Update 2026-10-11 (Gemini counter-claim via Sandra): the phrase may be
+legitimate German critical jargon (farce as existential panic at double
+speed; Beckett-auf-Speed reading; Nabokov *Verzweiflung* / Fassbinder-1978
+screenplay link). Gemini's account is plausible but citation-free — no
+critic named, no production dated — which is assertion, not evidence, by
+the book's own Rule 1. (Irony logged: the serpent vouching for its own
+egg.) Either way the Ch IV sentence was malformed (jargon deployed as a
+work title). Fix applied: *Jumpers* (1972) in the slot. Term question →
+new issue: verify-or-cut with a dated cite, or keep dead. The Nabokov
+*Despair* screenplay credit, if verified, earns one line — Stoppard
+literally scripted a work titled *Verzweiflung* about disintegration,
+which is almost too good for this book.
 
 ## R-07 Redline Locarno: ACCEPT
 
