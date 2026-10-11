@@ -22,7 +22,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHAPTERS = os.path.join(REPO_ROOT, "chapters")
 FORBIDDEN = ["skynet", "terminator", "soulless"]
 MYSTIQUE = ["lived experience", "divine spark", "human soul"]
-CONSTRUCTION_RE = re.compile(r"\[construction\]", re.I)
+CONSTRUCTION_RE = re.compile(r"\[construction[^\]]*\]", re.I)
 DATE_RE = re.compile(r"\b202\d-\d{2}-\d{2}(?:T\d{2}:\d{2}(?::\d{2})?Z?)?\b")
 EXPECTED = [
     "01-the-misdirection.md",

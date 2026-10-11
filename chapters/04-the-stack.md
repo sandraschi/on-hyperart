@@ -1,43 +1,128 @@
 # IV. The Stack (Compromise-Envelope Collapse)
 
-**Status:** Stub 2026-10-11 (`[construction]`). Central analytic chapter.
-Load-bearing for the whole book — fill before VII/VIII.
+**Status:** Draft v0.3 2026-10-11, Muse Spark 1.3 (Opus pass pending).
+**Revision date:** 2026-10-11.
 
-## The historic iron triangle
+## Pick two
 
-Narrative depth vs visual velocity vs scale. Pick two, ship compromised.
+Every producer before the collapse knew the triangle by feel, the way sailors
+know weather. Narrative depth. Visual velocity. Scale. Pick two, apologize
+for the third.
 
-- Deep scripts (Stoppard, Dostoevsky) shipped without cinematic budgets.
-  `[construction: 2 dated budget/script pairs.]`
-- High spectacle (Avatar, blockbusters) flattened scripts to recoup capex.
-  `[construction: 2 budget/recoup pairs with dates.]`
-- Hyperkinetic craft (Akira, Redline) broke studios, capped at ~100 min.
-  `[construction: cel counts, schedules, studio-strain cites.]`
+The deep script without money: Stoppard's beschleunigte Verzweiflung —
+a philosophical farce that could never afford the images it deserved, so it
+stayed in rooms, talking fast, while the camera watched like a respectful
+guest. Dostoevsky adapted faithfully means four hours of faces in kitchens;
+adapted profitably means one murder and a love interest. The depth survived
+by accepting smallness.
 
-## Bands I-VI (production rungs, ordered by reversibility of human gatekeeping)
+The spectacle without density: Avatar, December 2009, $237 million in
+production cost, a world rendered leaf by leaf around a script that could be
+summarized on a postcard. This is not contempt — it is bookkeeping. At that
+capital expenditure the story must be legible to every market simultaneously,
+which means it must be infantile in the precise, expensive sense: archetypes
+with no edges to snag on translation. The budget ate the ambiguity.
 
-`[construction: fill or flag each. Observable artifact per rung.]`
+The velocity without survival: Akira, July 1988, 2,212 shots, 160,000 cels,
+a production that broke Tokyo Movie Shinsha's pipeline and set the ceiling
+for what hand-drawn intensity could cost. Redline, 2009, seven years of
+hand-drawn madness, 100 minutes, Madhouse bleeding out on the altar of
+Kanada smears and impact frames. Everyone who saw it knew: this is the most
+you can have, and you cannot have it again. The studio system priced
+peak intensity as a once-a-decade suicide.
 
-```
-[construction] Band I — Drafting (1-4): model drafts, human revises; coverage reads; temp tracks
-[construction] Band II — Performance (5-8): synthetic coverage voices; temp sakuga; previz lock
-[construction] Band III — Substitution (9-12): lead vocal chimera ships; face as deniable archetype; score stems unplayed by humans
-[construction] Band IV — Convergence (13-16): every frame at peak sakuga + monograph density; 72-hour architectures drafted
-[construction] Band V — Exhibition (17-20): theatrical window unenforceable; streaming catalog flooded; award categories contested
-[construction] Band VI — Immersion (21-24): flat glass optional; spatial + BCI induction drafts
-```
+Three compromises, three apologias, one envelope. The envelope held for a
+century because each corner was guarded by a different scarcity: writers are
+cheap but slow, render is fast but stupid, craft is brilliant but mortal.
+To breach one corner you needed money. To breach all three at once you needed
+a miracle, and miracles do not take meetings.
+
+Then the price of the miracle went to zero.
+
+## Bands I-VI: the rungs of the slide
+
+Ordered, like the sister books, by reversibility of human gatekeeping. Reading
+downward is descending. Each rung names an observable artifact, not an intention.
+
+**Band I — Drafting (1-4).** The machine drafts, the human revises. Coverage
+reads generated overnight. Temp tracks laid without a composer in the room.
+The human still chooses, but the choice set is no longer human-made. Observable:
+dated draft with model credit in the margins, 2023-2024, everywhere at once.
+Nobody announced it because nobody had to — the temp became the table read
+before anyone voted.
+
+**Band II — Performance (5-8).** Synthetic coverage voices. Previz locked
+before casting. The scratch vocal that stays because the "real" session never
+beats it for timing. Here the larynx meets its replacement politely, as a
+placeholder that overstays. Observable: placeholder stems in dated sessions,
+the mixer at 02:00 keeping the temp because the singer went home.
+`[construction: 2 dated session anecdotes with union-safe sourcing — Issue #3.]`
+
+**Band III — Substitution (9-12).** The lead vocal chimera ships. The face
+becomes a deniable archetype — granite jaw remembered from somewhere, glottal
+anxiety borrowed from nowhere actionable. Score stems no human hand played.
+The credit block still lists humans, the way old maps listed sea monsters:
+decoratively, at the edges of the known. Crossing test: remove the human names
+and nothing audible changes.
+
+**Band IV — Convergence (13-16).** Every frame at peak sakuga intensity with
+monograph density in the script. No trade-off. The Stoppard farce rendered
+like the Redline finale, for as many hours as the story needs. This is the
+rung the old envelope called impossible, which is why it is the rung this
+book watches hardest. `[construction: Opus pass — pick ONE convergence
+artifact with date or admit none shipped. No vibes.]`
+
+**Band V — Exhibition (17-20).** The 120-minute biological limit — bladders,
+projector schedules, attention as payroll — stops binding. Unbroken multi-day
+architectures drafted; the theatrical window, already a ruin by 2020-2024,
+becomes unenforceable custom. Award categories contested: whose eligibility
+when no take is a take? `[construction: Issue #4 table.]`
+
+**Band VI — Immersion (21-24).** Flat glass optional. Spatial master with the
+cinema cut as downmix. Vestibular induction drafts — narrative felt in the
+inner ear, not watched through a frustum. The device and the medical regulator
+become the last owners. `[construction: signal chain or cut. No mysticism.]`
 
 > **THRESHOLD A — THE LAST TAKE.** Past which no shipped vocal is a single human take.
 > **THRESHOLD B — THE LAST FRAME.** Past which no shipped frame is hand-drawn.
-> **THRESHOLD C — THE LAST FACE.** Past which lead likeness is a deniable archetype.
+> **THRESHOLD C — THE LAST FACE.** Past which the lead likeness is a deniable archetype.
 > **THRESHOLD D — THE LAST CUT.** Past which runtime is not cut for biology.
 > **THRESHOLD E — THE LAST VENUE.** Past which flat glass is a legacy output.
 
-## Zero-marginal-cost box
+Thresholds, not rungs, are what policy can grip. A rung describes. A threshold
+promises: do not cross without an audit regime, an owner, a verification. Ch VI
+makes them photocopiable. Here, note only their shape — each is the moment a
+scarcity stops being physical and starts being merely customary. Custom is
+enforceable for exactly as long as the institutions are awake.
 
-`[construction: render-cost table — $/second sakuga 1988 vs 2019 vs 2026.
-Generation-time analogue to takeover-book T_n table. Dates first.]`
+## The zero-marginal-cost box
+
+`[construction: Issue #5 — render-cost table goes here. Three columns:
+1988 / 2019 / 2026. Rows: dollars per second of peak intensity, sustainable
+seconds per production week, headcount per finished minute. Proxy labeled as
+proxy. Until filled: the argument stands on the two dated suicides — Akira's
+cel count and Redline's seven years — against the observable present, where
+peak-intensity test footage ships weekly from bedrooms. The direction is dated
+even where the slope is not yet numbered.]`
+
+What matters for the Bachmann-grade sentence, the one this chapter must earn:
+scarcity was the editor. Every classic you love is a compromise made beautiful
+by its corner — the small room that forced the dialogue to be brilliant, the
+simple story that let the world be lush, the hundred minutes that forced the
+cut to kill its darlings. Remove scarcity and you do not get freedom. You get
+unfiltered intention at infinite length. Most intentions, at infinite length,
+are unbearable. The kami's advantage is not that it has better intentions. It
+is that it can test ten thousand of them and keep the one that lands, while
+the human auteur gets one life, one cut, one premiere, and a review in the
+morning paper.
+
+Klagenfurt rewards the sentence that bleeds. Here is this chapter's: we called
+it craft when mortals rationed brilliance; we will call it curation when the
+infinite needs a gardener. The gardener is the last human job, and the pay is
+bad.
 
 ## Fleet link
 
-`[construction: same math as Pentagon loop liquidation + SaaS moat collapse.]`
+The Pentagon's loops went in-the-loop to on-the-loop to told-afterwards.
+The SaaS moat went from per-seat rent to dependency to replacement. The studio
+goes from final cut to approved cut to generated cut. Same clock, other face.
