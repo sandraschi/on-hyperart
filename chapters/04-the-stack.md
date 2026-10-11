@@ -74,7 +74,7 @@ artifact with date or admit none shipped. No vibes.]`
 **Band V — Exhibition (17-20).** The 120-minute biological limit — bladders,
 projector schedules, attention as payroll — stops binding. Unbroken multi-day
 architectures drafted; the theatrical window, already a ruin by 2020-2024,
-becomes unenforceable custom. Award categories contested: whose eligibility
+becomes unenforceable custom. Length already fell — the remaining threshold is identity, not duration (see Threshold D). Award categories contested: whose eligibility
 when no take is a take? `[construction: Issue #4 table.]`
 
 **Band VI — Immersion (21-24).** Flat glass optional. Spatial master with the
@@ -82,11 +82,13 @@ cinema cut as downmix. Vestibular induction drafts — narrative felt in the
 inner ear, not watched through a frustum. The device and the medical regulator
 become the last owners. `[construction: signal chain or cut. No mysticism.]`
 
-> **THRESHOLD A — THE LAST TAKE.** Past which no shipped vocal is a single human take.
-> **THRESHOLD B — THE LAST FRAME.** Past which no shipped frame is hand-drawn.
+> **THRESHOLD A — THE LAST TAKE.** Past which the credited performer never sang the shipped line, in any take — and no session is producible in which they did.
+> **THRESHOLD B — THE LAST FRAME.** Past which no key animator is nameable per cut, on demand, from credit sheets.
 > **THRESHOLD C — THE LAST FACE.** Past which the lead likeness is a deniable archetype.
-> **THRESHOLD D — THE LAST CUT.** Past which runtime is not cut for biology.
+> **THRESHOLD D — THE LAST CUT.** Past which the work has no fixed runtime at all — two viewers cannot have seen 'the same film.'
 > **THRESHOLD E — THE LAST VENUE.** Past which flat glass is a legacy output.
+>
+> Each threshold is drawn past its pre-AI crossing on purpose: comping and tuning took the unbroken take, CAPS ink-and-paint took the hand-drawn frame, Warhol and binge TV took the 120-minute law. The naive versions cannot detect synthesis; these versions can.
 
 Thresholds, not rungs, are what policy can grip. A rung describes. A threshold
 promises: do not cross without an audit regime, an owner, a verification. Ch VI

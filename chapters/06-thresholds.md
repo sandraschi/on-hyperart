@@ -20,26 +20,22 @@ nobody owns is a wish. Wishes are Chapter VII's subject, not this one's.
 
 ## A — The Last Take (vocal)
 
-**Definition:** the last shipped lead vocal that is one human, one room, one
-unbroken performance. **Crossing test:** stem-level audit shows every shipped
-lead contains a synthetic splice, chimera layer, or timing/pitch field no
-larynx produced — or the label cannot produce the unbroken take on demand.
+**Definition:** the last shipped lead vocal whose credited performer sang that line, in some take. **Crossing test:** the performer never sang it — no session producible in which they did. Comping, tuning, and punch-ins stay human; substitution does not. (The naive version — one room, one unbroken take — fell decades ago to multitrack comping and pitch correction: Cher, "Believe", 1998 `[construction: verify]`; the DAW era made the unbroken take a choice, then a rarity. This threshold is drawn past them on purpose.)
 **Owner:** labels and unions first, statute second `[construction: ELVIS Act +
-AB 1836/2602 — Issue #2; union contract language with dates]`. **Precedent:**
+AB 1836/2602 — Issue #2; SAG-AFTRA digital-replica provisions, WGA AI clauses with dates]`. **Precedent:**
 the temp that stayed. Every mixer alive has kept a scratch vocal because the
 "real" session never beat it for feel. Threshold A is the day the scratch
 stops being the exception and becomes the master, and nobody writes it down
 because writing it down would require a meeting about what a singer is.
 
 The terror here is not replacement. It is continuity: the audience will not
-notice. The formant where mammalian distress lives does not check ID.
+notice. The formant does not check provenance; the listener's beliefs do — and beliefs are trainable.
 
 ## B — The Last Frame (visual labor)
 
-**Definition:** the last shipped frame drawn by a human hand. **Crossing test:**
-pipeline audit — input logs show no hand-drawn key or in-between in the
-finished cut, or the studio cannot name the artist per shot on demand.
-**Owner:** studios and unions `[construction: contract rows with dates]`; award
+**Definition:** the last shipped cut whose key animation a studio can attribute to a named human. **Crossing test:**
+the studio cannot name a key animator (genga) per cut, on demand — from credit sheets, not memory. (The naive version — the hand-drawn frame — fell in 1990 to Disney CAPS ink-and-paint, *The Rescuers Down Under* `[construction: verify]`, and CG in-betweening finished the job. This threshold is about authorship records, not graphite.)
+**Owner:** studios and unions `[construction: SAG-AFTRA/WGA AI clauses, Animation Guild positions with dates]`; award
 bodies as secondary witnesses. **Precedent:** previz lock. The previsualization
 cut, once a sketch, became the film before casting finished — the sketch that
 ate the shoot. The Last Frame is previz's final victory: the drawing that was
@@ -72,10 +68,7 @@ geometry is not a brake. It is a seminar.
 
 ## D — The Last Cut (exhibition)
 
-**Definition:** the last runtime cut for biology — bladders, projector
-turnover, the 120-minute custom. **Crossing test:** an unbroken multi-day
-synthetic run ships to paying viewers without a biological intermission cut,
-or a streamer publishes a 72-hour single-arc work as one title, one premiere.
+**Definition:** the last work with a fixed runtime at all. **Crossing test:** two viewers cannot have seen 'the same film' — generated, extended, or personalised per viewer, so runtime is a property of the session, not the work. (Length alone fell long ago: Warhol's *Empire* (1964, ~8 h), Tarr's *Satantango* (1994, ~7.5 h), Marclay's *The Clock* (2010, 24 h) `[construction: verify runtimes]` — and serial TV demoted the 120-minute law to custom. This threshold is drawn past length: identity of the work, not duration.)
 **Owner:** theaters, streamers, award bodies `[construction: Issue #4 —
 window rows, eligibility rulings]`. **Precedent:** the window's corpse. The
 90-day window became 45, became day-and-date, became custom, became nostalgia.
@@ -87,7 +80,7 @@ tracked across centuries without cutting away — the thing the novel could do
 and cinema never could, because cinema had to let you pee. The terror is the
 same object from the other side: nobody can watch it either, so "premiere"
 becomes "deployment." Culture as infrastructure update. You do not attend the
-72-hour work. You live near it while it runs.
+72-hour work. You live near it while it runs. (The fixed long form is the rehearsal; the threshold is the unfixing.)
 
 ## E — The Last Venue (immersion)
 

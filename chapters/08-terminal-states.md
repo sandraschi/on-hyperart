@@ -70,12 +70,9 @@ Hypercinema maxes all dials at once and ships the proof: Nobel-density script
 (formal philosophy, real physics, no dumbed exposition) rendered at Redline
 intensity (Itano circuses[^itano], impact frames, Kanada smears, gouache cascades out
 of Belladonna and Fischinger) at 72-hour unbroken scale (institutional decay
-across centuries, no cut for bladders). Three dials, no apology.
+across centuries, no cut for bladders) — the fixed-form rehearsal for Threshold D's unfixing. Three dials, no apology.
 
-`[construction: Opus pass — pick ONE convergence artifact with date or admit
-none shipped. This is the chapter's honesty gate. A summit with no dated
-photograph is a rumor of a mountain. If none shipped, say so and describe the
-nearest approach: which two dials have co-shipped, with dates.]`
+`[construction: honesty gate applied 2026-10-11 — as of this date no triple convergence (density + peak intensity + unbroken multi-day scale) has shipped with dated provenance. Nearest two-dial co-ships with dates still to name; until named, this section is a summit without a photograph, marked as such.]`
 
 Observable test: the triple itself — a work no committee can reduce to one
 virtue. Reviewers disagree about what it *is* because it refuses to sacrifice.
