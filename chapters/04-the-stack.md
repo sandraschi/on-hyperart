@@ -12,7 +12,7 @@ for the third.
 The deep script without money: Stoppard's *Jumpers* (1972) —
 a philosophical farce about collapsing meaning that could never afford the images it deserved, so it
 stayed in rooms, talking fast, while the camera watched like a respectful
-guest. Dostoevsky adapted faithfully means four hours of faces in kitchens;
+guest. Stoppard himself once scripted a work titled *Despair*: Fassbinder's *Despair* (1978), from Nabokov's novel, carries the screenplay credit Tom Stoppard (IMDb tt0077421 `[construction: confirm via BFI catalog]`) — disintegration as a job of work, before the farces made it a sprint. Dostoevsky adapted faithfully means four hours of faces in kitchens;
 adapted profitably means one murder and a love interest. The depth survived
 by accepting smallness.
 
