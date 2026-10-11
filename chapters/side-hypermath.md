@@ -109,12 +109,22 @@ reading. The second is where the platonists went to wait, and they are still
 waiting, correctly.
 
 *Art is beauty.* Denied as stated — the chain's weak link, and the instructive
-one. Goya's Black Paintings (1819–1823, Quinta del Sordo, never meant for any
-buyer) are great without being beautiful. Bacon's screaming pope (1953) is
-great the way a fire alarm is great. Beauty is one cue among many; dread,
-resonance, and formal power ship without it. Replace the link with *art is
-resonance* and the chain holds — and resonance is measurable, which is the
-entire method of Chapter III.
+one, because "art is beauty" is really the Pre-Raphaelite creed (Brotherhood,
+1848: truth to nature, beauty as doctrine), and that creed did not survive the
+twentieth century. Duchamp killed it first with a urinal: *Fountain*, 1917,
+signed R. Mutt — beauty replaced by the idea plus the signature, the gallery
+forced to exhibit plumbing or admit the rules were social. Beuys buried it in
+felt and fat (Fat Chair, 1964; Felt Suit, 1970): warmth and stored energy as
+sculptural material, explicitly anti-retinal, the wound of the war carried as
+substance rather than depicted as image. Bacon screams past it. And in this
+book's home city, Viennese Actionism spent the 1960s assaulting it directly —
+Mühl and company staging the body, filth, and ritual where beauty was supposed
+to hang, until beauty as a criterion looked like a provincial embarrassment.
+A century of killings, each dated, each unattended by collapse: art went on,
+greatly, without the doctrine. Beauty is one cue among many; dread, resonance,
+and formal power ship without it. Replace the link with *art is resonance*
+and the chain holds — and resonance is measurable, which is the entire method
+of Chapter III.
 
 *Beauty is truth, truth beauty.* Keats, "Ode on a Grecian Urn" — composed
 1819, published 1820:
@@ -131,7 +141,8 @@ checkers not yet born. Keats thought he was describing eternity. He was
 describing bandwidth.
 
 `[construction: Opus pass — verify Keats lines against 1820 text; verify
-Goya dates and Bacon 1953 from catalog, not memory.]`
+Goya dates, Bacon 1953, Duchamp 1917 provenance, Beuys 1964/1970 works, and
+Actionism 1960s rows from catalogs, not memory.]`
 
 [^keats]: John Keats, "Ode on a Grecian Urn" (1820). The urn's closing lines, spoken by the artifact itself to its future readers — the oldest maker-transcending address in English verse.
 
