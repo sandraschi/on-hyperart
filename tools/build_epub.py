@@ -38,6 +38,7 @@ ORDER = [
     "10-corpus.md",
     "side-acoustic-leviathan.md",
     "side-latent-personae-and-law.md",
+    "side-hypermath.md",
     "side-what-scifi-gets-wrong.md",
 ]
 
