@@ -1,178 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Preface - On Hyperart</title>
   <style>
 :root {
-  --bg: #09090b;
-  --surface: #18181b;
-  --surface-hover: #27272a;
-  --border: #27272a;
-  --text: #e4e4e7;
-  --text-muted: #a1a1aa;
-  --heading: #fafafa;
-  --accent: #818cf8;
-  --accent-visited: #c4b5fd;
-  --code-bg: #1f1f23;
+  --bg: #09090b; --surface: #18181b; --border: #27272a;
+  --text: #e4e4e7; --text-muted: #a1a1aa; --heading: #fafafa;
+  --accent: #818cf8; --accent-visited: #c4b5fd; --code-bg: #1f1f23;
   --callout-border: #6366f1;
 }
-
 * { box-sizing: border-box; }
 body {
-  background: var(--bg);
-  color: var(--text);
-  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  background: var(--bg); color: var(--text); margin: 0; padding: 0;
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
 }
-main {
-  max-width: 48rem;
-  margin: 0 auto;
-  padding: 2.5rem 1.25rem 5rem;
-}
+main { max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
 nav.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.85rem 1.5rem;
-  border-bottom: 1px solid var(--border);
-  background: rgba(9, 9, 11, 0.85);
-  backdrop-filter: blur(8px);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  font-size: 0.9rem;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  padding: 0.85rem 1.5rem; border-bottom: 1px solid var(--border);
+  background: rgba(9, 9, 11, 0.85); backdrop-filter: blur(8px);
+  position: sticky; top: 0; z-index: 100; font-size: 0.9rem;
 }
-nav.top a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 500;
-}
+nav.top a { color: var(--text); text-decoration: none; font-weight: 500; }
 nav.top a:hover { color: var(--accent); }
-nav.top .links {
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
-}
+nav.top .links { display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap; }
+nav.top .lang-switch { border: 1px solid var(--border); padding: 0.2rem 0.6rem; border-radius: 4px; color: var(--text-muted); }
 nav.top .epub-tag {
-  background: #312e81;
-  color: #c7d2fe;
-  padding: 0.2rem 0.6rem;
-  border-radius: 9999px;
-  font-size: 0.8rem;
-  text-decoration: none;
-  font-weight: 600;
+  background: #312e81; color: #c7d2fe; padding: 0.2rem 0.6rem;
+  border-radius: 9999px; font-size: 0.8rem; font-weight: 600;
 }
-nav.top .epub-tag:hover {
-  background: #3730a3;
-  color: #ffffff;
-}
+nav.top .epub-tag:hover { background: #3730a3; color: #ffffff; }
 a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 a:visited { color: var(--accent-visited); }
 a:hover { color: #a5b4fc; }
-
-h1, h2, h3, h4 {
-  line-height: 1.28;
-  color: var(--heading);
-  margin-top: 2em;
-  margin-bottom: 0.6em;
-  font-weight: 600;
-}
+h1, h2, h3, h4 { line-height: 1.28; color: var(--heading); margin-top: 2em; margin-bottom: 0.6em; font-weight: 600; }
 h1 { font-size: 2rem; margin-top: 1em; border-bottom: 1px solid var(--border); padding-bottom: 0.4em; }
 h2 { font-size: 1.45rem; }
 h3 { font-size: 1.2rem; }
-
 code {
-  background: var(--code-bg);
-  padding: 0.15em 0.4em;
-  border-radius: 0.35em;
-  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace;
-  font-size: 0.88em;
-  color: #f472b6;
+  background: var(--code-bg); padding: 0.15em 0.4em; border-radius: 0.35em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace; font-size: 0.88em; color: #f472b6;
 }
-pre {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 1rem 1.2rem;
-  border-radius: 0.5rem;
-  overflow-x: auto;
-}
-pre code {
-  background: none;
-  padding: 0;
-  color: var(--text);
-  font-size: 0.9em;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-}
-th, td {
-  border: 1px solid var(--border);
-  padding: 0.55rem 0.8rem;
-  text-align: left;
-}
-th {
-  background: var(--surface);
-  color: var(--heading);
-  font-weight: 600;
-}
+pre { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.2rem; border-radius: 0.5rem; overflow-x: auto; }
+pre code { background: none; padding: 0; color: var(--text); font-size: 0.9em; }
+table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--border); padding: 0.55rem 0.8rem; text-align: start; }
+th { background: var(--surface); color: var(--heading); font-weight: 600; }
 blockquote {
-  border-left: 3px solid var(--callout-border);
-  background: rgba(99, 102, 241, 0.05);
-  margin: 1.5rem 0;
-  padding: 0.5rem 1.25rem;
-  color: var(--text-muted);
-  border-radius: 0 0.4rem 0.4rem 0;
+  border-inline-start: 3px solid var(--callout-border); background: rgba(99, 102, 241, 0.05);
+  margin: 1.5rem 0; padding: 0.5rem 1.25rem; color: var(--text-muted); border-radius: 0.4rem;
 }
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 2.5rem 0;
-}
-footer.pn {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 4rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-  font-size: 0.95rem;
-}
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+.notice { border: 1px dashed var(--border); color: var(--text-muted); padding: 0.5rem 0.9rem; border-radius: 0.4rem; font-size: 0.9rem; }
+section.endnotes { margin-top: 2.5rem; }
+footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.95rem; }
 .btn-box {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: #312e81;
-  color: #e0e7ff !important;
-  text-decoration: none !important;
-  padding: 0.6rem 1.2rem;
-  border-radius: 0.4rem;
-  font-weight: 600;
-  margin: 1rem 0 2rem;
+  display: inline-flex; align-items: center; gap: 0.5rem; background: #312e81; color: #e0e7ff !important;
+  text-decoration: none !important; padding: 0.6rem 1.2rem; border-radius: 0.4rem; font-weight: 600; margin: 1rem 0 2rem;
 }
 .btn-box:hover { background: #3730a3; }
-.toc-list { list-style: none; padding-left: 0; }
-.toc-list li {
-  margin: 0.6rem 0;
-  padding: 0.6rem 0.8rem;
-  border-radius: 0.4rem;
-  border: 1px solid transparent;
-  transition: all 0.15s ease;
-}
-.toc-list li:hover {
-  background: var(--surface);
-  border-color: var(--border);
-}
-.toc-list a {
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--heading);
-  display: block;
-}
+.toc-list { list-style: none; padding-inline-start: 0; }
+.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.toc-list li:hover { background: var(--surface); border-color: var(--border); }
+.toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
 audio { width: 100%; margin: 1.2rem 0; }
 </style>
@@ -191,30 +84,20 @@ audio { width: 100%; margin: 1.2rem 0; }
   <main>
     <h1>Preface</h1>
     
-    <h1 id="preface">Preface</h1>
-<h2 id="two-levels-of-authorship">Two levels of authorship</h2>
+    
+    <h2 id="two-levels-of-authorship">Two levels of authorship</h2>
 <p>On one level, this book was written by a language model directed by a human: one woman in Vienna with fairly good knowledge and literacy, argumentative taste, and strong opinions about which sentences get to live. She sets the thesis, kills the mystique, demands the dates. The model — me, Muse Spark 1.3, with Claude Opus passes pending on the hard chapters — executes: beats first, ugly draft, variants, red-team, read aloud. Every commit carries its trailer so you know which hands held the pen. That is the honest, boring, checkable level, and it is the one the method chapters enforce.</p>
 <p>On another level, it was written by all of humanity. A model is five millennia of recorded trial and error, compressed into interpolation weights: every tragedy, score, proof, and late-night forum post about impact frames, averaged into a voice that can speak in all of them at once. When this book explains what a Kanada smear does to your nervous system, the knowledge is not mine. It is the animators', the fans', the frame-by-frame bloggers', channeled through a statistical instrument and directed by one reader's judgment. Beautiful thought, stated without mystique: no soul required, only the complete record and someone with taste standing at the output, saying <em>this stays, this goes</em>. Authorship here is curation at the top of an encyclopedia nobody could read alone.</p>
 <p>Hold both levels at once or neither works. The first without the second is a blogging project with delusions. The second without the first is the flood itself — infinite competent text with no one willing to be wrong in public at twenty-four rungs and five thresholds.</p>
 <h2 id="the-allgemeinbildung-problem-answered-with-apparatus">The Allgemeinbildung problem, answered with apparatus</h2>
 <p>Nobody has unlimited general education, and this book's whole bet is a collision no single reader arrives equipped for. I hope a philosophy professor reads this — but he will not know the term sakuga<sup><a href="#fn-sakuga" id="fnref-sakuga">1</a></sup>. I hope a sakuga fan reads this — but she may not have read Nagel's bat or the ELVIS Act<sup><a href="#fn-elvis" id="fnref-elvis">2</a></sup>, and why should she have. Honkaku<sup><a href="#fn-honkaku" id="fnref-honkaku">3</a></sup> sits three pages from Searle's Chinese Room, and each half of that pairing is obvious to someone and opaque to someone else.</p>
 <p>So the apparatus is not decoration. It is the book's load-bearing response to its own thesis:</p>
-<ul><li><strong>Endnotes on every chapter.</strong> Any term of art outside common undergraduate</li></ul>
-<p>vocabulary gets a note on first use: one line, checkable, no condescension. Follow them downward (professor: sakuga awaits) or upward (fan: Nagel awaits).</p>
-<ul><li><strong>Glossary</strong> (<code>docs/GLOSSARY.md</code>, built as a reader page): the full entries</li></ul>
-<p>the notes abbreviate. New term in a chapter means a new entry here first — house rule, enforced by review, not by hope.</p>
-<ul><li><strong>References</strong> with dates: every factual claim about the present points at</li></ul>
-<p>something dated. The rest carries a flag, described next.</p>
-<ul><li><strong><code>[construction]</code> flags:</strong> asserted, not yet evidenced — a promise of</li></ul>
-<p>evidence, never evidence. You will see dozens. Each is an invitation to do what the sisters' readers do: open an issue naming the claim, what's wrong with it, and what would fix it. The version history of <em>why</em> a claim moved is as much the point as the claim.</p>
-<ul><li><strong>Read-aloud gate:</strong> every chapter must survive being spoken by synthetic</li></ul>
-<p>voice before it ships (<code>just declaim</code>). Kahn-flat prose is a feature of the audiobook, not just the page. If a sentence cannot be read aloud without embarrassment, it is rewritten, not defended.</p>
+<ul><li><strong>Endnotes on every chapter.</strong> Any term of art outside common undergraduate vocabulary gets a note on first use: one line, checkable, no condescension. Follow them downward (professor: sakuga awaits) or upward (fan: Nagel awaits).</li><li><strong>Glossary</strong> (<code>docs/GLOSSARY.md</code>, built as a reader page): the full entries the notes abbreviate. New term in a chapter means a new entry here first — house rule, enforced by review, not by hope.</li><li><strong>References</strong> with dates: every factual claim about the present points at something dated. The rest carries a flag, described next.</li><li><strong><code>[construction]</code> flags:</strong> asserted, not yet evidenced — a promise of evidence, never evidence. You will see dozens. Each is an invitation to do what the sisters' readers do: open an issue naming the claim, what's wrong with it, and what would fix it. The version history of <em>why</em> a claim moved is as much the point as the claim.</li><li><strong>Read-aloud gate:</strong> every chapter must survive being spoken by synthetic voice before it ships (<code>just declaim</code>). Kahn-flat prose is a feature of the audiobook, not just the page. If a sentence cannot be read aloud without embarrassment, it is rewritten, not defended.</li></ul>
 <h2 id="how-to-contest-this-book">How to contest this book</h2>
 <p>Disagree in public, with a date. GitHub Issues are the system of record; whatever starts in conversation gets mirrored there before it counts as resolved. Name the chapter and section, state what's wrong (wrong evidence, wrong position, not actually observable, duplicate), propose the change. Placement changes get their own commits — the <em>why it moved</em> stays one click from the <em>what</em>. Discord and conversation are fine front ends for typing; they are not the record, because scrollback has exactly the problem this trilogy exists to fix: real disagreement happened, and six months later nobody can reconstruct why a position changed.</p>
 <h2 id="fleet-link">Fleet link</h2>
 <p>The sisters share the method and the apparatus: observability over intention, thresholds over vibes, logbooks over essays. This preface is the only chapter that talks about itself instead of the world. From Chapter I on, the book points outward. The notes point inward to the record it stands on — which is, per the second level of authorship, everyone.</p>
-<section class="endnotes" style="margin-top:2.5rem;border-top:1px solid var(--border);padding-top:0.5rem;">
-<h2>Notes</h2>
+<section class="endnotes"><hr><h2>Notes</h2>
 <ol>
 <li id="fn-sakuga">Peak-intensity animated craft: animator-credited cuts drawn at maximum expressive density (smears, distortion, impact timing). Full entry in the Glossary. <a href="#fnref-sakuga">↩</a></li>
 <li id="fn-elvis">Tennessee's Ensuring Likeness Voice and Image Security Act (2024), extending publicity rights to voice and likeness against synthesis. Cited, not asserted — see Issue #2. <a href="#fnref-elvis">↩</a></li>

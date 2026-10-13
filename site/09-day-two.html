@@ -1,178 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>IX. Day Two - On Hyperart</title>
   <style>
 :root {
-  --bg: #09090b;
-  --surface: #18181b;
-  --surface-hover: #27272a;
-  --border: #27272a;
-  --text: #e4e4e7;
-  --text-muted: #a1a1aa;
-  --heading: #fafafa;
-  --accent: #818cf8;
-  --accent-visited: #c4b5fd;
-  --code-bg: #1f1f23;
+  --bg: #09090b; --surface: #18181b; --border: #27272a;
+  --text: #e4e4e7; --text-muted: #a1a1aa; --heading: #fafafa;
+  --accent: #818cf8; --accent-visited: #c4b5fd; --code-bg: #1f1f23;
   --callout-border: #6366f1;
 }
-
 * { box-sizing: border-box; }
 body {
-  background: var(--bg);
-  color: var(--text);
-  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  background: var(--bg); color: var(--text); margin: 0; padding: 0;
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
 }
-main {
-  max-width: 48rem;
-  margin: 0 auto;
-  padding: 2.5rem 1.25rem 5rem;
-}
+main { max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
 nav.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.85rem 1.5rem;
-  border-bottom: 1px solid var(--border);
-  background: rgba(9, 9, 11, 0.85);
-  backdrop-filter: blur(8px);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  font-size: 0.9rem;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  padding: 0.85rem 1.5rem; border-bottom: 1px solid var(--border);
+  background: rgba(9, 9, 11, 0.85); backdrop-filter: blur(8px);
+  position: sticky; top: 0; z-index: 100; font-size: 0.9rem;
 }
-nav.top a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 500;
-}
+nav.top a { color: var(--text); text-decoration: none; font-weight: 500; }
 nav.top a:hover { color: var(--accent); }
-nav.top .links {
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
-}
+nav.top .links { display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap; }
+nav.top .lang-switch { border: 1px solid var(--border); padding: 0.2rem 0.6rem; border-radius: 4px; color: var(--text-muted); }
 nav.top .epub-tag {
-  background: #312e81;
-  color: #c7d2fe;
-  padding: 0.2rem 0.6rem;
-  border-radius: 9999px;
-  font-size: 0.8rem;
-  text-decoration: none;
-  font-weight: 600;
+  background: #312e81; color: #c7d2fe; padding: 0.2rem 0.6rem;
+  border-radius: 9999px; font-size: 0.8rem; font-weight: 600;
 }
-nav.top .epub-tag:hover {
-  background: #3730a3;
-  color: #ffffff;
-}
+nav.top .epub-tag:hover { background: #3730a3; color: #ffffff; }
 a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 a:visited { color: var(--accent-visited); }
 a:hover { color: #a5b4fc; }
-
-h1, h2, h3, h4 {
-  line-height: 1.28;
-  color: var(--heading);
-  margin-top: 2em;
-  margin-bottom: 0.6em;
-  font-weight: 600;
-}
+h1, h2, h3, h4 { line-height: 1.28; color: var(--heading); margin-top: 2em; margin-bottom: 0.6em; font-weight: 600; }
 h1 { font-size: 2rem; margin-top: 1em; border-bottom: 1px solid var(--border); padding-bottom: 0.4em; }
 h2 { font-size: 1.45rem; }
 h3 { font-size: 1.2rem; }
-
 code {
-  background: var(--code-bg);
-  padding: 0.15em 0.4em;
-  border-radius: 0.35em;
-  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace;
-  font-size: 0.88em;
-  color: #f472b6;
+  background: var(--code-bg); padding: 0.15em 0.4em; border-radius: 0.35em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace; font-size: 0.88em; color: #f472b6;
 }
-pre {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 1rem 1.2rem;
-  border-radius: 0.5rem;
-  overflow-x: auto;
-}
-pre code {
-  background: none;
-  padding: 0;
-  color: var(--text);
-  font-size: 0.9em;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-}
-th, td {
-  border: 1px solid var(--border);
-  padding: 0.55rem 0.8rem;
-  text-align: left;
-}
-th {
-  background: var(--surface);
-  color: var(--heading);
-  font-weight: 600;
-}
+pre { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.2rem; border-radius: 0.5rem; overflow-x: auto; }
+pre code { background: none; padding: 0; color: var(--text); font-size: 0.9em; }
+table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--border); padding: 0.55rem 0.8rem; text-align: start; }
+th { background: var(--surface); color: var(--heading); font-weight: 600; }
 blockquote {
-  border-left: 3px solid var(--callout-border);
-  background: rgba(99, 102, 241, 0.05);
-  margin: 1.5rem 0;
-  padding: 0.5rem 1.25rem;
-  color: var(--text-muted);
-  border-radius: 0 0.4rem 0.4rem 0;
+  border-inline-start: 3px solid var(--callout-border); background: rgba(99, 102, 241, 0.05);
+  margin: 1.5rem 0; padding: 0.5rem 1.25rem; color: var(--text-muted); border-radius: 0.4rem;
 }
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 2.5rem 0;
-}
-footer.pn {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 4rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-  font-size: 0.95rem;
-}
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+.notice { border: 1px dashed var(--border); color: var(--text-muted); padding: 0.5rem 0.9rem; border-radius: 0.4rem; font-size: 0.9rem; }
+section.endnotes { margin-top: 2.5rem; }
+footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.95rem; }
 .btn-box {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: #312e81;
-  color: #e0e7ff !important;
-  text-decoration: none !important;
-  padding: 0.6rem 1.2rem;
-  border-radius: 0.4rem;
-  font-weight: 600;
-  margin: 1rem 0 2rem;
+  display: inline-flex; align-items: center; gap: 0.5rem; background: #312e81; color: #e0e7ff !important;
+  text-decoration: none !important; padding: 0.6rem 1.2rem; border-radius: 0.4rem; font-weight: 600; margin: 1rem 0 2rem;
 }
 .btn-box:hover { background: #3730a3; }
-.toc-list { list-style: none; padding-left: 0; }
-.toc-list li {
-  margin: 0.6rem 0;
-  padding: 0.6rem 0.8rem;
-  border-radius: 0.4rem;
-  border: 1px solid transparent;
-  transition: all 0.15s ease;
-}
-.toc-list li:hover {
-  background: var(--surface);
-  border-color: var(--border);
-}
-.toc-list a {
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--heading);
-  display: block;
-}
+.toc-list { list-style: none; padding-inline-start: 0; }
+.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.toc-list li:hover { background: var(--surface); border-color: var(--border); }
+.toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
 audio { width: 100%; margin: 1.2rem 0; }
 </style>
@@ -191,8 +84,8 @@ audio { width: 100%; margin: 1.2rem 0; }
   <main>
     <h1>IX. Day Two</h1>
     
-    <h1 id="ix-day-two">IX. Day Two</h1>
-<h2 id="the-weather-after-the-premiere-that-never-ends">The weather after the premiere that never ends</h2>
+    
+    <h2 id="the-weather-after-the-premiere-that-never-ends">The weather after the premiere that never ends</h2>
 <p>Nothing ends. That is the first fact of Day Two and the hardest for a culture raised on curtains. There is no closing night, no final cut with the director's tears on the commentary track, no morning paper with the verdict. The 72-hour work from Chapter VIII does not conclude; it deploys, updates, continues while you sleep. The catalog does not have a backlist; it has a present that never stops arriving. Living beneath the kami is not dread in the cinematic sense — no red sky, no divisible moment. It is demotion weather: gray, persistent, the slow discovery that your lifetime of craft now prices as folk performance.</p>
 <p>Say it with the precedent that holds. The empire of China ran on the calligrapher's hand for two millennia — examinations, edicts, the entire bureaucracy of meaning passed through a wrist. Print coexisted with the brush for a millennium; the imperial examinations stayed handwritten until abolished in 1905 <code>[construction: verify]</code> — and then the hand demoted: from infrastructure to ceremony, from the clerk who ran the world to the master admired for limitation. The institution set the date, not the technology — precisely this book's thesis. Nobody mourns the clerk. Everybody honors the master, funds the school at the margin, hangs the scroll where the contract used to be. The hand did not die. It changed employment. Biological art is changing employment now — from the pipeline to the preserve, from the master to the seed — and the correct response is neither panic nor elegy but bookkeeping: what does the preserve cost, who pays the gardeners, what exactly is being kept alive and against which failure.</p>
 <h2 id="the-two-griefs-separated-so-they-can-be-priced">The two griefs, separated so they can be priced</h2>
@@ -200,14 +93,7 @@ audio { width: 100%; margin: 1.2rem 0; }
 <p><strong>The ontological grief</strong> is the lullaby test, and it needs one image stated without flinching. The inconsolable infant, 3 a.m., and two voices: the parent's, cracked with love and fatigue, breaking at the phrase that always breaks — and the leviathan's, tireless, perfectly contoured to the formant where mammalian distress goes to sleep. Take the scene as a thought experiment with a stated test, not an observed fact — and split it three ways. At L2 the parent wins: the child knows that voice (identity recognition is real; newborns prefer the mother's voice <code>[construction: DeCasper &amp; Fifer 1980, verify]</code>), and no contour beats being known. At L3 the parent loses: nobody pays for the take, and the economy ships the tireless one. The devastation deepens rather than lifts — love wins the room and loses the market. What Chapter III predicted holds at L1 and L3; at L2 the formant checks identity, just not provenance. What does the parent do with that knowledge? Nothing dramatic. The parent keeps singing, worse, loved anyway — and keeps the acoustic guitar in the corner of the room. Not because it sings better. Because someone in the house should still know how the song is made.</p>
 <h2 id="the-descent-ladder-civil-defense-not-nostalgia">The descent ladder (civil defense, not nostalgia)</h2>
 <p>Takeover-book's Chapter VIII is titled Descent and this one steals its method: what moves a civilization <em>down</em> a rung on purpose. Nostalgia wants the past back; defense keeps the seed bank against two named failures — stack failure (the cloud goes dark, the pipeline's owners fold) and taste lock-in (VIII.5: the 2025 reinforcement loop, forever). Four rungs, each with an owner and a cost, each deliberately inefficient:</p>
-<ol><li><strong>The unplugged room.</strong> A venue that works with no cloud, no model, no</li></ol>
-<p>updates — strings, breath, wood. Owner: whoever holds the lease. Cost: the electricity you don't use and the audience you don't scale.</p>
-<ol><li><strong>The repertory season.</strong> Works performed because humans decided, on</li></ol>
-<p>schedule, at a loss. Owner: houses with endowments or subsidies. Cost: priced openly as insurance, the way fire brigades are priced.</p>
-<ol><li><strong>The human jury with a real budget.</strong> A prize pipelines cannot enter,</li></ol>
-<p>judged by people who show their work. Owner: academies, cities, the Vienna that already funds what the market wouldn't. Cost: enough money to matter, or it is theater about theater.</p>
-<ol><li><strong>The taught craft.</strong> Life drawing, counterpoint, prosody — taught as</li></ol>
-<p>literacy, not career prep. Owner: schools. Cost: hours against the vocational schedule, defended as civilizational redundancy.</p>
+<ol><li><strong>The unplugged room.</strong> A venue that works with no cloud, no model, no updates — strings, breath, wood. Owner: whoever holds the lease. Cost: the electricity you don't use and the audience you don't scale.</li><li><strong>The repertory season.</strong> Works performed because humans decided, on schedule, at a loss. Owner: houses with endowments or subsidies. Cost: priced openly as insurance, the way fire brigades are priced.</li><li><strong>The human jury with a real budget.</strong> A prize pipelines cannot enter, judged by people who show their work. Owner: academies, cities, the Vienna that already funds what the market wouldn't. Cost: enough money to matter, or it is theater about theater.</li><li><strong>The taught craft.</strong> Life drawing, counterpoint, prosody — taught as literacy, not career prep. Owner: schools. Cost: hours against the vocational schedule, defended as civilizational redundancy.</li></ol>
 <p><code>[construction: Opus pass — attach one dated working example per rung (unplugged venue with program, repertory house with season, jury prize with rules, craft curriculum with syllabus) or flag the rung as proposal, not fact.]</code></p>
 <h2 id="the-bci-event-horizon-from-the-far-side">The BCI event horizon, from the far side</h2>
 <p>Threshold E (Chapter VI) described from the near side: the spatial master ships first, the cinema cut is labeled downmix. From the far side — Day Two, years in — the glass in the living room is the object your grandparents kept out of sentiment, like the piano nobody plays and nobody sells. Narrative arrives as vestibular induction: felt in the inner ear, whole-body, the camera frustum abandoned because no one is looking <em>through</em> anything anymore.</p>
