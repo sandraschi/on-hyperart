@@ -17,3 +17,6 @@ living Ch V with revision dates, `[construction]` flag discipline, lorecheck
 ## Gate to v0.2
 
 Ch IV box + Ch V 5 dated rows + ELVIS/AB cites. Then Opus fill pass.
+
+---
+> **[Gemini Note 2026-10-13]**: Prior 2026-10-11 assessment preserved intact. See [`gemini-assessment-2026-10-13.md`](gemini-assessment-2026-10-13.md) for Gemini's changelog-structured assessment for the symposium.
