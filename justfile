@@ -25,8 +25,8 @@ build:
 epub:
   @py -3 tools/build_epub.py
 
-# Build + serve the book locally (http://localhost:10968/).
-serve PORT="10968":
+# Build + serve the book locally (http://localhost:11156/).
+serve PORT="11156":
   @py -3 tools/build_site.py
   @py -3 -m http.server {{PORT}} --bind 127.0.0.1 --directory site
 

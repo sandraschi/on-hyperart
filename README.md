@@ -71,4 +71,4 @@ Full map with Bands I-VI in `chapters/04-the-stack.md`; this README is the compa
 
 `tools/lorecheck.py` + `just lore` (chapter coverage, dates, forbidden terms),
 `tools/declaim.py` (read-aloud gate), `tools/build_site.py` + `just serve`
-(static reader, port TBD — claim adjacent to sisters, not 10967).
+(static reader, http://localhost:11156/, registered in WEBAPP_PORTS.md).
