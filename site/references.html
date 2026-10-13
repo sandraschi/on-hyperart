@@ -1,178 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>References — on-hyperart - On Hyperart</title>
   <style>
 :root {
-  --bg: #09090b;
-  --surface: #18181b;
-  --surface-hover: #27272a;
-  --border: #27272a;
-  --text: #e4e4e7;
-  --text-muted: #a1a1aa;
-  --heading: #fafafa;
-  --accent: #818cf8;
-  --accent-visited: #c4b5fd;
-  --code-bg: #1f1f23;
+  --bg: #09090b; --surface: #18181b; --border: #27272a;
+  --text: #e4e4e7; --text-muted: #a1a1aa; --heading: #fafafa;
+  --accent: #818cf8; --accent-visited: #c4b5fd; --code-bg: #1f1f23;
   --callout-border: #6366f1;
 }
-
 * { box-sizing: border-box; }
 body {
-  background: var(--bg);
-  color: var(--text);
-  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  background: var(--bg); color: var(--text); margin: 0; padding: 0;
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
 }
-main {
-  max-width: 48rem;
-  margin: 0 auto;
-  padding: 2.5rem 1.25rem 5rem;
-}
+main { max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
 nav.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.85rem 1.5rem;
-  border-bottom: 1px solid var(--border);
-  background: rgba(9, 9, 11, 0.85);
-  backdrop-filter: blur(8px);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  font-size: 0.9rem;
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  padding: 0.85rem 1.5rem; border-bottom: 1px solid var(--border);
+  background: rgba(9, 9, 11, 0.85); backdrop-filter: blur(8px);
+  position: sticky; top: 0; z-index: 100; font-size: 0.9rem;
 }
-nav.top a {
-  color: var(--text);
-  text-decoration: none;
-  font-weight: 500;
-}
+nav.top a { color: var(--text); text-decoration: none; font-weight: 500; }
 nav.top a:hover { color: var(--accent); }
-nav.top .links {
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
-}
+nav.top .links { display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap; }
+nav.top .lang-switch { border: 1px solid var(--border); padding: 0.2rem 0.6rem; border-radius: 4px; color: var(--text-muted); }
 nav.top .epub-tag {
-  background: #312e81;
-  color: #c7d2fe;
-  padding: 0.2rem 0.6rem;
-  border-radius: 9999px;
-  font-size: 0.8rem;
-  text-decoration: none;
-  font-weight: 600;
+  background: #312e81; color: #c7d2fe; padding: 0.2rem 0.6rem;
+  border-radius: 9999px; font-size: 0.8rem; font-weight: 600;
 }
-nav.top .epub-tag:hover {
-  background: #3730a3;
-  color: #ffffff;
-}
+nav.top .epub-tag:hover { background: #3730a3; color: #ffffff; }
 a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 a:visited { color: var(--accent-visited); }
 a:hover { color: #a5b4fc; }
-
-h1, h2, h3, h4 {
-  line-height: 1.28;
-  color: var(--heading);
-  margin-top: 2em;
-  margin-bottom: 0.6em;
-  font-weight: 600;
-}
+h1, h2, h3, h4 { line-height: 1.28; color: var(--heading); margin-top: 2em; margin-bottom: 0.6em; font-weight: 600; }
 h1 { font-size: 2rem; margin-top: 1em; border-bottom: 1px solid var(--border); padding-bottom: 0.4em; }
 h2 { font-size: 1.45rem; }
 h3 { font-size: 1.2rem; }
-
 code {
-  background: var(--code-bg);
-  padding: 0.15em 0.4em;
-  border-radius: 0.35em;
-  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace;
-  font-size: 0.88em;
-  color: #f472b6;
+  background: var(--code-bg); padding: 0.15em 0.4em; border-radius: 0.35em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace; font-size: 0.88em; color: #f472b6;
 }
-pre {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 1rem 1.2rem;
-  border-radius: 0.5rem;
-  overflow-x: auto;
-}
-pre code {
-  background: none;
-  padding: 0;
-  color: var(--text);
-  font-size: 0.9em;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-}
-th, td {
-  border: 1px solid var(--border);
-  padding: 0.55rem 0.8rem;
-  text-align: left;
-}
-th {
-  background: var(--surface);
-  color: var(--heading);
-  font-weight: 600;
-}
+pre { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.2rem; border-radius: 0.5rem; overflow-x: auto; }
+pre code { background: none; padding: 0; color: var(--text); font-size: 0.9em; }
+table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--border); padding: 0.55rem 0.8rem; text-align: start; }
+th { background: var(--surface); color: var(--heading); font-weight: 600; }
 blockquote {
-  border-left: 3px solid var(--callout-border);
-  background: rgba(99, 102, 241, 0.05);
-  margin: 1.5rem 0;
-  padding: 0.5rem 1.25rem;
-  color: var(--text-muted);
-  border-radius: 0 0.4rem 0.4rem 0;
+  border-inline-start: 3px solid var(--callout-border); background: rgba(99, 102, 241, 0.05);
+  margin: 1.5rem 0; padding: 0.5rem 1.25rem; color: var(--text-muted); border-radius: 0.4rem;
 }
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 2.5rem 0;
-}
-footer.pn {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 4rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-  font-size: 0.95rem;
-}
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+.notice { border: 1px dashed var(--border); color: var(--text-muted); padding: 0.5rem 0.9rem; border-radius: 0.4rem; font-size: 0.9rem; }
+section.endnotes { margin-top: 2.5rem; }
+footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.95rem; }
 .btn-box {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: #312e81;
-  color: #e0e7ff !important;
-  text-decoration: none !important;
-  padding: 0.6rem 1.2rem;
-  border-radius: 0.4rem;
-  font-weight: 600;
-  margin: 1rem 0 2rem;
+  display: inline-flex; align-items: center; gap: 0.5rem; background: #312e81; color: #e0e7ff !important;
+  text-decoration: none !important; padding: 0.6rem 1.2rem; border-radius: 0.4rem; font-weight: 600; margin: 1rem 0 2rem;
 }
 .btn-box:hover { background: #3730a3; }
-.toc-list { list-style: none; padding-left: 0; }
-.toc-list li {
-  margin: 0.6rem 0;
-  padding: 0.6rem 0.8rem;
-  border-radius: 0.4rem;
-  border: 1px solid transparent;
-  transition: all 0.15s ease;
-}
-.toc-list li:hover {
-  background: var(--surface);
-  border-color: var(--border);
-}
-.toc-list a {
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--heading);
-  display: block;
-}
+.toc-list { list-style: none; padding-inline-start: 0; }
+.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.toc-list li:hover { background: var(--surface); border-color: var(--border); }
+.toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
 audio { width: 100%; margin: 1.2rem 0; }
 </style>
@@ -191,8 +84,8 @@ audio { width: 100%; margin: 1.2rem 0; }
   <main>
     <h1>References — on-hyperart</h1>
     
-    <h1 id="references-on-hyperart">References — on-hyperart</h1>
-<p><strong>Rule:</strong> every Ch V row points here. <code>[construction]</code> where unverified.</p>
+    
+    <p><strong>Rule:</strong> every Ch V row points here. <code>[construction]</code> where unverified.</p>
 <ul><li><code>[construction: Farinelli (1994) + IRCAM — VERIFY splice claim, cite.]</code></li><li><code>[construction: Tennessee ELVIS Act (2024) — cite statute text.]</code></li><li><code>[construction: California AB 1836 / AB 2602 (2024) — VERIFY numbers.]</code></li><li><code>[construction: seiyuu exhaustion — cite dated interviews.]</code></li><li><code>[construction: Akira / Redline cel counts + schedules.]</code></li><li><code>[construction: Avatar / blockbuster budget-recoup pairs.]</code></li><li><code>[construction: Artists Equity exit — date + terms.]</code></li><li>Asimov / Gibson Count Zero / Kurzweil / Moravec / Yudkowsky / Bostrom — lineage cites <code>[construction: fill]</code>.</li><li>Kahn: On Thermonuclear War (1960); Thinking About the Unthinkable (1962); On Escalation (1965).</li><li>Sister repos: ../on-hyperwar, ../on-ai-takeover (same method).</li></ul>
     
   </main>
