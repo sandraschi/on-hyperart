@@ -10,5 +10,7 @@
 - `[construction: Avatar / blockbuster budget-recoup pairs.]`
 - `[construction: Artists Equity exit — date + terms.]`
 - Asimov / Gibson Count Zero / Kurzweil / Moravec / Yudkowsky / Bostrom — lineage cites `[construction: fill]`.
+- *Thaler v. Perlmutter*, D.D.C. 2023, aff'd D.C. Cir. (2025): human authorship required for copyright registration; autonomous machine generation uncopyrightable.
 - Kahn: On Thermonuclear War (1960); Thinking About the Unthinkable (1962); On Escalation (1965).
 - Sister repos: ../on-hyperwar, ../on-ai-takeover (same method).
+
