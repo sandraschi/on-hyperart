@@ -15,3 +15,5 @@ mcpb/src/
 site/audio/
 .DS_Store
 Thumbs.db
+
+.cache/

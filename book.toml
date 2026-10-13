@@ -1,0 +1,73 @@
+# bookkit configuration - see D:\Dev\repos\bookkit\README.md
+[book]
+slug = "on-hyperart"
+title = "On Hyperart"
+subtitle = "The Aesthetic Singularity Arrived First"
+author = "Sandra Schipal"
+# New identifier 2026-10-13: the old one was shared with on-ai-takeover and on-metacraft.
+identifier = "urn:uuid:74cab631-2b98-472b-a31a-f11e0fb08498"
+language = "en"
+port = 11156
+theme = "indigo"
+blurb = "Ten chapters ordered by reversibility of human gatekeeping, not by capability. From the misdirection to the stack to terminal states."
+epigraph = [
+  "Beauty is truth, truth beauty, - that is all",
+  "Ye know on earth, and all ye need to know.",
+  "- John Keats, 1820",
+]
+
+[chapters]
+dir = "chapters"
+order = [
+  "00-preface.md",
+  "cold-open-variants.md",
+  "01-the-misdirection.md",
+  "02-futurist-lineage.md",
+  "03-no-soul-equation.md",
+  "04-the-stack.md",
+  "05-locating-the-present.md",
+  "06-thresholds.md",
+  "07-control-case.md",
+  "08-terminal-states.md",
+  "09-day-two.md",
+  "10-corpus.md",
+  "side-acoustic-leviathan.md",
+  "side-latent-personae-and-law.md",
+  "side-hypermath.md",
+  "side-what-scifi-gets-wrong.md",
+]
+front_matter = ["00-preface.md", "cold-open-variants.md"]
+expected = [
+  "01-the-misdirection.md", "02-futurist-lineage.md", "03-no-soul-equation.md", "04-the-stack.md",
+  "05-locating-the-present.md", "06-thresholds.md", "07-control-case.md", "08-terminal-states.md",
+  "09-day-two.md", "10-corpus.md",
+]
+
+[[docs]]
+src = "ASSESSMENT.md"
+out = "assessment.html"
+label = "Assessment"
+index_label = "Strategic Assessment & Methodological Evaluation"
+
+[[docs]]
+src = "REFERENCES.md"
+out = "references.html"
+label = "References"
+index_label = "Scholarly Apparatus & Academic Bibliography"
+
+[[docs]]
+src = "GLOSSARY.md"
+out = "glossary.html"
+label = "Glossary"
+index_label = "Glossary of Terms of Art"
+
+[lore]
+forbidden = ["skynet", "terminator", "soulless"]
+mystique = ["lived experience", "divine spark", "human soul"]
+ascii = true
+
+[translate]
+languages = []
+
+[dumbdown]
+levels = []
