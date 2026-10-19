@@ -5,10 +5,13 @@
 
 ## 02:10, the credit block still empty
 
-The junior had a folder of approvals and a command list. The folder said the
+The junior in the studio had a folder of approvals and a command list. The
+folder said the
 client's legal team had signed off on the source, the sound bed, and the
 appearance release — all of it, weeks ago, in daylight, by people whose names
-he could produce. What the folder did not contain was anything about the four
+he could produce. The studio at that hour was a corridor of closed doors and
+one lit compositing bay; the night guard had already done his rounds. What the
+folder did not contain was anything about the four
 seconds where the mouth did not match the new line.
 
 He read the commands the way a cook reads a recipe written by someone who has
