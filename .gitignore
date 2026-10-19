@@ -17,3 +17,9 @@ site/audio/
 Thumbs.db
 
 .cache/
+
+# typesetting artifacts (regenerate with tools/layout_prep.py + designcraft)
+layout/*.md
+layout/*.docx
+layout/*.pdf
+layout/*.designcraft

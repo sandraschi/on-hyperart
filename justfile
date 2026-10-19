@@ -41,6 +41,14 @@ lore-strict:
 dash:
   @py -3 tools/dashcheck.py
 
+# Print edition: A4 PDF via DesignCraft (front matter, plates, heads, folios, TOC).
+print:
+  @py -3 tools/build_layout.py
+
+# Re-fetch public-domain plates (writes layout/plates/CREDITS.md).
+plates:
+  @py -3 tools/fetch_plates.py layout/plates
+
 # ---- bookkit (shared toolkit, ../bookkit) ----
 bk := "py -3 ../bookkit/bk.py"
 
