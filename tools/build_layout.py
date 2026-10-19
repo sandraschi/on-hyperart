@@ -24,31 +24,45 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LAYOUT = os.path.join(ROOT, "layout")
 SRC = os.path.join(LAYOUT, "src")
 DOCX = os.path.join(LAYOUT, "docx")
-PLATES = os.path.join(LAYOUT, "plates")
+PLATES = os.path.join(LAYOUT, "plates8")
 CLI = r"C:\Program Files\DesignCraft\designcraft-cli.exe"
 
 PAGE_W, PAGE_H = 595.276, 841.89
-M_TOP, M_BOT, M_IN, M_OUT = 60.0, 72.0, 72.0, 60.0
+M_TOP, M_BOT, M_IN, M_OUT = 84.0, 92.0, 92.0, 78.0
 BLEED = 9.0
 FRONT_PAGES = 6
-PLATE_PAGES = 8
-BODY_START = FRONT_PAGES + PLATE_PAGES
+PLATE_PAGES = 0
+BODY_START = FRONT_PAGES
 
 CHAPTERS = [
     "00-preface.md", "01-the-misdirection.md", "02-futurist-lineage.md",
     "03-no-soul-equation.md", "04-the-stack.md", "05-locating-the-present.md",
     "06-thresholds.md", "07-control-case.md", "08-terminal-states.md",
-    "09-day-two.md", "10-corpus.md", "side-acoustic-leviathan.md",
-    "side-latent-personae-and-law.md", "side-hypermath.md",
-    "side-what-scifi-gets-wrong.md", "side-lepore-counter-thesis.md",
+    "09-day-two.md", "10-corpus.md", "11-llm-writing.md",
+    "side-acoustic-leviathan.md", "side-latent-personae-and-law.md",
+    "side-hypermath.md", "side-what-scifi-gets-wrong.md",
+    "side-lepore-counter-thesis.md",
 ]
 
-PLATE_SPEC = [
-    ("klimt_water_serpents.jpeg", "Klimt, Water Serpents II (1904-07). The sea as ornament, the body as current."),
-    ("waterhouse_mermaid.jpg", "Waterhouse, A Mermaid (1900). She combs her hair and waits for no one."),
-    ("fuseli_nightmare.jpg", "Fuseli, The Nightmare (1781). Dread arrives before the machine has a face."),
-    ("blake_red_dragon.jpg", "Blake, The Great Red Dragon and the Woman Clothed with the Sun (c. 1805). Apocalypse as composition."),
-]
+# Plates open the chapter they belong to (recto image, caption, then the chapter).
+PLATE_FOR = {
+    "01-the-misdirection.md": ("01_bocklin_isle.jpg",
+        "Böcklin, Isle of the Dead (1880). The harbour nobody returns from."),
+    "03-no-soul-equation.md": ("03_bocklin_triton.jpg",
+        "Böcklin, Triton and Nereid (1873). The sea's own couple."),
+    "05-locating-the-present.md": ("04_bocklin_waves.jpg",
+        "Böcklin, Play of the Waves (1883). Water as company."),
+    "06-thresholds.md": ("05_fuseli_nightmare.jpg",
+        "Fuseli, The Nightmare (1781). Dread arrives before the machine has a face."),
+    "07-control-case.md": ("07_bosch_hell.jpg",
+        "Bosch, The Garden of Earthly Delights: Hell (detail). The infernal tree."),
+    "08-terminal-states.md": ("08_blake_whirlwind.jpg",
+        "Blake, The Whirlwind of Lovers (1827). Apocalypse as composition."),
+    "09-day-two.md": ("06_bruegel_death.jpg",
+        "Bruegel, The Triumph of Death (1562). The crowd scene nobody survives."),
+}
+
+PLATE_SPEC = []
 
 STYLE_MAP = {
     "heading 1": "Chapter Title", "heading 2": "Section",
@@ -198,18 +212,18 @@ def styles() -> list[str]:
           {"fontFamily": "Georgia", "fontStyle": "Italic", "size": 8.5, "leading": lead(12)}),
         p("Body", {"align": "leftJustified", "firstLineIndent": 12, "spaceBefore": 0, "spaceAfter": 0,
                    "hyphenate": True},
-          {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 10.5, "leading": lead(15)}),
+          {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 12.5, "leading": lead(19.5)}),
         p("Body First", {"firstLineIndent": 0}, {}, based="Body"),
         p("Chapter Title", {"align": "left", "firstLineIndent": 0, "spaceBefore": 0, "spaceAfter": 26,
                             "hyphenate": False},
-          {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 24, "leading": lead(28)}),
+          {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 26, "leading": lead(30)}),
         p("Section", {"align": "left", "firstLineIndent": 0, "spaceBefore": 16, "spaceAfter": 6,
                       "hyphenate": False},
-          {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 12, "leading": lead(15)}),
+          {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 12.5, "leading": lead(16)}),
         p("Quote", {"align": "left", "leftIndent": 18, "firstLineIndent": 0, "spaceBefore": 6, "spaceAfter": 6},
-          {"fontFamily": "Georgia", "fontStyle": "Italic", "size": 9.5, "leading": lead(13)}),
+          {"fontFamily": "Georgia", "fontStyle": "Italic", "size": 10, "leading": lead(14.5)}),
         p("Note", {"firstLineIndent": 0, "spaceBefore": 4, "spaceAfter": 4},
-          {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 8, "leading": lead(10.5)}),
+          {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 7.3, "leading": lead(9.4)}),
         p("TOC Title", {"align": "left", "firstLineIndent": 0, "spaceAfter": 18},
           {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 18, "leading": lead(22)}),
         p("TOC Entry", {"align": "left", "firstLineIndent": 0, "spaceBefore": 3, "spaceAfter": 3},
@@ -246,8 +260,9 @@ def front_matter() -> list[str]:
         "Sandra Schipal\n\n"
         "Construction draft, 2026. Not for sale. Chapters carrying [construction] flags "
         "are working text; see the repository for the live logbook and issues.\n\n"
-        "Set in Georgia, typeset with DesignCraft. Plates are public domain, sourced from "
-        "Wikimedia Commons; full credits in layout/plates/CREDITS.md."
+        "Set in Georgia, typeset with DesignCraft. Plates are public domain, from the "
+        "local painting archive; seven plates open their chapters. Credits in "
+        "layout/plates8/CREDITS.md."
     )
     out += text_frame(1, [72, 90, 523, 400], colophon, "Colophon")
     for i, (fname, caption) in enumerate(PLATE_SPEC):
@@ -294,21 +309,46 @@ def toc_entries(path: str) -> list[dict]:
     return data if isinstance(data, list) else data.get("entries", [])
 
 
+def image_cmds(index: int, fname: str, caption: str) -> list[str]:
+    path = os.path.join(PLATES, fname)
+    if not os.path.exists(path):
+        raise SystemExit(f"missing plate: {path}")
+    from PIL import Image
+    with Image.open(path) as im:
+        w, h = im.size
+    box_w, box_h = PAGE_W - M_IN - M_OUT, 520.0
+    scale = min(box_w / w, box_h / h)
+    width = round(w * scale, 2)
+    height = h * scale
+    spread, x0 = page_x(index)
+    top = 96 + (box_h - height) / 2
+    return [
+        cmd("file.place", {"path": path, "spread": spread,
+                           "x": round(x0 + M_IN, 2), "y": round(top, 2), "width": width}),
+        *text_frame(index, [M_IN, 96 + box_h + 10, PAGE_W - M_OUT, 96 + box_h + 56],
+                    caption, "Plate Caption"),
+    ]
+
+
 def place_chapters(docx_files: list[str], stage: str) -> None:
     for i, docx in enumerate(docx_files):
         doc = inspect(stage)
         n = doc["pageCount"]
         start = n if n % 2 == 0 else n + 1        # even index = recto
-        # pages must exist up to and including `start`
-        cmds = [cmd("layout.pages.insert", {"count": start - n + 1})]
+        plate = PLATE_FOR.get(CHAPTERS[i])
+        chapter_start = start + 2 if plate else start
+        cmds = [cmd("layout.pages.insert", {"count": chapter_start - n + 1})]
+        # place the chapter first: a selected text frame would capture the DOCX
         cmds.append(cmd("file.place", {
-            "path": docx, "page": start + 1,
-            "rect": rect_for(start, [M_IN, M_TOP, PAGE_W - M_OUT, PAGE_H - M_BOT]),
+            "path": docx, "page": chapter_start + 1,
+            "rect": rect_for(chapter_start, [M_IN, M_TOP, PAGE_W - M_OUT, PAGE_H - M_BOT]),
             "autoflow": True, "styleMap": STYLE_MAP,
         }))
+        if plate:
+            cmds += image_cmds(start, *plate)
         out = save_stage(cmds, stage, source=stage)
-        print(f"  [{i + 1}/{len(docx_files)}] {os.path.basename(docx)} -> page {start + 1} "
-              f"({out.strip().splitlines()[0][:60]})")
+        print(f"  [{i + 1}/{len(docx_files)}] {os.path.basename(docx)} -> page {chapter_start + 1} "
+              f"({'plate ' + plate[0] + '; ' if plate else ''}{out.strip().splitlines()[0][:40]})")
 
 
 def finish(stage: str, final: str, pdf: str) -> None:
@@ -317,8 +357,19 @@ def finish(stage: str, final: str, pdf: str) -> None:
     if not entries:
         raise SystemExit("no TOC entries")
     starts = sorted((int(e["page"]), e["text"]) for e in entries)
+    image_pages: set[int] = set()
+    for spread in doc["spreads"]:
+        pages = spread["pages"]
+        for item in spread["items"]:
+            if item.get("kind") != "<image>":
+                continue
+            x0 = item["bounds"][0]
+            for page in pages:
+                b = page["bounds"]
+                if b[0] <= x0 <= b[2]:
+                    image_pages.add(page["index"])
     cmds = [cmd("style.paragraph.edit", {"name": "Compact", "chars": {
-        "size": 9, "leading": {"kind": "points", "value": 12}}})]
+        "size": 9.5, "leading": {"kind": "points", "value": 12.5}}})]
 
     def chapter_for(page_one_based: int) -> str:
         title = starts[0][1]
@@ -330,6 +381,8 @@ def finish(stage: str, final: str, pdf: str) -> None:
         return title
 
     for index in range(BODY_START, doc["pageCount"]):
+        if index in image_pages:
+            continue
         spread, x0 = page_x(index)
         side = "Recto" if index % 2 == 0 else "Verso"
         head = chapter_for(index + 1) if side == "Recto" else "On Hyperart"
