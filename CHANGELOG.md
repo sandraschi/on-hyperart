@@ -1,5 +1,21 @@
 # Changelog — on-hyperart
 
+## v0.6 (2026-10-19) — new chapter, plates at chapter starts
+
+- **XI. LLM Writing and Its Discontents** added: the reader is not a context
+  window; the Stoppard phantom as a case study in confident synthesis; the four
+  frictions (unearned explanation, flat register, no public embarrassment, no
+  stake); the footnote as respect. Three notes.
+- **Chapter I clarified**: "the junior in the studio", one lit compositing bay,
+  the night guard — scene before thesis.
+- **Plates now open their chapters** (recto image, caption, then the chapter),
+  not a front plate section. Rossetti dropped: it did not fit. Seven plates:
+  Böcklin (Isle, Triton, Waves), Fuseli, Bosch, Blake, Bruegel.
+- **Typography up**: body 12.5/19.5, margins 84/92/92/78, chapter titles 26/30;
+  notes down to 7.3/9.4 (they were shouting).
+- 92 pages. The 150-page target needs roughly 8-10k more words, not more
+  spacing; expansion plan in the handover.
+
 ## v0.5 (2026-10-19) — print edition
 
 - **A4 book built with DesignCraft** (`just print`): 63 pages, facing pages,

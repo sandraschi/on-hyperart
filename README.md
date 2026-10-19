@@ -51,7 +51,9 @@ collapse; Bands I–VI; DIY and its three dangers) · V Locating the present
 points · VII The control case and why it fails (weak brakes killed, strong
 brakes conceded) · VIII Terminal states (leviathan, personae, hypercinema) ·
 IX Day Two (calligraphy precedent, two griefs, descent ladder, BCI) ·
-X The book in the corpus.
+X The book in the corpus · XI LLM Writing and Its Discontents (the reader is
+not a context window; where the model is too harsh, too kind, and cannot be
+embarrassed).
 
 **Sides:** acoustic leviathan · latent personae and law · hypermath (verified
 recombination, the verifier clock, the math/art/truth/beauty chain) · what
@@ -96,8 +98,8 @@ Config: `book.toml` (order, port, lore rules). Shims in `tools/` delegate to
 
 **Print edition:** `just print` -> `layout/on-hyperart.pdf`. A4, facing pages,
 3 mm bleed, chapter openers on rectos, running heads, folios, generated TOC,
-eight public-domain plates from the local painting archive (`just plates-local`
-picks the largest scan per work; `just plates` is the Commons fallback). Built
+seven public-domain plates that open their chapters (`just plates-local` picks
+the largest scan per work; `just plates` is the Commons fallback). Built
 headless through DesignCraft; source scripts in `layout/*.script`. Tables are
 the known rough edge: imported columns come in even and need a caret-in-cell
-follow-up.
+follow-up. 92 pages; the 150-page target is a writing job, not a spacing job.
