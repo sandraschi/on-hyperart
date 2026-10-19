@@ -37,6 +37,10 @@ lore:
 lore-strict:
   @py -3 tools/lorecheck.py --strict
 
+# Dash style: em dashes in prose, no spaced ASCII hyphens (fence-aware).
+dash:
+  @py -3 tools/dashcheck.py
+
 # ---- bookkit (shared toolkit, ../bookkit) ----
 bk := "py -3 ../bookkit/bk.py"
 

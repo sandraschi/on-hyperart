@@ -20,25 +20,25 @@ Where we stand, to the best of public evidence, October 2026:
 | 2009-08-14 `[construction: verify]` | Redline premieres (Locarno, slipped from Annecy), seven-year hand-drawn production, ~100 min; Japan release 2010-10-09 `[construction: verify]` | pre-stack baseline | velocity corner priced beyond repetition — the production could not even make its own festival date; *The Boy and the Heron* (2023, hand-drawn, multi-year `[construction: verify]`) is the priced exception, financed by Miyazaki's name |
 | 2020-2024 | Theatrical window collapses, studio by studio `[construction: Issue #4 — 5 dated rows, 90-day to day-and-date to streaming-first]` | Band V in motion | Threshold D approached: runtime and venue stop being set by projectors and bladders |
 | 2023-01-31 | Netflix Japan / WIT *The Dog & The Boy*: generated background art, credited "AI + human" | B, Band II-III | [web-verified per Opus review 2026-10-11; primary pending] |
-| 2023-04 `[construction: verify]` | "Heart on My Sleeve" (Ghostwriter977): synthetic Drake/Weeknd vocals, pulled after UMG takedowns | A, C | [memory - verify] |
-| 2023-09 / 2023-12 `[construction: verify]` | WGA + SAG-AFTRA contracts carry AI clauses | owners for A, C | [memory - verify] |
-| 2023-11 `[construction: verify]` | Beatles "Now and Then": ML separation of a 1970s Lennon demo | A edge (human voice, machine recovery) | [memory - verify] |
+| 2023-04 `[construction: verify]` | "Heart on My Sleeve" (Ghostwriter977): synthetic Drake/Weeknd vocals, pulled after UMG takedowns | A, C | [memory — verify] |
+| 2023-09 / 2023-12 `[construction: verify]` | WGA + SAG-AFTRA contracts carry AI clauses | owners for A, C | [memory — verify] |
+| 2023-11 `[construction: verify]` | Beatles "Now and Then": ML separation of a 1970s Lennon demo | A edge (human voice, machine recovery) | [memory — verify] |
 | 2024 | Song-stack models go mass-market; temp-to-master collapse in bedrooms `[construction: Issue #5 context — name versions + model cards with dates]` | Bands I-III crossed for music | drafting-to-substitution for song form happened first because song form is short, cheap, and harmonically documented |
 | 2024-03 `[construction: verify]` | Tennessee ELVIS Act signed | Threshold C attempt | first statute naming voice/likeness as protectable against synthesis; owner named, enforceability untested against latent interpolation |
 | 2024-09 `[construction: verify — Issue #2]` | California AB 1836 / AB 2602 signed | Threshold C attempt | replica-likeness consent regime; discrete statute vs continuous space — the mismatch Ch VII dissects |
-| 2024-05 `[construction: verify]` | Randy Travis "Where That Came From": rebuilt voice, consented | A (consented crossing) | [memory - verify] |
-| 2024-06 `[construction: verify]` | RIAA-backed suits v. Suno and Udio | Ch VII | [memory - verify] |
-| 2025-01 `[construction: verify]` | *The Brutalist*: Respeecher-refined Hungarian dialogue, awards-season controversy | A, award bodies | [memory - verify] |
+| 2024-05 `[construction: verify]` | Randy Travis "Where That Came From": rebuilt voice, consented | A (consented crossing) | [memory — verify] |
+| 2024-06 `[construction: verify]` | RIAA-backed suits v. Suno and Udio | Ch VII | [memory — verify] |
+| 2025-01 `[construction: verify]` | *The Brutalist*: Respeecher-refined Hungarian dialogue, awards-season controversy | A, award bodies | [memory — verify] |
 | 2025-03-18 | *Thaler v. Perlmutter*, D.C. Cir.: human authorship required, pure AI output not registrable | Ch VII brake | [web-verified per Opus review 2026-10-11; primary opinion pending] |
-| 2025-04 `[construction: verify]` | Academy rule: AI use "neither helps nor harms" eligibility | award owners | [memory - verify] |
-| 2025-06 `[construction: verify]` | Disney & Universal v. Midjourney | C, Ch VII | [memory - verify] |
-| 2025-06/07 `[construction: verify]` | "The Velvet Sundown": AI band, large Spotify audience before disclosure | A, Band III | [memory - verify] |
-| 2025-07 `[construction: verify]` | IMO gold-level AI results (see hypermath, Issue #6) | side | [memory - verify] |
+| 2025-04 `[construction: verify]` | Academy rule: AI use "neither helps nor harms" eligibility | award owners | [memory — verify] |
+| 2025-06 `[construction: verify]` | Disney & Universal v. Midjourney | C, Ch VII | [memory — verify] |
+| 2025-06/07 `[construction: verify]` | "The Velvet Sundown": AI band, large Spotify audience before disclosure | A, Band III | [memory — verify] |
+| 2025-07 `[construction: verify]` | IMO gold-level AI results (see hypermath, Issue #6) | side | [memory — verify] |
 | 2025-09-30 | Tilly Norwood (Particle6/Xicoia): agents reportedly interested, SAG-AFTRA condemnation | **C — first real Threshold C row** | [web-verified per Opus review 2026-10-11; primary pending] |
-| 2025-09/10 `[construction: verify]` | Sora 2 release with synchronized audio | Band III-IV video | [memory - verify] |
+| 2025-09/10 `[construction: verify]` | Sora 2 release with synchronized audio | Band III-IV video | [memory — verify] |
 | 2025-10 / 2025-11-25 | UMG-Udio, WMG-Suno settlements; Suno to licensed models in 2026 | Ch VII mutation (prohibition to licensing) | [web-verified per Opus review 2026-10-11; primary pending] |
-| 2026-08 `[construction: verify]` | EU AI Act Art. 50 transparency obligations apply | E, provenance | [memory - verify] |
-| 2026-10-14 `[construction: verify - Al Jazeera report]` | Crafting Apps (ArtCraft/PhotoCraft) reported as free substitutes for Adobe, worldwide; clean-room claim with Guadamuz caveat | Band III tools, L3 | production-tool collapse reaches a general audience; the tool chain is now a dated row, not an omission |
+| 2026-08 `[construction: verify]` | EU AI Act Art. 50 transparency obligations apply | E, provenance | [memory — verify] |
+| 2026-10-14 `[construction: verify — Al Jazeera report]` | Crafting Apps (ArtCraft/PhotoCraft) reported as free substitutes for Adobe, worldwide; clean-room claim with Guadamuz caveat | Band III tools, L3 | production-tool collapse reaches a general audience; the tool chain is now a dated row, not an omission |
 | 2026-10-18 `[construction: verify]` | PhotoCraft v0.10.0 shipping; attention peak 2026-10-07..12 (per Cursor brief) | Band V | the blast radius has a peak date; a November copy claiming the same weather is a falsifiable error |
 
 ## What has NOT happened (say it plainly)

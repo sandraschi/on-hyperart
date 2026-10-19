@@ -26,7 +26,7 @@ humans keep the labels. The consensus missed it. The outlier did not.
 2005: Kurzweil, *The Singularity Is Near*, still sells nanotech and
 uploads as the main act. He is also the outlier who had already built
 toward music and language: K250 (1984), Cybernetic Poet, *The Age of
-Spiritual Machines* (1999). `[memory - verify: citations before v0.2]`
+Spiritual Machines* (1999). `[memory — verify: citations before v0.2]`
 Art was not "assumed safe" in his whole corpus. It was assumed safe in
 the *consensus reading* of the singularity literature. Those are different
 facts.

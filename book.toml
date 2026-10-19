@@ -64,7 +64,10 @@ index_label = "Glossary of Terms of Art"
 [lore]
 forbidden = ["skynet", "terminator", "soulless"]
 mystique = ["lived experience", "divine spark", "human soul"]
-ascii = true
+# Prose is typographic, not code: em dashes are house style. The fleet ASCII
+# rule applies to logs, filenames and machine-read fields, not the manuscript.
+ascii = false
+dash = "em"
 
 [translate]
 languages = []
