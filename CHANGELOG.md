@@ -1,5 +1,31 @@
 # Changelog — on-hyperart
 
+## v0.4 (2026-10-19) — review absorbed, gate closed, counter-thesis faced
+
+- **Cold open shipped** in Ch I (02:10, credit block still empty). Variants
+  stub retired from the book order — process files stay out of the covers.
+- **Structural cascade from the Opus review:** AI rows into Ch V (2023–2026,
+  each tagged web-verified or memory-verify); L1/L2/L3 box + Dutton answer +
+  dated Bellaiche prediction; thresholds A′/B′/D′ redefined to discriminate
+  synthesis; strong brakes faced (copyrightability conceded, unions named,
+  licensing mutation, C2PA vs invisible watermark); lineage corrected
+  (Asimov → machine government, Data → interiority test).
+- **Verifier clock** (from the 2026-10-19 Drive transcripts): verified
+  recombination vs model collapse, and the domain table — art fell first
+  because its verifier is a mammal who answers surveys. Wired into Ch I.
+- **DIY section** in Ch IV: studio-in-a-bedroom glory, three dangers
+  (attention, provenance, bespoke copies), asymmetry settled by verifier
+  latency (bedroom studio vs basement protein generator).
+- **Ch III corrections:** the mix is not a subtraction (pepper in coffee);
+  collapse is a curation failure, not a law of recombination.
+- **Lepore read** (*The Rise and Fall of the Artificial State*, 2026):
+  new side file — world-alienation counter-thesis, three hits, the synthesis
+  with the descent ladder, and the mechanism we lacked (the corpus cannot
+  tell a warning from a recipe).
+- ECONOMICS_OF_HYPERART populated with three flagged tables (L3 ledger).
+- Falsifier boxed in Ch II. Tetralogy language fixed. bookkit migration
+  (port 11156). Ch V revision-dated 2026-10-19.
+
 ## v0.1 (2026-10-11) — skeleton
 
 - Repo scaffold parallel to on-hyperwar / on-ai-takeover.
@@ -10,4 +36,10 @@
 
 ## Unreleased
 
-- Ch V dated entry; Ch IV iron-triangle box; Farinelli + ELVIS cites.
+- Primary sources for the ~16 `[memory - verify]` Ch V rows (the gate is
+  now: fill or cut, not "verify later").
+- Page-level cites for Lepore (print copy) and for the review's web-verified
+  items (court opinion, union statements, model cards).
+- German edition (chapters_de still a gitkeep).
+- Integrated volume: *On Verification* — the four books as cases of one
+  variable. Write after the logbooks are fuller.

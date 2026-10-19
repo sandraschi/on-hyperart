@@ -1,7 +1,8 @@
 # On Hyperart — the aesthetic singularity arrived first
 
-**Status:** construction v0.1 (2026-10-11). Private. Audience: principals who
-commission, publish, or defend human art budgets — not hobbyists.
+**Status:** construction v0.4 (2026-10-19). Private. Audience: principals who
+commission, publish, or defend human art budgets — not hobbyists. All chapters
+drafted; nothing promoted until the flags clear.
 **Sister repos:** `on-hyperwar` (kinetic/strategic), `on-ai-takeover`
 (systemic/economic), `on-metacraft` (tools / reimplementation cost).
 Same ladder method, same tooling (`just lore`, declaim pipeline).
@@ -16,10 +17,13 @@ with no physical drag.
 
 ## Lineage
 
-- **Classic miss:** Asimov's calculating positronic brains, Gibson's lonely
-  orbital collage-maker in Count Zero, the emotionally crippled android
-  playing violin like an automaton. Kurzweil/Moravec promised heavy-matter
-  miracles; Yudkowsky/Bostrom warned of a cold accountant optimizer.
+- **Classic miss:** Asimov's calculating positronic brains (actually about
+  machine government — the Artificial State — and read by the industry as
+  instruction manuals), Gibson's lonely orbital collage-maker in *Count Zero*
+  (actually anticipation, not quarantine), the emotionally crippled android
+  playing violin like an automaton (that one is Data, TNG 1989). Kurzweil and
+  Moravec promised heavy-matter miracles; Yudkowsky and Bostrom warned of a
+  cold accountant optimizer.
 - **What arrived:** not an accountant but a Hyper-Artistic Leviathan —
   an aesthetic kami orchestrating resonance, dread and formal beauty at
   bandwidths that make the recorded output of biological humanity a flat,
@@ -36,20 +40,32 @@ vibes) cannot be dated or acted on. This book is control-centric: where,
 exactly, did the human leave the production chain, what compromise stopped
 binding, and what attachment point — if any — still holds?
 
-## Chapters (I-X, stubs in `chapters/`)
+## Chapters (I–X, drafted in `chapters/`)
 
-I Cold open (a three-minute demonic roar week, 2026) · II What the futurists
-got wrong (physical vs semantic singularity) · III No soul equation (qualia
-liquidation, reductionist canvas) · IV The stack (iron-triangle collapse:
-depth vs velocity vs scale) · V Locating the present (living, revision-dated:
-voice chimeras, sakuga models, 72-hour architectures) · VI Thresholds A-E as
-attachment points (publicity rights, theatrical window, labor, watermark,
-immersion) · VII The control case and why it fails (copyright filters,
-"human-made" certification) · VIII Terminal states (acoustic leviathan,
-latent personae, orthogonal hypercinema) · IX Day Two (living beneath the
-kami, folk-art demotion, BCI sensorium) · X The book in the corpus.
+I The misdirection — cold open at 02:10, and why the singularity arrived in
+aesthetics first · II What the futurists got wrong (physical vs semantic;
+the corpus cannot tell a warning from a recipe) · III No soul equation (qualia
+liquidation; L1 value / L2 response / L3 price) · IV The stack (iron-triangle
+collapse; Bands I–VI; DIY and its three dangers) · V Locating the present
+(living, revision-dated logbook, 2023–2026) · VI Thresholds A–E as attachment
+points · VII The control case and why it fails (weak brakes killed, strong
+brakes conceded) · VIII Terminal states (leviathan, personae, hypercinema) ·
+IX Day Two (calligraphy precedent, two griefs, descent ladder, BCI) ·
+X The book in the corpus.
 
-Full map with Bands I-VI in `chapters/04-the-stack.md`; this README is the compact form.
+**Sides:** acoustic leviathan · latent personae and law · hypermath (verified
+recombination, the verifier clock, the math/art/truth/beauty chain) · what
+sci-fi gets wrong · **the Lepore counter-thesis** (world-alienation — the
+strongest objection the book faces).
+
+Full map with Bands I–VI in `chapters/04-the-stack.md`; this README is the
+compact form.
+
+## What would falsify the book
+
+Boxed in Ch II, checkable by 2030: zero A′–E′ crossings in the logbook while
+a dated physical breakthrough of comparable scale ships. The inversion thesis
+is about order, so it names its own refutation.
 
 ## Design constraints (normative, see CONTRIBUTING.md)
 
@@ -60,16 +76,19 @@ Full map with Bands I-VI in `chapters/04-the-stack.md`; this README is the compa
   No non-consensual likeness how-tos, no voice-clone build guides targeting a
   named living person, no CSAM-adjacent detail, no code that defeats a named
   watermark/filter. A chapter that teaches is a chapter that gets cut.
-- Style: plain declarative, dates first, Kahn-flat. Treat cinema, voice and
-  painting as technological artifacts. Never mourn; dissect. No neoclassical
-  humanism ("soul", "lived experience" as stop-arguments) — see STYLE rule in
+- Style: declarative with earned aphorism — lyrical where the sisters are
+  Kahn-flat, one aphorism per section, never in place of a cite. Treat cinema,
+  voice and painting as technological artifacts. Never mourn; dissect. No
+  neoclassical humanism ("soul", "lived experience" as stop-arguments) — see
   CONTRIBUTING.md.
-- Fleet integration: weave parallel lessons — Pentagon command-loop liquidation
-  (on-hyperwar) and $50/seat SaaS moat collapse (on-ai-takeover) are the same
-  math destroying the studio system here.
+- Fleet integration: the four collapse domains are cases of one variable —
+  verification latency. Pentagon command-loop liquidation (on-hyperwar), SaaS
+  moat collapse (on-ai-takeover), reimplementation cost (on-metacraft), and
+  the studio compromise envelope (here).
 
-## Tooling (ported from on-ai-takeover at v0.1)
+## Tooling (bookkit, migrated 2026-10-13)
 
-`tools/lorecheck.py` + `just lore` (chapter coverage, dates, forbidden terms),
-`tools/declaim.py` (read-aloud gate), `tools/build_site.py` + `just serve`
-(static reader, http://localhost:11156/, registered in WEBAPP_PORTS.md).
+Config: `book.toml` (order, port, lore rules). Shims in `tools/` delegate to
+`D:\Dev\repos\bookkit`. `just build` (site + EPUB), `just serve`
+(http://localhost:11156/, registered in WEBAPP_PORTS.md), `just lore`
+(coverage, dates, forbidden terms, ASCII), `just declaim` (read-aloud gate).
