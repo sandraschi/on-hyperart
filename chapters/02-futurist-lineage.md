@@ -74,6 +74,10 @@ institutions that still quote it.
 with dates; add Allen 2016 hyperwar lineage contrast (he at least dated
 decision speed). Keep to 3-5 quoted lines, fair use.]`
 
+## The falsifier
+
+> **Checkable by 2030.** If the Ch V logbook shows zero A'–E' crossings while a dated physical-domain breakthrough of comparable scale ships — commercial fusion power to the grid, or seven-figure humanoid deployment with dates — the ordering claim in this chapter fails. The inversion thesis is about *order*, so it must name what would refute it. This is that sentence, dated 2026-10-11 and entered in the logbook's discipline.
+
 ## Fleet link
 
 Pre-Kahn nuclear discourse refused intermediate rungs: deterrence holds or

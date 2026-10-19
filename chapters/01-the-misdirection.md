@@ -3,6 +3,33 @@
 **Status:** Draft v0.2 2026-10-11, Muse Spark 1.3 (Opus pass pending). Non-normative prose.
 **Revision date:** 2026-10-11.
 
+## 02:10, the credit block still empty
+
+The junior had a folder of approvals and a command list. The folder said the
+client's legal team had signed off on the source, the sound bed, and the
+appearance release — all of it, weeks ago, in daylight, by people whose names
+he could produce. What the folder did not contain was anything about the four
+seconds where the mouth did not match the new line.
+
+He read the commands the way a cook reads a recipe written by someone who has
+never been hungry: in order, without trust. Frame range. Mask. Regenerate the
+mouth, keep the jawline. Match the grain. Then the part nobody had written
+down — the part that used to have a job title — the part where a person
+decides whether the mouth is doing grief or a dub.
+
+At 02:10 he decided. Nobody countersigned, because the thing he decided had no
+name in the budget: not the take, not the frame, not the cut. He decided what
+the face was doing while it said the line.
+
+The delivery note went out at 02:31 with his name in a field labeled
+"operator." The credit block would be assembled in the morning by someone with
+a legal checklist and no memory of the four seconds. And the four seconds
+were, by the time anyone looked, simply part of the film.
+
+`[construction: the production-tool rows behind this scene — Crafting Apps /
+ArtCraft, Band III — enter Ch V with dates or the scene stays generic. The
+scene is written to need none of them.]`
+
 ## At what frame rate does authorship become ceremonial?
 
 Not "will machines make art" — they already do, daily, on every feed. The
@@ -17,7 +44,8 @@ at 02:00 approving the tenth "final" stem that night, ears fatigued, pressing
 green because red means another hour. **Told afterwards:** the machine ships,
 the human reads the credits. Everything in this book is an attempt to date,
 per rung and per artifact, which slide we are on — because studios claim the
-first, practice lives in the second, and the third arrives without announcement.
+first, practice lives in the second, and the third arrives without
+announcement. The scene above is the second slide wearing a delivery note.
 
 `[construction: Ch V will carry the dated rows. Candidate anchors under
 verification: Farinelli-IRCAM 1994 splice (Issue #1), 2024-2026 song-stack
@@ -51,8 +79,9 @@ millennia of human civilization had obligingly published it: poetics, counterpoi
 chiaroscuro manuals, screenwriting beats, honkaku deduction rules, melodrama
 cue sheets. An unauthenticated interface, scraped at scale.
 
-So the machine did not arrive as an accountant. It arrived as a kami[^kami] with
-perfect pitch.
+So the machine did not arrive as an accountant. It arrived as a kami[^kami] with perfect pitch.
+
+One more mechanism, cheap to state and load-bearing: the order of collapse follows the price of the test. Aesthetic response can be polled — a million listeners, an afternoon, no equipment. Physical reality cannot be polled; every answer bills a laboratory. The singularity arrived in aesthetics first because aesthetics is the one domain whose verifier is a mammal, and mammals answer surveys. (The full table is in the hypermath side.)
 
 ## What this book will not do
 

@@ -1,7 +1,7 @@
 # V. Locating the Present
 
 **Status:** Draft v0.3 2026-10-18. Living chapter.
-**Revision date:** 2026-10-18. Next review: `[construction: after Issues #1-5 resolve]`.
+**Revision date:** 2026-10-19. Next review: `[construction: after Issues #1-5 resolve]`.
 
 ## Read this chapter with a pencil
 
@@ -38,6 +38,8 @@ Where we stand, to the best of public evidence, October 2026:
 | 2025-09/10 `[construction: verify]` | Sora 2 release with synchronized audio | Band III-IV video | [memory - verify] |
 | 2025-10 / 2025-11-25 | UMG-Udio, WMG-Suno settlements; Suno to licensed models in 2026 | Ch VII mutation (prohibition to licensing) | [web-verified per Opus review 2026-10-11; primary pending] |
 | 2026-08 `[construction: verify]` | EU AI Act Art. 50 transparency obligations apply | E, provenance | [memory - verify] |
+| 2026-10-14 `[construction: verify - Al Jazeera report]` | Crafting Apps (ArtCraft/PhotoCraft) reported as free substitutes for Adobe, worldwide; clean-room claim with Guadamuz caveat | Band III tools, L3 | production-tool collapse reaches a general audience; the tool chain is now a dated row, not an omission |
+| 2026-10-18 `[construction: verify]` | PhotoCraft v0.10.0 shipping; attention peak 2026-10-07..12 (per Cursor brief) | Band V | the blast radius has a peak date; a November copy claiming the same weather is a falsifiable error |
 
 ## What has NOT happened (say it plainly)
 
