@@ -107,5 +107,5 @@ who signs, on what paper, verified how. Takeover's asks what incident
 response looks like when responders need the suspect's cooperation. Ours asks
 what culture looks like when the audience prefers the weather: rooms that
 work without the cloud, juries that show their work, guitars in corners.
-Three books, one answer in three keys — retained redundant capability,
+Four books, one answer in four keys — retained redundant capability,
 deliberately maintained, priced out loud.

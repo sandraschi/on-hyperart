@@ -20,7 +20,6 @@ epigraph = [
 dir = "chapters"
 order = [
   "00-preface.md",
-  "cold-open-variants.md",
   "01-the-misdirection.md",
   "02-futurist-lineage.md",
   "03-no-soul-equation.md",
@@ -36,7 +35,7 @@ order = [
   "side-hypermath.md",
   "side-what-scifi-gets-wrong.md",
 ]
-front_matter = ["00-preface.md", "cold-open-variants.md"]
+front_matter = ["00-preface.md"]
 expected = [
   "01-the-misdirection.md", "02-futurist-lineage.md", "03-no-soul-equation.md", "04-the-stack.md",
   "05-locating-the-present.md", "06-thresholds.md", "07-control-case.md", "08-terminal-states.md",

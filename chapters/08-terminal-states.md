@@ -126,7 +126,7 @@ Hyperwar's terminal states are measured in who can still say no at machine
 speed. Takeover's are measured in whether reversal takes longer than the
 system's decision cycle. Ours are measured in whether a human hand, voice, or
 face is still load-bearing in any shipped artifact — or only ceremonial, known
-by its holder to be ceremonial. Three books, one question asked three ways:
+by its holder to be ceremonial. Four books, one question asked four ways:
 what is the smallest observable unit of control, and who holds it on the
 night it matters.
 

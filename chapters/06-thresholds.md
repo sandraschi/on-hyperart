@@ -115,5 +115,5 @@ Takeover-book's Threshold B (Audit Floor) is "no human institution can
 independently verify a claim about model behavior." Hyperwar's thresholds are
 export chokepoints and hotlines that work at machine speed. Ours are the same
 shape in the mirror: A-E mark where verification of human provenance stops
-being available. Three books, one sentence: the brake must be ownable before
+being available. Four books, one sentence: the brake must be ownable before
 the crossing, or it is literature afterwards. This chapter aims to be hardware.
