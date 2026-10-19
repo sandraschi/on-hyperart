@@ -26,3 +26,20 @@ as index.
 + sakuga kinetics + 72-hour run. Ch VIII.
 
 **Sakuga** — peak-intensity animated craft (animator-credited cuts). Ch IV/V.
+
+**Verifier clock** — the domain's test latency sets its collapse speed.
+Type checker: ms. Kinetics: ms. Simulator: minutes. Audience: hours at
+population scale. Organism: years. Art fell first because its verifier is a
+mammal who answers surveys. Side-hypermath; wired into Ch I.
+
+**Validated novelty** — growth in the reachable set of consequences under a
+checker, as opposed to free Shannon information. The honest form of the
+"verified recombination" argument. Side-hypermath.
+
+**World-alienation** — Arendt's objection, via Lepore: a world made entirely
+by machines leaves humans encountering only themselves in disguise. The
+strongest counter-thesis the book faces. Side-lepore-counter-thesis.
+
+**Warning-as-recipe** — the corpus cannot distinguish a cautionary tale from
+an instruction manual; the loss function has no column for *against*.
+Ch II (Lepore ch. 12).
