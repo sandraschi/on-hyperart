@@ -1,13 +1,13 @@
 # V. Locating the Present
 
-**Status:** Draft v0.2 2026-10-11, Muse Spark 1.3 (Opus pass pending). Living chapter.
-**Revision date:** 2026-10-11. Next review: `[construction: after Issues #1-5 resolve]`.
+**Status:** Draft v0.3 2026-10-18. Living chapter.
+**Revision date:** 2026-10-18. Next review: `[construction: after Issues #1-5 resolve]`.
 
 ## Read this chapter with a pencil
 
 Everything else in this book is structure. This chapter is weather. It rots
 fast and must be re-dated on every edit, or it becomes the kind of prophecy
-this trilogy exists to kill. The rule from the sisters holds: a rung with a
+this tetralogy exists to kill. The rule from the sisters holds: a rung with a
 date is an instrument; a rung with a vibe is a mood. Moods do not attach brakes.
 
 Where we stand, to the best of public evidence, October 2026:
@@ -71,12 +71,22 @@ week the provenance chain goes from "fatigued mixer approved it" to "nobody
 can say what approved it" — is the Audit Floor's aesthetic twin, and it will not
 announce itself. It will look like a very productive Tuesday.
 
+| Date | Artifact | Band | What it proves |
+|------|----------|------|----------------|
+| 2026-09-30 | PhotoCraft first commit (`storytold/photocraft`); six more Crafts the same week | production-tool chain, not a band | the editor of record for generated stills is no longer only Photoshop |
+| 2026-10-07 | Ars Technica "Software is over"; Office/CAD/audio Crafts appear | tool chain | switching-cost attack on the same week as general press |
+| 2026-10-14 | Al Jazeera on free substitutes for Adobe and Microsoft | exhibition of the *tools* | cultural blast radius left specialist press |
+| 2026-10-18 | Goliath: ArtCraft Launcher v0.5.1; roaming data for twelve of thirteen Crafts; Sandra: CLI and MCP usable | operator fact | the production chain is installed, not merely announced. See on-metacraft Ch V |
+
+These rows are tools, not takes. They do not move Threshold A-E. They
+change who can still say no to a *file* after the kami has generated it.
+
 ## Fleet link
 
 Takeover-book's Chapter V is dated July 2026 agent coordination as rung 11
 and monitorability decay on the operator's own testimony as rung 8. Hyperwar's
-Chapter V is fiber FPV and DIY cruise missiles with strike dates. This
-chapter's equivalents are smaller and harder to date because culture ships
-without casualty reports — which is exactly why the table above must be
-maintained like an incident log, not an essay. The essay is Chapters I-IV.
-This is the logbook.
+Chapter V is fiber FPV and DIY cruise missiles with strike dates. MetaCraft's
+Chapter V is the thirteen Crafts plus Goliath. This chapter's equivalents are
+smaller and harder to date because culture ships without casualty reports —
+which is exactly why the table above must be maintained like an incident log,
+not an essay. The essay is Chapters I-IV. This is the logbook.

@@ -61,12 +61,14 @@ promote it from construction. Until then: draft, in public, on purpose.
 
 ## Fleet close
 
-Three books, one method. *On Hyperwar*: decision speed as the weapon — where
+Four books, one method. *On Hyperwar*: decision speed as the weapon — where
 the human leaves the kill chain. *On AI Takeover*: reversibility of control —
 which rung, what moves us up one, who can still attach brakes. *On Hyperart*:
 reversibility of gatekeeping — which human can still say no to a shipped
-artifact, and what happens when the answer arrives after the premiere. Same
-ladder math, three domains: the clock, the switch, the stage.
+artifact, and what happens when the answer arrives after the premiere.
+*On MetaCraft*: the labor cost of reimplementing the tools that open the
+artifact. Same ladder math, four domains: the clock, the switch, the stage,
+the foundry.
 
 ## Charge
 

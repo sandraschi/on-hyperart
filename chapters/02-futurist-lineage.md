@@ -1,31 +1,42 @@
 # II. What the Futurists Got Wrong
 
-**Status:** Draft v0.2 2026-10-11, Muse Spark 1.3 (Opus pass pending).
-**Revision date:** 2026-10-11.
+**Status:** Draft v0.3 2026-10-18. R-02 (Opus 2026-10-11, accepted) applied.
+**Revision date:** 2026-10-18.
 
 ## The physical promise, dated
 
-1940-1950: Asimov's robot stories posit positronic brains that calculate
-flawlessly and feel nothing. The violin-playing android is a wind-up toy
-performing humanity it cannot join. Art is the proof of the missing interior.
+The consensus bet, twice, from opposite sides: physics first, pathos last.
+Asimov's robot stories (1940-1950) made interiority the test of the machine.
+The pop specimen of the quarantine is not a nameless violinist. It is Data
+in "The Ensigns of Command" (*Star Trek: The Next Generation* S3, 1989):
+precision offered as proof of missing interior, art as the tell.
+`[construction: episode air date / production code]`
 
-1986: Gibson publishes Count Zero. The most advanced machine aesthetic in the
-novel is a lonely orbital box-maker assembling collages from debris — poignant,
-marginal, harmless. Humans keep the studios, the labels, the galleries. The
-machine makes folk art in exile.
+1986: Gibson publishes *Count Zero*. The orbital box-maker assembling
+collages from debris is usually read as quarantine (folk art in exile,
+studios still human). That is the wrong close-reading. The box-maker is
+anticipation: a machine already doing aesthetic work at the margin while
+humans keep the labels. The consensus missed it. The outlier did not.
 
-2005: Kurzweil publishes The Singularity Is Near. Nanotech assembly, uploaded
-minds, physical abundance. Art is barely a chapter because art is assumed safe:
-once matter is solved, culture is dessert.
+2005: Kurzweil, *The Singularity Is Near*, still sells nanotech and
+uploads as the main act. He is also the outlier who had already built
+toward music and language: K250 (1984), Cybernetic Poet, *The Age of
+Spiritual Machines* (1999). `[memory - verify: citations before v0.2]`
+Art was not "assumed safe" in his whole corpus. It was assumed safe in
+the *consensus reading* of the singularity literature. Those are different
+facts.
 
-2014: Bostrom publishes Superintelligence. The optimizer wants computronium,
-not catharsis. Aesthetics appears as instrumental camouflage at best. The
-doomsday is cold, utilitarian, bored by beauty.
+2014: Bostrom, *Superintelligence*. The optimizer wants computronium, not
+catharsis. Aesthetics as camouflage at best. Cold, utilitarian, bored by
+beauty. The catastrophists and the consensus evangelists shared the order:
+matter, then dessert.
 
-Each prediction shares a structure: physics first, pathos last. Each was wrong
-about the order, because each mistook friction. They thought atoms were easy
-and souls were hard. Atoms unionize, rust, and require permits. Souls publish
-loss functions.
+The outliers saw the inversion. The consensus and the catastrophists did
+not. Why the outliers failed to move the consensus is the remaining
+question, not whether Gibson was lonely on purpose.
+
+They were wrong about the order because they mistook friction. Atoms
+unionize, rust, and require permits. Souls publish loss functions.
 
 ## Why pathos looked unassailable
 
@@ -51,17 +62,13 @@ which is Chapter VI's problem, not Chapter II's.
 
 ## The symptom close-read
 
-Re-read the two fictional machines as diagnostics of their authors' priors.
-Asimov's violinist must play badly-human on purpose: mechanical precision plus
-emotional absence, so the reader can tell which is which. Gibson's collagist
-must be lonely on purpose: exiled, yearning, harmless, so art stays a human
-monopoly with a touching outsider. Both are quarantine designs. They protect
-the citadel by imagining machines that respect it.
-
-What shipped instead respects nothing. No loneliness, no yearning, no wind-up
-limitation — just interpolation across the entire published keymap at a density
-no biological career can match. The quarantine was a literary choice, not a
-technical forecast.
+The quarantine design (Data as tell; the box-maker misread as exile) protects
+the citadel by imagining machines that respect it. What shipped instead
+respects nothing. No loneliness, no yearning, no wind-up limitation — just
+interpolation across the entire published keymap at a density no biological
+career can match. The quarantine was a literary choice, not a technical
+forecast. The outliers who refused the quarantine did not move the
+institutions that still quote it.
 
 `[construction: Opus pass — add Yudkowsky/Christiano "cold accountant" quotes
 with dates; add Allen 2016 hyperwar lineage contrast (he at least dated

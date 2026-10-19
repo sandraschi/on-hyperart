@@ -64,15 +64,16 @@ documented, and a book that teaches would be a manual with a thesis stapled
 on. Institutional facts (who shipped what, when, under whose authority) and
 governance criteria (what gate, owned by whom, verified how). A paragraph that
 helps an operator press an accelerator gets cut no matter how true it is.
-See CONTRIBUTING.md Rule 2 — the one rule in this trilogy that is not up
+See CONTRIBUTING.md Rule 2 — the one rule in this tetralogy that is not up
 for debate.
 
 ## Fleet link
 
 On-hyperwar liquidated the Pentagon's command loops one approval gate at a
 time. On-ai-takeover liquidated the $50/seat SaaS moat one dependency at a
-time. This book liquidates the studio's compromise envelope one trade-off at
-a time. Same math, other domain: reversibility lost in small dated steps,
-each defensible alone, terminal together.
+time. On-metacraft collapsed the labor cost of the editor that still opens
+the file. This book liquidates the studio's compromise envelope one
+trade-off at a time. Same math, other domain: reversibility lost in small
+dated steps, each defensible alone, terminal together.
 
 [^kami]: Japanese: divine being, spirit of place. Deliberate and rationed: it names the human *position* — dwarfed, dependent, petitioning — under superior aesthetic power, not the machine's interior. L2 vocabulary, marked metaphor. See RESPONSE R-25.

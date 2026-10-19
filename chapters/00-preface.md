@@ -70,7 +70,7 @@ resolved. Name the chapter and section, state what's wrong (wrong evidence,
 wrong position, not actually observable, duplicate), propose the change.
 Placement changes get their own commits — the *why it moved* stays one click
 from the *what*. Discord and conversation are fine front ends for typing; they
-are not the record, because scrollback has exactly the problem this trilogy
+are not the record, because scrollback has exactly the problem this tetralogy
 exists to fix: real disagreement happened, and six months later nobody can
 reconstruct why a position changed.
 
