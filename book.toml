@@ -34,6 +34,7 @@ order = [
   "side-latent-personae-and-law.md",
   "side-hypermath.md",
   "side-what-scifi-gets-wrong.md",
+  "side-lepore-counter-thesis.md",
 ]
 front_matter = ["00-preface.md"]
 expected = [

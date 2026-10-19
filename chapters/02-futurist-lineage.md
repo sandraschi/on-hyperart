@@ -6,10 +6,15 @@
 ## The physical promise, dated
 
 The consensus bet, twice, from opposite sides: physics first, pathos last.
-Asimov's robot stories (1940-1950) made interiority the test of the machine.
-The pop specimen of the quarantine is not a nameless violinist. It is Data
-in "The Ensigns of Command" (*Star Trek: The Next Generation* S3, 1989):
-precision offered as proof of missing interior, art as the tell.
+Asimov's robot stories (1940–1955) were not, at bottom, about interiority;
+they were about machine government. His subject was what Lepore calls the
+Artificial State — the robot mayor of "Evidence" (1946), the machine that
+elects the president in "Franchise" (1955) — and his warnings were read by
+the industry as instruction manuals (Lepore 2026, ch. 11–12
+`[construction: page cites pending print copy]`). The interiority test is a
+different quarantine, and its pop specimen is Data in "The Ensigns of
+Command" (*Star Trek: The Next Generation* S3, 1989): precision offered as
+proof of missing interior, art as the tell.
 `[construction: episode air date / production code]`
 
 1986: Gibson publishes *Count Zero*. The orbital box-maker assembling
@@ -73,6 +78,25 @@ institutions that still quote it.
 `[construction: Opus pass — add Yudkowsky/Christiano "cold accountant" quotes
 with dates; add Allen 2016 hyperwar lineage contrast (he at least dated
 decision speed). Keep to 3-5 quoted lines, fair use.]`
+
+## The corpus cannot tell a warning from a recipe
+
+A model trained on the whole archive ingests the warnings with the blueprints
+and the satires with the sales pitches. Lepore's sharpest observation is that
+the industry read cautionary tales — Asimov's robot presidents, Adams's spoof
+of the Foundation — as instruction manuals (Lepore 2026, ch. 12). The machine
+does the same thing for the same reason: the training objective does not
+weight a warning above the thing it warns against. Both are text; the loss
+function has no column for *against*.
+
+This is why the quarantine designs failed, and it is the least comfortable
+form of Chapter III's argument. It is also why aesthetic critique does not
+survive into the next corpus: a century of writing against spectacle is a
+century of training data for spectacle. The archive cannot be irony-aware on
+the model's behalf. Only a reader can, and the reader is the part the machine
+does not include. (The Lepore counter-thesis side takes the objection further:
+a world made entirely by machines is a hall of mirrors, and that is the
+hardest thing this book has to answer.)
 
 ## The falsifier
 
