@@ -65,6 +65,12 @@ five millennia of recorded trial and error is not cheating. It is what
 every artist claimed to do, executed without the biological bottleneck of
 having to live through the errors personally.
 
+Two corrections, because both versions of the claim are in circulation and only one survives.
+
+**The mix is not a subtraction.** Pepper in coffee reads as revelation to a palate that has never met the combination, and as an obvious trick to a chef. Both are correct, and neither is a verdict on the cup. Originality is not an unmixed substance; it is a blend whose ingredients are invisible to the person receiving it. Nobody who first heard *Hamlet* knew Holinshed; nobody watching Shinkai counts the lens flares he inherited; nobody tasting a great sauce enumerates the mother sauces behind it. The audience's inability to decompose the blend is what registers as genius — and that is not a fraud, it is the ordinary condition of reception. A chef who sneers at pepper in coffee has forgotten that every sauce is a blend someone else invented. This cuts both ways, which is what makes it a fair test rather than a cheap one: it demotes the machine's mix and the human's mix by exactly the same rule. What survives is not purity. It is selection.
+
+**Model collapse is a pipeline failure, not a law of recombination.** The strong 2022 claim — that training on generated data must degrade any model — is false as stated: frontier systems filter aggressively and mix fresh human data, and in formal domains a checker admits only valid output (the hypermath side). The weak claim is true and dated: unfiltered recursion collapses — tails vanish, the distribution converges on its own mean (Shumailov et al., *Nature*, 2024 `[construction: verify]`). "Collapse was a misunderstanding" is too strong. "Collapse is what happens when nobody curates the corpus" is exact — and it is the same sentence as Chapter IV's gardener, arriving early.
+
 `[construction: Opus pass — attach 1 citable source per cue class
 (psych of music, film-editing physiology, narrative-transport studies).
 No cue asserted without a receptor cite by v1.0.]`

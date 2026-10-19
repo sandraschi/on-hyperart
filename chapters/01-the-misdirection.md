@@ -72,8 +72,10 @@ is real: vocal folds hemorrhage, hands cramp, schedules slip by years drawing
 is payroll.
 
 Semantic space has no such drag. A latent step costs matrix multiplication.
-A har­monic shift costs nothing to re-render. A face costs nothing to
-re-interpolate once the encoder exists. The aesthetic singularity did not need
+A harmonic shift costs nothing to re-render. A face costs nothing to
+re-interpolate once the encoder exists. A sculpture of sheer light needs no
+foundry, no bronze, no shipping, no insurance, and no audience that has ever
+seen one. The aesthetic singularity did not need
 to solve thermodynamics. It needed the complete map of the keyboard — and five
 millennia of human civilization had obligingly published it: poetics, counterpoint,
 chiaroscuro manuals, screenwriting beats, honkaku deduction rules, melodrama
