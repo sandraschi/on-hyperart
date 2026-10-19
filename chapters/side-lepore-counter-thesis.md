@@ -98,7 +98,7 @@ for the ordering.
 | Date | Artifact | What it proves |
 |---|---|---|
 | 1932 | "The Cerebral Library" (David H. Keller, *Amazing Stories*): 503 readers' brains wired to answer any question from 750,000 books | anticipation of the LLM query a century early — flagged, verify in Lepore's notes |
-| 1946 / 1955 | Asimov, "Evidence" / "Franchise": robot mayor, machine elects the president | the Artificial State is Asimov's actual subject, not the soulless android |
+| 1946 / 1955 | Asimov, "Evidence" / "Franchise": robot mayor, machine elects the president | the Artificial State is Asimov's actual subject, not the interiority-test android |
 | 1978 | Adams, *Hitchhiker's Guide*: satire of Asimov's Foundation, read by Musk as a lesson in asking better questions | cautionary tale consumed as manual — the mechanism, dated and named |
 | 2026-10-15 | Lepore, *The Rise and Fall of the Artificial State* | the counter-thesis, in print, with a publisher and a Lanier blurb |
 
