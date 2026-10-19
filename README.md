@@ -2,7 +2,8 @@
 
 **Status:** construction v0.1 (2026-10-11). Private. Audience: principals who
 commission, publish, or defend human art budgets — not hobbyists.
-**Sister repos:** `on-hyperwar` (kinetic/strategic), `on-ai-takeover` (systemic/economic).
+**Sister repos:** `on-hyperwar` (kinetic/strategic), `on-ai-takeover`
+(systemic/economic), `on-metacraft` (tools / reimplementation cost).
 Same ladder method, same tooling (`just lore`, declaim pipeline).
 
 ## Thesis (one sentence)

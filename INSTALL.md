@@ -1,6 +1,7 @@
 # Install — on-hyperart
 
-Book repo, not a service. No port, no daemon.
+Book repo, not a service. Static reader on registered port **11156**
+(`just serve`). Not a daemon.
 
 ```powershell
 # read
