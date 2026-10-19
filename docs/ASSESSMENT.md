@@ -20,3 +20,7 @@ Ch IV box + Ch V 5 dated rows + ELVIS/AB cites. Then Opus fill pass.
 
 ---
 > **[Gemini Note 2026-10-13]**: Prior 2026-10-11 assessment preserved intact. See [`gemini-assessment-2026-10-13.md`](gemini-assessment-2026-10-13.md) for Gemini's changelog-structured assessment for the symposium.
+
+> **[Cursor Note 2026-10-13]**: Independent editorial brief in [`cursor-assessment-2026-10-13.md`](cursor-assessment-2026-10-13.md). Week-two record. Not mutated.
+
+> **[Cursor Note 2026-10-18]**: Live brief [`cursor-assessment-2026-10-18.md`](cursor-assessment-2026-10-18.md). Afternoon pass: ArtCraft rows in V; R-02 applied to Ch II; X is four books; INSTALL admits port 11156. Cold open still stub. ECONOMICS still empty. Generated evidence in MetaCraft V still week-two until `just evidence`.
