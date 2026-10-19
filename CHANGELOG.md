@@ -5,10 +5,11 @@
 - **A4 book built with DesignCraft** (`just print`): 63 pages, facing pages,
   3 mm bleed, chapter openers on rectos.
 - Front matter: title page, colophon, generated table of contents with folios.
-- **Four public-domain plates** (`just plates`): Klimt, Waterhouse, Fuseli,
-  Blake. Credits in `layout/plates/CREDITS.md`; images never cited from
-  aggregators.
-- Running heads (book title verso, chapter title recto) and folios, static
+- **Eight public-domain plates** from the local painting archive
+  (`just plates-local`, `layout/plates8/CREDITS.md`): Böcklin *Isle of the
+  Dead*, Rossetti *Ligeia Siren*, Böcklin *Triton and Nereid*, Böcklin
+  *Play of the Waves*, Fuseli *The Nightmare*, Bruegel *The Triumph of
+  Death*, Bosch (Hell detail), Blake *The Whirlwind of Lovers*. 71 pages.- Running heads (book title verso, chapter title recto) and folios, static
   per page so the edition is reproducible.
 - Pipeline: `layout_prep.py` (strip Status/Revision/annotated flags, keep
   `[construction]` as a word, normalize pipe-table separators) -> pandoc DOCX

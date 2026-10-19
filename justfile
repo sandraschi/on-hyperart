@@ -49,6 +49,10 @@ print:
 plates:
   @py -3 tools/fetch_plates.py layout/plates
 
+# Pick the eight local high-res plates from E:/Multimedia Files/Paintings.
+plates-local:
+  @py -3 tools/pick_local_plates.py
+
 # ---- bookkit (shared toolkit, ../bookkit) ----
 bk := "py -3 ../bookkit/bk.py"
 

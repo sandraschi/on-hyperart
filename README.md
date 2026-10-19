@@ -96,7 +96,8 @@ Config: `book.toml` (order, port, lore rules). Shims in `tools/` delegate to
 
 **Print edition:** `just print` -> `layout/on-hyperart.pdf`. A4, facing pages,
 3 mm bleed, chapter openers on rectos, running heads, folios, generated TOC,
-four public-domain plates (`just plates` refreshes them with credits). Built
+eight public-domain plates from the local painting archive (`just plates-local`
+picks the largest scan per work; `just plates` is the Commons fallback). Built
 headless through DesignCraft; source scripts in `layout/*.script`. Tables are
 the known rough edge: imported columns come in even and need a caret-in-cell
 follow-up.
