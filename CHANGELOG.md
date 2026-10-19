@@ -1,5 +1,25 @@
 # Changelog — on-hyperart
 
+## v0.5 (2026-10-19) — print edition
+
+- **A4 book built with DesignCraft** (`just print`): 63 pages, facing pages,
+  3 mm bleed, chapter openers on rectos.
+- Front matter: title page, colophon, generated table of contents with folios.
+- **Four public-domain plates** (`just plates`): Klimt, Waterhouse, Fuseli,
+  Blake. Credits in `layout/plates/CREDITS.md`; images never cited from
+  aggregators.
+- Running heads (book title verso, chapter title recto) and folios, static
+  per page so the edition is reproducible.
+- Pipeline: `layout_prep.py` (strip Status/Revision/annotated flags, keep
+  `[construction]` as a word, normalize pipe-table separators) -> pandoc DOCX
+  with named styles -> DesignCraft `file.place` per chapter -> post-pass heads,
+  folios, TOC -> PDF.
+- Known limitation: imported tables get even column widths; DesignCraft's
+  column commands need a caret inside a cell, so the Ch V logbook is readable
+  but cramped. Follow-up: set widths after placement.
+- AI-generated plates: pending PhotoCraft (registered, disabled; needs a
+  restart). Slots reserved in the plate section.
+
 ## v0.4 (2026-10-19) — review absorbed, gate closed, counter-thesis faced
 
 - **Cold open shipped** in Ch I (02:10, credit block still empty). Variants

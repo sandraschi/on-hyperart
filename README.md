@@ -91,4 +91,12 @@ is about order, so it names its own refutation.
 Config: `book.toml` (order, port, lore rules). Shims in `tools/` delegate to
 `D:\Dev\repos\bookkit`. `just build` (site + EPUB), `just serve`
 (http://localhost:11156/, registered in WEBAPP_PORTS.md), `just lore`
-(coverage, dates, forbidden terms, ASCII), `just declaim` (read-aloud gate).
+(coverage, dates, forbidden terms, ASCII), `just declaim` (read-aloud gate),
+`just dash` (em-dash house style).
+
+**Print edition:** `just print` -> `layout/on-hyperart.pdf`. A4, facing pages,
+3 mm bleed, chapter openers on rectos, running heads, folios, generated TOC,
+four public-domain plates (`just plates` refreshes them with credits). Built
+headless through DesignCraft; source scripts in `layout/*.script`. Tables are
+the known rough edge: imported columns come in even and need a caret-in-cell
+follow-up.
