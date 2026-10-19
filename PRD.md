@@ -57,6 +57,13 @@ VIII Terminal states (leviathan / personae / hypercinema) · IX Day Two
 - v0.1 (this): skeleton, chapters I-X stubs, stack thesis, docs, tooling port.
 - v0.2 (next): Ch V dated entry (2024-2026 artifacts + render-cost seed rows),
   Ch IV iron-triangle box, side-acoustic + side-personae first real cites.
+- v0.3 (2026-10-19): review absorbed; thresholds redefined; strong brakes faced;
+  verifier-clock mechanism added (hypermath) and wired into Ch I.
+- v0.9: **arXiv pillars before the book** — at least one dated preprint from
+  the technical spine (verifier/verification argument, or render-cost
+  measurement) so the book cites its own auditable work rather than only
+  secondary sources. Strategy adopted 2026-10-19 from the Drive transcript;
+  subject to the same Rule 1 as everything else.
 - v1.0: all Bands cited or explicitly `[construction]`, thresholds with owners,
   photocopiable Ch VI.
 

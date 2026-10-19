@@ -54,6 +54,49 @@ called it the end of understanding; they called it Tuesday, and kept proving.
 Art audiences will do the same. The precedent is dated and citable, which is
 more than most of this book's claims can say yet.
 
+## Verified recombination: the checker as filter
+
+The objection, stated at full strength: recursive training on synthetic output
+degrades a model — entropy decays, tails vanish, the distribution collapses
+toward its own mean (Shumailov et al., *Nature*, 2024 `[construction: verify]`).
+If true generally, the leviathan eats its own output and starves.
+
+In formal domains the objection fails for a structural reason: generation is
+unbounded, admission is not. A language model may emit a million candidate
+proofs; the kernel accepts only the derivable ones. What survives is not a
+re-averaged copy of the training corpus but a theorem that was not in it. From
+a finite axiom set the consequence set is infinite — the corpus is not a pie
+being smeared thinner, it is a search space with a gate.
+
+State the honest limit, because the entropy framing invites overclaim: this is
+not free Shannon information; the axioms are the prior and the checker adds no
+axioms. What grows is *validated novelty* — the reachable set of consequences,
+which is measurable in dated increments (mathlib line counts, new theorems with
+authors and dates). The gate is only as good as the checker: Lean's kernel is
+small and audited, and a buggy kernel is a false demon `[construction: verify]`.
+In domains with no formal checker — prose, image, most of culture — the
+collapse objection stands unanswered. That asymmetry is the point.
+
+## The verifier is the domain's clock
+
+| Domain | Verifier | Latency | Consequence |
+|---|---|---|---|
+| Formal mathematics | type checker | milliseconds | generation scales; admission filters; growth is dated and real |
+| Robotics / physics | simulator, DFT | seconds to minutes | sim-to-real gap is the tax on every accepted candidate |
+| Chip design | DRC/LVS/SPICE | minutes | search scales; tape-out cost does not |
+| War | kinetics | milliseconds | the human leaves the loop (hyperwar) |
+| Art | audience | hours at population scale | price collapses first, beliefs train second (this book) |
+
+The table resolves something this book asserted but had not mechanised. Art
+did not fall first because its verifier is weak — it fell first because its
+verifier is *cheap*: a mammalian response, pollable at population scale in
+hours, costs nothing to run and everything to ignore. Physics cannot be polled;
+a fusion test bills a billion euros before it answers. So the ordering claim
+sharpens: the aesthetic singularity arrived first not because aesthetics is
+unphysical but because its test is free. The domains that fell first are the
+ones whose verifier was always a mammal — and mammals answer surveys.
+
+
 ## "Understanding" is math's "soul"
 
 Chapter III's rule transfers word for word: cash it out or cut it. In art the
@@ -71,12 +114,12 @@ liturgy again.
 
 ## Where it slots
 
-This side feeds three chapters. **Chapter III:** the platonist's "beauty as
+This side feeds three chapters. **Chapter I–II:** the verifier clock is the mechanism behind the ordering claim — art first because its test is free, not because it is unphysical. **Chapter III:** the platonist's "beauty as
 contact" is the strongest surviving version of the soul argument, stronger
 than Nagel's bat — grant mathematics its Book, then show the witness problem.
 **Chapter VIII:** hypercinema's intellectual dimension (Nobel-density scripts)
 is hypermath with costumes on; the day a proof and a premiere share a
-pipeline, the trilogy's three legs meet. **Chapter VI:** surveyability is a
+pipeline, the tetralogy's four legs meet. **Chapter VI:** surveyability is a
 threshold nobody owns — the Audit Floor's twin arrived in
 mathematics first, in 1976, and the sky did not fall. It laminated. That is
 the most hopeful sentence in this book, and it belongs to the coldest chapter.
