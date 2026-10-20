@@ -1,0 +1,318 @@
+style.paragraph.edit {"name": "Compact", "chars": {"size": 9.5, "leading": {"kind": "points", "value": 12.5}}}
+frame.create {"spread": 3, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Preface"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 3, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "1"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 4, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 4, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "2"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 4, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Preface"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 4, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "3"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 5, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 5, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "4"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 6, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 6, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "6"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 6, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "I. The Misdirection"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 6, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "7"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 7, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 7, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "8"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 7, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "I. The Misdirection"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 7, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "9"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 8, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 8, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "10"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 8, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "II. What the Futurists Got Wrong"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 8, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "11"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 9, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 9, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "12"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 9, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "II. What the Futurists Got Wrong"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 9, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "13"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 10, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 10, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "14"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 11, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 11, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "16"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 11, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "III. No Soul Equation"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 11, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "17"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 12, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 12, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "18"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 12, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "III. No Soul Equation"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 12, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "19"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 13, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 13, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "20"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 13, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "IV. The Stack (Compromise-Envelope Collapse)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 13, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "21"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 14, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 14, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "22"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 14, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "IV. The Stack (Compromise-Envelope Collapse)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 14, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "23"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 15, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 15, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "24"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 15, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "IV. The Stack (Compromise-Envelope Collapse)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 15, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "25"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 16, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 16, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "26"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 17, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 17, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "28"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 17, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "V. Locating the Present"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 17, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "29"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 18, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 18, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "30"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 18, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "V. Locating the Present"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 18, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "31"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 19, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 19, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "32"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 19, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "V. Locating the Present"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 19, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "33"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 20, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 20, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "34"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 20, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "V. Locating the Present"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 20, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "35"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 21, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 21, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "36"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 21, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "V. Locating the Present"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 21, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "37"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 22, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 22, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "38"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 23, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 23, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "40"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 23, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "VI. Thresholds as Attachment Points"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 23, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "41"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 24, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 24, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "42"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 24, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "VI. Thresholds as Attachment Points"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 24, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "43"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 25, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 25, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "44"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 26, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 26, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "46"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 26, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "VII. The Control Case and Why It Fails"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 26, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "47"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 27, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 27, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "48"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 27, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "VII. The Control Case and Why It Fails"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 27, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "49"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 28, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 28, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "50"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 29, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 29, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "52"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 29, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "VIII. Terminal States"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 29, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "53"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 30, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 30, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "54"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 30, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "VIII. Terminal States"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 30, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "55"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 31, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 31, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "56"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 32, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 32, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "58"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 32, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "IX. Day Two"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 32, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "59"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 33, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 33, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "60"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 33, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "IX. Day Two"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 33, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "61"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 34, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 34, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "62"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 34, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "X. The Book in the Corpus"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 34, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "63"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 35, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 35, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "64"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 35, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "XI. LLM Writing and Its Discontents"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 35, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "65"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 36, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 36, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "66"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 36, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "XI. LLM Writing and Its Discontents"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 36, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "67"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 37, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 37, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "68"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 37, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "XI. LLM Writing and Its Discontents"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 37, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "69"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 38, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 38, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "70"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 38, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — Acoustic Leviathan (deep dive)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 38, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "71"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 39, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 39, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "72"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 39, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — Latent Personae and Law (deep dive)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 39, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "73"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 40, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 40, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "74"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 40, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — Hypermath: Proof at Bandwidth"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 40, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "75"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 41, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 41, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "76"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 41, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — Hypermath: Proof at Bandwidth"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 41, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "77"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 42, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 42, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "78"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 42, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — Hypermath: Proof at Bandwidth"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 42, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "79"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 43, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 43, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "80"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 43, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — What Sci-Fi Gets Wrong (hyperart cut)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 43, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "81"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 44, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 44, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "82"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 44, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — The Lepore Counter-Thesis (world-alienation)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 44, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "83"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 45, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 45, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "84"}
+style.paragraph.apply {"name": "Folio Verso"}
+frame.create {"spread": 45, "rect": [687.28, 28, 1112.55, 46], "content": "text", "text": "Side — The Lepore Counter-Thesis (world-alienation)"}
+style.paragraph.apply {"name": "Head Recto"}
+frame.create {"spread": 45, "rect": [687.28, 789.89, 1112.55, 807.89], "content": "text", "text": "85"}
+style.paragraph.apply {"name": "Folio Recto"}
+frame.create {"spread": 46, "rect": [78.0, 28, 503.28, 46], "content": "text", "text": "On Hyperart"}
+style.paragraph.apply {"name": "Head Verso"}
+frame.create {"spread": 46, "rect": [78.0, 789.89, 503.28, 807.89], "content": "text", "text": "86"}
+style.paragraph.apply {"name": "Folio Verso"}
+toc.generate {"entries": [{"style": "Chapter Title", "level": 1, "entryStyle": "TOC Entry", "pageNumber": "after", "separator": "  ·  "}], "title": "Contents", "titleStyle": "TOC Title", "pageNumbers": true, "page": 5, "rect": [687.28, 120, 1112.55, 749.89]}
