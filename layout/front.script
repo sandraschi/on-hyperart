@@ -1,0 +1,29 @@
+file.new {"preset": "A4", "intent": "print", "pages": 6, "facingPages": true, "margins": {"top": 84.0, "bottom": 92.0, "inside": 92.0, "outside": 78.0}, "bleed": 9.0, "title": "On Hyperart"}
+style.paragraph.create {"name": "Book Title", "para": {"align": "center", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 34, "leading": {"kind": "points", "value": 40}}}
+style.paragraph.create {"name": "Book Subtitle", "para": {"align": "center", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Italic", "size": 14, "leading": {"kind": "points", "value": 20}}}
+style.paragraph.create {"name": "Author", "para": {"align": "center", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 13, "leading": {"kind": "points", "value": 18}}}
+style.paragraph.create {"name": "Imprint", "para": {"align": "center", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 9, "leading": {"kind": "points", "value": 13}}}
+style.paragraph.create {"name": "Colophon", "para": {"align": "left", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 8.5, "leading": {"kind": "points", "value": 13}}}
+style.paragraph.create {"name": "Plate Caption", "para": {"align": "left", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Italic", "size": 8.5, "leading": {"kind": "points", "value": 12}}}
+style.paragraph.create {"name": "Body", "para": {"align": "leftJustified", "firstLineIndent": 12, "spaceBefore": 0, "spaceAfter": 0, "hyphenate": true}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 12.5, "leading": {"kind": "points", "value": 19.5}}}
+style.paragraph.create {"name": "Body First", "para": {"firstLineIndent": 0}, "chars": {}, "basedOn": "Body"}
+style.paragraph.create {"name": "Chapter Title", "para": {"align": "left", "firstLineIndent": 0, "spaceBefore": 0, "spaceAfter": 26, "hyphenate": false}, "chars": {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 26, "leading": {"kind": "points", "value": 30}}}
+style.paragraph.create {"name": "Section", "para": {"align": "left", "firstLineIndent": 0, "spaceBefore": 16, "spaceAfter": 6, "hyphenate": false}, "chars": {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 12.5, "leading": {"kind": "points", "value": 16}}}
+style.paragraph.create {"name": "Quote", "para": {"align": "left", "leftIndent": 18, "firstLineIndent": 0, "spaceBefore": 6, "spaceAfter": 6}, "chars": {"fontFamily": "Georgia", "fontStyle": "Italic", "size": 10, "leading": {"kind": "points", "value": 14.5}}}
+style.paragraph.create {"name": "Note", "para": {"firstLineIndent": 0, "spaceBefore": 4, "spaceAfter": 4}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 7.3, "leading": {"kind": "points", "value": 9.4}}}
+style.paragraph.create {"name": "TOC Title", "para": {"align": "left", "firstLineIndent": 0, "spaceAfter": 18}, "chars": {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 18, "leading": {"kind": "points", "value": 22}}}
+style.paragraph.create {"name": "TOC Entry", "para": {"align": "left", "firstLineIndent": 0, "spaceBefore": 3, "spaceAfter": 3}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 10, "leading": {"kind": "points", "value": 14}}}
+style.paragraph.create {"name": "Head Verso", "para": {"align": "left", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 7.5, "leading": {"kind": "points", "value": 9}, "tracking": 80}}
+style.paragraph.create {"name": "Head Recto", "para": {"align": "right", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 7.5, "leading": {"kind": "points", "value": 9}, "tracking": 80}}
+style.paragraph.create {"name": "Folio Verso", "para": {"align": "left", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 8.5, "leading": {"kind": "points", "value": 10}}}
+style.paragraph.create {"name": "Folio Recto", "para": {"align": "right", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 8.5, "leading": {"kind": "points", "value": 10}}}
+frame.create {"spread": 0, "rect": [90.0, 230, 505.0, 330], "content": "text", "text": "ON HYPERART"}
+style.paragraph.apply {"name": "Book Title"}
+frame.create {"spread": 0, "rect": [90.0, 350, 505.0, 410], "content": "text", "text": "The Aesthetic Singularity Arrived First"}
+style.paragraph.apply {"name": "Book Subtitle"}
+frame.create {"spread": 0, "rect": [90.0, 600, 505.0, 640], "content": "text", "text": "Sandra Schipal"}
+style.paragraph.apply {"name": "Author"}
+frame.create {"spread": 0, "rect": [90.0, 730, 505.0, 770], "content": "text", "text": "construction draft - 2026"}
+style.paragraph.apply {"name": "Imprint"}
+frame.create {"spread": 1, "rect": [72.0, 90, 523.0, 400], "content": "text", "text": "On Hyperart: The Aesthetic Singularity Arrived First\nSandra Schipal\n\nConstruction draft, 2026. Not for sale. Chapters carrying [construction] flags are working text; see the repository for the live logbook and issues.\n\nSet in Georgia, typeset with DesignCraft. Plates are public domain, from the local painting archive; seven plates open their chapters. Credits in layout/plates8/CREDITS.md."}
+style.paragraph.apply {"name": "Colophon"}
