@@ -68,7 +68,7 @@ The word *orthogonal* does heavy lifting and must earn it. Prior cinema
 maximized one dial by sacrificing the others — depth or velocity or scale.
 Hypercinema maxes all dials at once and ships the proof: Nobel-density script
 (formal philosophy, real physics, no dumbed exposition) rendered at Redline
-intensity (Itano circuses[^itano], impact frames, Kanada smears, gouache cascades out
+intensity (Itano circuses[^itano], impact frames, Kanada smears[^kanada], gouache cascades out
 of Belladonna and Fischinger) at 72-hour unbroken scale (institutional decay
 across centuries, no cut for bladders) — the fixed-form rehearsal for Threshold D's unfixing. Three dials, no apology.
 
@@ -131,3 +131,5 @@ what is the smallest observable unit of control, and who holds it on the
 night it matters.
 
 [^itano]: Missile-swarm choreography from Macross (animator Ichiro Itano): dozens of individually tracked contrails. Full entry in the Glossary.
+
+[^kanada]: Key-animation distortion technique originated by Yoshinori Kanada: exaggerated perspective shifts and speed-smears held for 1–2 frames to convey kinetic force. Full entry in the Glossary.

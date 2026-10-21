@@ -20,7 +20,7 @@ nobody owns is a wish. Wishes are Chapter VII's subject, not this one's.
 
 ## A — The Last Take (vocal)
 
-**Definition:** the last shipped lead vocal whose credited performer sang that line, in some take. **Crossing test:** the performer never sang it — no session producible in which they did. Comping, tuning, and punch-ins stay human; substitution does not. (The naive version — one room, one unbroken take — fell decades ago to multitrack comping and pitch correction: Cher, "Believe", 1998 `[construction: verify]`; the DAW era made the unbroken take a choice, then a rarity. This threshold is drawn past them on purpose.)
+**Definition:** the last shipped lead vocal whose credited performer sang that line, in some take. **Crossing test:** the performer never sang it — no session producible in which they did. Comping[^comping], tuning, and punch-ins stay human; substitution does not. (The naive version — one room, one unbroken take — fell decades ago to multitrack comping and pitch correction: Cher, "Believe", 1998 `[construction: verify]`; the DAW era made the unbroken take a choice, then a rarity. This threshold is drawn past them on purpose.)
 **Owner:** labels and unions first, statute second `[construction: ELVIS Act +
 AB 1836/2602 — Issue #2; SAG-AFTRA digital-replica provisions, WGA AI clauses with dates]`. **Precedent:**
 the temp that stayed. Every mixer alive has kept a scratch vocal because the
@@ -117,3 +117,5 @@ export chokepoints and hotlines that work at machine speed. Ours are the same
 shape in the mirror: A-E mark where verification of human provenance stops
 being available. Four books, one sentence: the brake must be ownable before
 the crossing, or it is literature afterwards. This chapter aims to be hardware.
+
+[^comping]: Composite tracking: compiling a single seamless master performance by splicing the best syllables, breaths, and notes from multiple recorded takes. Full entry in the Glossary.
