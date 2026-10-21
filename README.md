@@ -100,6 +100,6 @@ Config: `book.toml` (order, port, lore rules). Shims in `tools/` delegate to
 3 mm bleed, chapter openers on rectos, running heads, folios, generated TOC,
 seven public-domain plates that open their chapters (`just plates-local` picks
 the largest scan per work; `just plates` is the Commons fallback). Built
-headless through DesignCraft; source scripts in `layout/*.script`. Tables are
-the known rough edge: imported columns come in even and need a caret-in-cell
-follow-up. 92 pages; the 150-page target is a writing job, not a spacing job.
+headless through DesignCraft; source scripts in `layout/*.script`. Table
+columns are set after import (`fix_tables` in `tools/build_layout.py`).
+90 pages; the 150-page target is a writing job, not a spacing job.

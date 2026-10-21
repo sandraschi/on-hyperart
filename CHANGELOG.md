@@ -1,5 +1,27 @@
 # Changelog — on-hyperart
 
+## v0.7 (2026-10-20) — DesignCraft 0.10.0, front matter, table widths
+
+- **Upgraded to DesignCraft 0.10.0.** Rebuild removed the 9-10-12 dead run
+  (#1169); 92 -> 90 pages.
+- **Front matter tightened:** `FRONT_PAGES` 6 -> 4 and TOC on page 3. Contents
+  now opens on p3, one structural blank on p4, Preface on p5. 88 pages, one
+  blank page total. (The scripts are generated; the fix lives in
+  `tools/build_layout.py`.)
+- **Hypermath sidecar:** new "Physics is last: the empirical oracle" section
+  (string landscape, 10^500 vacua, internal consistency vs empirical adequacy),
+  plus a fenced **"Far out: the seam"** coda marked explicitly speculative:
+  autonomous oracle labs, spacetime as an error-correcting code, cosmological
+  archaeology, the unreadable law. 90 pages.
+- **Chapter I opening made explicit:** the four seconds are a regenerated mouth
+  for a translated line, and the missing job is named as performance direction.
+  The cold open still withholds the outcome, not the operation.
+- **Table columns fixed after import.** DesignCraft equalises DOCX table
+  columns regardless of `tblGrid`/`tcW`, so `fix_tables()` selects each column
+  and applies `table.setColumnWidth` using the header-proportion widths. Ch V
+  columns now 96 / 152.7 / 266.1 / 322.8 instead of four equal 75 pt columns.
+- Details and the bug trail: `BUILD_LOG.md`.
+
 ## v0.6 (2026-10-19) — new chapter, plates at chapter starts
 
 - **XI. LLM Writing and Its Discontents** added: the reader is not a context
