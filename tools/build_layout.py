@@ -30,7 +30,7 @@ CLI = r"C:\Program Files\DesignCraft\designcraft-cli.exe"
 PAGE_W, PAGE_H = 595.276, 841.89
 M_TOP, M_BOT, M_IN, M_OUT = 84.0, 92.0, 92.0, 78.0
 BLEED = 9.0
-FRONT_PAGES = 6
+FRONT_PAGES = 4
 PLATE_PAGES = 0
 BODY_START = FRONT_PAGES
 
@@ -330,7 +330,8 @@ def image_cmds(index: int, fname: str, caption: str) -> list[str]:
     ]
 
 
-def place_chapters(docx_files: list[str], stage: str) -> None:
+def place_chapters(docx_files: list[str], stage: str) -> dict[str, int]:
+    stories: dict[str, int] = {}
     for i, docx in enumerate(docx_files):
         doc = inspect(stage)
         n = doc["pageCount"]
@@ -347,8 +348,60 @@ def place_chapters(docx_files: list[str], stage: str) -> None:
         if plate:
             cmds += image_cmds(start, *plate)
         out = save_stage(cmds, stage, source=stage)
+        try:
+            data = json_out(out)
+        except SystemExit:
+            data = {}
+        results = data.get("results", []) if isinstance(data, dict) else []
+        for result in results:
+            if isinstance(result, dict) and "story" in result:
+                stories[CHAPTERS[i]] = int(result["story"])
         print(f"  [{i + 1}/{len(docx_files)}] {os.path.basename(docx)} -> page {chapter_start + 1} "
               f"({'plate ' + plate[0] + '; ' if plate else ''}{out.strip().splitlines()[0][:40]})")
+    return stories
+
+
+TABLE_W = PAGE_W - M_IN - M_OUT
+
+
+def chapter_title(src: str) -> str:
+    with open(src, encoding="utf-8") as fh:
+        for line in fh:
+            if line.startswith("# "):
+                return line[2:].strip()
+    return ""
+
+
+def fix_tables(stories: dict[str, int], stage: str) -> None:
+    """DesignCraft's DOCX import equalises columns; set widths at the table level."""
+    doc = inspect(stage)
+    pool = [s for s in doc.get("stories", []) if s.get("paragraphs", 0) > 2]
+    cmds = []
+    for chapter in CHAPTERS:
+        src = os.path.join(SRC, chapter)
+        if not os.path.exists(src):
+            continue
+        widths = table_widths(src)
+        if not widths:
+            continue
+        title = chapter_title(src)[:30]
+        candidates = [s for s in pool if s.get("preview", "").startswith(title)]
+        if not candidates:
+            print(f"  tables: no body story for {chapter} ({title!r})")
+            continue
+        story = max(candidates, key=lambda s: s.get("length", 0))["id"]
+        for t, w in enumerate(widths):
+            pts = [v / 20.0 for v in w]
+            total = sum(pts) or 1.0
+            scale = TABLE_W / total
+            for c, pt in enumerate(pts):
+                cmds.append(cmd("table.select", {
+                    "story": story, "table": t + 1, "cols": [c, c], "what": "column",
+                }))
+                cmds.append(cmd("table.setColumnWidth", {"width": round(pt * scale, 2)}))
+    if cmds:
+        save_stage(cmds, stage, source=stage)
+        print(f"  tables: {len(cmds)} column widths set")
 
 
 def finish(stage: str, final: str, pdf: str) -> None:
@@ -413,7 +466,8 @@ def main() -> int:
     docs = prep()
     stage = os.path.join(LAYOUT, "book_stage.designcraft")
     print(run([CLI, "script", _write(front_matter()), "--save", stage]).strip()[:200])
-    place_chapters(docs, stage)
+    stories = place_chapters(docs, stage)
+    fix_tables(stories, stage)
     finish(stage, os.path.join(LAYOUT, "on-hyperart.designcraft"),
            os.path.join(LAYOUT, "on-hyperart.pdf"))
     return 0
