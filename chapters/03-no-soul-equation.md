@@ -1,7 +1,7 @@
 # III. No Soul Equation
 
 **Status:** Draft v0.2 2026-10-11, Muse Spark 1.3 (Opus pass pending).
-**Revision date:** 2026-10-11.
+**Revision date:** 2026-10-21.
 
 ## The steelman, fairly stated
 
@@ -16,7 +16,7 @@ Grant every premise. It changes nothing about the object; it changes the receive
 
 The infant does not run a Searle test on the lullaby. The mourner does not
 ask whether the funeral march suffered. Tears are triggered by distributions:
-appoggiatura resolving late, a voice breaking at the formant where mammalian
+appoggiatura[^appoggiatura] resolving late, a voice breaking at the formant[^formant] where mammalian
 distress lives, a cut held four frames past comfort. Structure in, chemistry
 out. The transmitter's interiority is not in the causal chain of the
 audience's response. It never was. It was a story the transmitter told about
@@ -45,7 +45,12 @@ maximum relief yield.
 Ten thousand cross-meshed tropes is not a metaphor. It is the training set.
 The synthesizer needs no mortality to play grief; it needs the complete map
 of where grief's buttons are, and culture spent five millennia labeling them
-in public, with commentary tracks.
+in public, with commentary tracks. We cannot build a particle accelerator the
+size of a galaxy to reach the highest energies; we observe the Big Bang, which
+ran the mother of all experiments for us and stamped its detector log across
+the sky. We cannot build a machine that lived five thousand years of biological
+grief; we train on the archive, where every tear was already catalogued and
+timestamped by the scribes.
 
 ## Derivative is the point
 
@@ -84,3 +89,7 @@ claim must resolve to cue plus receptor plus date. Same discipline, other
 substrate.
 
 [^honkaku]: Japanese orthodox detective fiction (honkaku = "orthodox"): fair-play deduction, locked rooms, impossible crimes. Full entry in the Glossary.
+
+[^appoggiatura]: Italian: "to lean." An expressive musical ornament where an unprepared dissonant pitch delays the expected melodic harmony, resolving by step. Full entry in the Glossary.
+
+[^formant]: Acoustic resonance peaks of the vocal tract. Specific shifts in formants signal physiological distress across mammalian vocalizations before semantic meaning registers. Full entry in the Glossary.

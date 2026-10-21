@@ -2,32 +2,43 @@
 
 ## 02:10, the credit block still empty
 
-The junior in the studio had a folder of approvals and a command list. The
-folder said the
-client's legal team had signed off on the source, the sound bed, and the
-appearance release — all of it, weeks ago, in daylight, by people whose names
-he could produce. The studio at that hour was a corridor of closed doors and
-one lit compositing bay; the night guard had already done his rounds. What the
-folder did not contain was anything about the four seconds where a regenerated
-mouth, built for a translated line, had to be made to look like it belonged to
-the performance.
+The junior compositor in the studio bay was not an auteur; he was an operator
+racing a delivery deadline. On his desk was a legal folder signed weeks ago in
+daylight: actor appearance releases, union riders, licensing clearance. Every
+lawyer had agreed that the studio held the rights to replace the lead actor's
+mouth for a translated foreign line.
 
-He read the commands the way a cook reads a recipe written by someone who has
-never been hungry: in order, without trust. Frame range. Mask. Regenerate the
-mouth, keep the jawline. Match the grain. Then the part nobody had written
-down — the part that used to have a job title, performance direction — the part
-where a person decides whether the new mouth is doing grief or a dub, and
-whether the face still belongs to the actor whose name is on the release.
+What the legal folder could not tell him was how that mouth should move.
 
-At 02:10 he decided. Nobody countersigned, because the thing he decided had no
-name in the budget: not the take, not the frame, not the cut. He decided the
-performance — what the face was doing while it said the line — from a row of
-machine candidates.
+The neural model had generated ten candidates. They sat in a horizontal strip
+across his monitor — ten micro-variations of a human lip trembling over a
+syllable. Option 3 looked like a mechanical dub. Option 5 looked vacant. Option
+7 had a slight, ragged hesitation at the corner of the lower lip that read as
+heartbreaking, suppressed grief.
 
-The delivery note went out at 02:31 with his name in a field labeled
-"operator." The credit block would be assembled in the morning by someone with
-a legal checklist and no memory of the four seconds. And the four seconds
-were, by the time anyone looked, simply part of the film.
+In 1995, that hesitation would have required an actor digging into personal
+loss on a soundstage, a director demanding take twelve, and an editor fighting
+to keep the frame.
+
+At 02:10 AM, with dry eyes and the night guard rattling keys down the hall, the
+junior clicked Option 7 because red meant another hour and green meant going
+home.
+
+Nobody countersigned. In the production budget, his choice had no line item:
+not a take, not a shoot, not performance direction. He decided what the face was
+doing while it said the line from a row of machine candidates, and at 02:31 the
+delivery note went out to the client server with his name in a field labeled
+"operator." In the morning, the credit block would attribute the grief to the
+famous actor whose face had been borrowed, the restraint to the director who had
+never seen the file, and the production to a studio that claims its films are
+strictly human craft.
+
+This is the misdirection. The culture watches for the day an AI claims an
+auteur credit in the opening titles, waiting for a mechanical god to walk through
+the front door. Meanwhile, the machine enters through the basement at two in the
+morning, generating the emotional peak of the film, ratified only by an
+exhausted technician whose sole aesthetic criterion was the clock on the wall.
+And the four seconds were, by the time anyone looked, simply part of the film.
 
 ## At what frame rate does authorship become ceremonial?
 
@@ -54,7 +65,7 @@ matter transformed: molecular assembly, abundant fusion, orbital industry.
 The catastrophists (Bostrom 2014, Yudkowsky) warned of a cold optimizer
 turning heavy matter into paperclips or computronium. Both placed the
 singularity in physics. Both treated art, narrative, pathos — the things that
-make apes weep at arranged light — as the last redoubt of biology, guarded by
+make mortal creatures weep at arranged light — as the last redoubt of biology, guarded by
 qualia, mortality, soul.
 
 They inverted the physics.
