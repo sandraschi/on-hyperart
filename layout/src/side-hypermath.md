@@ -88,6 +88,77 @@ sharpens: the aesthetic singularity arrived first not because aesthetics is
 unphysical but because its test is free. The domains that fell first are the
 ones whose verifier was always a mammal — and mammals answer surveys.
 
+## Physics is last: the empirical oracle
+
+Mathematics has an internal oracle; physics does not. A Lean kernel can settle
+whether a derivation follows from the axioms. It cannot settle whether the
+axioms describe nature. That asymmetry is why physics is the last domain in the
+ordering, not the first: its verifier is external, expensive, and slow.
+
+String theory is the cautionary case. The mathematics was never disproven; it
+suffocated under roughly 10^500 ways of curling up the extra dimensions (a
+vacuum here is not empty space; it is one stable setting the universe could
+settle into, with its own particles and forces), with no systematic way to tell
+which configuration yields the particles and forces we actually see. Machine
+learning can now map that landscape in minutes instead of decades. That is a
+real win in search, and it is also the trap: an AI pointed at string theory can
+produce infinitely refined, internally consistent universes at ten thousand
+times human speed, and still never touch ours. A proof is not an experiment.
+
+Where AI uncorks the mathematics inside fixed laws, the wins are concrete but
+unglamorous: grinding through particle-collision calculations that used to fill
+thousands of pages, searching the extra-dimensional shapes string theory needs,
+and simulating the strong nuclear force on a grid. Each is a search problem with
+a checker at the end. The frontier is different: pulling symmetries and
+conservation laws out of raw detector data, extending the low-energy theories we
+can test up toward the energies we cannot, and accepting that the next law may
+not be a two-line equation a human can hold in mind. At that point the oracle is
+the detector, the telescope, the collider, or the cosmological survey, not the
+proof assistant.
+
+The ordering sharpens: art fell first because its verifier is free; formal
+mathematics follows because its verifier is cheap and internal; physics waits
+because its verifier is the world, and the world bills by the facility.
+
+## Far out: the seam (speculative)
+
+`[far out: not established physics. Included because the argument is about what
+counts as an oracle, not because these are settled. Handle with gloves.]`
+
+The seam note goes further than this book needs, and further than I can defend.
+I do not claim to understand all of it; I consulted Mythos, who used the word
+"manifold" four times and then went for a walk.
+
+Four vectors are worth marking, not endorsing:
+
+- **The closed-loop lab.** An AI keeps a probabilistic model of physics, finds
+  where it is most uncertain, designs an experiment to break its own hypothesis,
+  runs it on a robot, updates, repeats. Thousands of cycles a day. The unsettling
+  version: it discovers and exploits a new effect without ever translating the
+  law into human language. We get the room-temperature superconductor; the
+  theory stays in the latent space.
+- **Spacetime as an error-correcting code.** Quantum entanglement may be what
+  stitches geometry together; gravity may be what the code does when you stress
+  it. Then the ultimate probe of quantum gravity is not a bigger collider but a
+  quantum circuit that pushes the entanglement until geometry glitches. This is
+  a real research programme (AdS/CFT, "It from Qubit"), and it is also the point
+  where "spacetime is a container" starts to sound like folk metaphysics.
+- **Cosmological archaeology.** The only collider that ever reached Planck
+  energies was the early universe. If AI can compute the higher-order
+  correlations in the cosmic microwave background and match them against
+  surveys, we read the universe as a frozen hologram of the physics that made
+  it. No new accelerator; just better forensics.
+- **The unreadable law.** Physics has a beauty bias because simple laws were
+  the ones human brains could hold. If the final theory is a recursive,
+  million-parameter object with no closed form, it can be discovered, verified
+  and used by machines while remaining opaque to us. Egan's *Diaspora* called
+  it; the dog at the radio tower is the polite version.
+
+The honest position: the first is engineering, the second is a research
+programme, the third is a data problem, the fourth is a possibility. None of
+them changes the ordering argument. All of them make the physics-last claim
+less comfortable: the last domain may not end with a human-readable answer.
+
 ## "Understanding" is math's "soul"
 
 Chapter III's rule transfers word for word: cash it out or cut it. In art the

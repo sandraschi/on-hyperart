@@ -8,18 +8,21 @@ client's legal team had signed off on the source, the sound bed, and the
 appearance release — all of it, weeks ago, in daylight, by people whose names
 he could produce. The studio at that hour was a corridor of closed doors and
 one lit compositing bay; the night guard had already done his rounds. What the
-folder did not contain was anything about the four
-seconds where the mouth did not match the new line.
+folder did not contain was anything about the four seconds where a regenerated
+mouth, built for a translated line, had to be made to look like it belonged to
+the performance.
 
 He read the commands the way a cook reads a recipe written by someone who has
 never been hungry: in order, without trust. Frame range. Mask. Regenerate the
 mouth, keep the jawline. Match the grain. Then the part nobody had written
-down — the part that used to have a job title — the part where a person
-decides whether the mouth is doing grief or a dub.
+down — the part that used to have a job title, performance direction — the part
+where a person decides whether the new mouth is doing grief or a dub, and
+whether the face still belongs to the actor whose name is on the release.
 
 At 02:10 he decided. Nobody countersigned, because the thing he decided had no
-name in the budget: not the take, not the frame, not the cut. He decided what
-the face was doing while it said the line.
+name in the budget: not the take, not the frame, not the cut. He decided the
+performance — what the face was doing while it said the line — from a row of
+machine candidates.
 
 The delivery note went out at 02:31 with his name in a field labeled
 "operator." The credit block would be assembled in the morning by someone with
