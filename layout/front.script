@@ -1,4 +1,4 @@
-file.new {"preset": "A4", "intent": "print", "pages": 6, "facingPages": true, "margins": {"top": 84.0, "bottom": 92.0, "inside": 92.0, "outside": 78.0}, "bleed": 9.0, "title": "On Hyperart"}
+file.new {"preset": "A4", "intent": "print", "pages": 4, "facingPages": true, "margins": {"top": 84.0, "bottom": 92.0, "inside": 92.0, "outside": 78.0}, "bleed": 9.0, "title": "On Hyperart"}
 style.paragraph.create {"name": "Book Title", "para": {"align": "center", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Bold", "size": 34, "leading": {"kind": "points", "value": 40}}}
 style.paragraph.create {"name": "Book Subtitle", "para": {"align": "center", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Italic", "size": 14, "leading": {"kind": "points", "value": 20}}}
 style.paragraph.create {"name": "Author", "para": {"align": "center", "firstLineIndent": 0}, "chars": {"fontFamily": "Georgia", "fontStyle": "Regular", "size": 13, "leading": {"kind": "points", "value": 18}}}
