@@ -62,8 +62,8 @@ asking her to admire the lighting. "The junior in the studio had a folder" costs
 four words and buys the entire scene. The chapter now says that.[^junior]
 
 The same failure recurs at the scale of the book. Terms of art arrive without a
-ramp — sakuga, honkaku, formants, Kanada smear — because to the model they are
-ordinary, and to the reader they are a locked door. The footnotes are the ramp.
+ramp — sakuga, honkaku, formants, appoggiatura, string vacua, Kanada smear — because to the model they are
+ordinary, and to the reader they are a locked door. What would look like peacocking erudition-bragging in a human author is merely the unfiltered baseline of a "half-AGI" system that has swallowed every library in human history at once. To the weights, an obscure baroque ornament or string-theory energy minimum sits at the exact same coordinate distance as ordinary television slang. It drops them in the same breath not to show off, but because a machine has no felt sense of how many specialized vocabularies a human can carry in one head. This is why the human assessor has to repeatedly say *whoa!* and demand a footnote. The footnotes are the ramp.
 They should be more frequent than they are, and smaller than they were: the first
 typeset edition set them at eight point, which is an apology delivered too loudly.
 
@@ -71,6 +71,8 @@ typeset edition set them at eight point, which is an apology delivered too loudl
 
 The model has two settings that are easy to mistake for judgment: relentless
 severity and relentless evenhandedness. This book has used both badly.
+
+It has been too cynical about human emotion. A model left to its own tone defaults to an unearned sneer that mistakes zoological reductionism for intellectual toughness. An early draft described cinema audiences as "apes weeping at arranged light." The phrase had bite, but it bit the wrong target: reducing human sorrow to a mammalian reflex treats the receiver with a cold, server-side contempt. The point was never that audiences are gullible primates; the point is that the machine has learned to arrange light with such frightening precision that the absence of a mortal actor no longer breaks the spell.
 
 It has been too harsh on mourning. A reader who feels the loss of the human
 hand is not automatically a mystic; she may be describing an attachment that

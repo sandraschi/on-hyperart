@@ -23,7 +23,7 @@ tivism (Brouwer, Bishop):** existence without construction is empty talk; a
 proof is an artifact built by rule, and unconstructive existence claims are
 theology. The mathematician is a craftsperson, and the craft authenticates.
 
-The machine does not dissolve the debate. It audits it. Lean's kernel is constructive type theory: classical reasoning enters only through explicit axioms, and `#print axioms` shows exactly which proofs invoke `Classical.choice`.
+The machine does not dissolve the debate. It audits it. Lean's kernel is constructive type theory: classical reasoning enters only through explicit axioms, and `#print axioms` shows exactly which proofs invoke `Classical.choice`[^choice].
 When derivation ships at superhuman bandwidth — conjectures, lemmas, full
 formalizations produced faster than any seminar can survey — the question
 "was it discovered or built?" becomes answerable per proof, mechanically, where the seminar could only argue it. Brouwer's question survives the witness's departure: not liturgy in an empty room, but an audit log no human could have kept. The checker, which never had a metaphysics, keeps the receipts.
@@ -104,7 +104,7 @@ axioms describe nature. That asymmetry is why physics is the last domain in the
 ordering, not the first: its verifier is external, expensive, and slow.
 
 String theory is the cautionary case. The mathematics was never disproven; it
-suffocated under roughly 10^500 ways of curling up the extra dimensions (a
+suffocated under roughly 10^500 ways of curling up the extra dimensions[^string_vacua] (a
 vacuum here is not empty space; it is one stable setting the universe could
 settle into, with its own particles and forces), with no systematic way to tell
 which configuration yields the particles and forces we actually see. Machine
@@ -256,6 +256,10 @@ Bacon 1953, Duchamp 1917 provenance, Beuys 1964/1970 works, and
 Actionism 1960s rows from catalogs, not memory.]`
 
 [^keats]: John Keats, "Ode on a Grecian Urn" (1820). The urn's closing lines, spoken by the artifact itself to its future readers — the oldest maker-transcending address in English verse. (Textual crux: the 1820 punctuation leaves open whether the urn or the narrator speaks the closing lines; the reading above takes the urn.)
+
+[^choice]: The Axiom of Choice in Lean's formal logic kernel. Constructive proofs generate objects by algorithmic rule; Classical.choice admits non-constructive proofs of existence without a witness. Full entry in the Glossary.
+
+[^string_vacua]: The "string landscape": roughly 10^500 possible vacuum states—local energy minima of compactified extra-dimensional geometries—each yielding distinct physical constants and particles. Full entry in the Glossary.
 
 ## Fleet link
 
