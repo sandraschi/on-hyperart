@@ -47,7 +47,7 @@ its own thesis:
 - **Endnotes on every chapter.** Any term of art outside common undergraduate
   vocabulary gets a note on first use: one line, checkable, no condescension.
   Follow them downward (professor: sakuga awaits) or upward (fan: Nagel awaits).
-- **Glossary** (`docs/GLOSSARY.md`, built as a reader page): the full entries
+- **Glossary** (Side - Glossary, in this book): the full entries
   the notes abbreviate. New term in a chapter means a new entry here first —
   house rule, enforced by review, not by hope.
 - **References** with dates: every factual claim about the present points at

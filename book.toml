@@ -37,6 +37,8 @@ order = [
   "side-what-scifi-gets-wrong.md",
   "side-lepore-counter-thesis.md",
   "side-on-slop.md",
+  "side-glossary.md",
+  "side-economics-of-hyperart.md",
 ]
 front_matter = ["00-preface.md"]
 expected = [
@@ -56,12 +58,6 @@ src = "REFERENCES.md"
 out = "references.html"
 label = "References"
 index_label = "Scholarly Apparatus & Academic Bibliography"
-
-[[docs]]
-src = "GLOSSARY.md"
-out = "glossary.html"
-label = "Glossary"
-index_label = "Glossary of Terms of Art"
 
 [lore]
 forbidden = ["skynet", "terminator", "soulless"]

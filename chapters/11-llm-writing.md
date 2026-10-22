@@ -148,6 +148,6 @@ cannot know her. The book is written for her anyway, because she is the only
 reader who can be persuaded, and persuasion is the only thing that survives the
 archive.
 
-[^phantom]: The full correction is in `docs/REVIEW_2026-10-11_RESPONSE.md` (R-06) and Issue #7. *Jumpers* (1972) now occupies the slot.
+[^phantom]: Review correction R-06 (2026-10-11), recorded in Issue #7: the invented Stoppard play was struck and Tom Stoppard's *Jumpers* (1972) now occupies the slot.
 [^junior]: Chapter I, "02:10, the credit block still empty." The scene is a post-production studio; the junior is a compositor, not a generic knowledge worker. If that was not clear, the fault was the prose, not the reader.
 [^cert]: The parallel with safety-case paperwork is in Chapter VII and in the sister volume on takeover: a certificate that certifies the paperwork is a fee, not a brake.
