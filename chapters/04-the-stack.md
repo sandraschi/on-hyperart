@@ -9,6 +9,8 @@ Every producer before the collapse knew the triangle by feel, the way sailors
 know weather. Narrative depth. Visual velocity. Scale. Pick two, apologize
 for the third.
 
+![The compromise triangle: narrative depth, visual velocity, scale — pick two](fig/compromise-triangle.svg)
+
 The deep script without money: Stoppard's *Jumpers* (1972) —
 a philosophical farce about collapsing meaning that could never afford the images it deserved, so it
 stayed in rooms, talking fast, while the camera watched like a respectful
