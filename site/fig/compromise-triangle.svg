@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif">
+  <text x="30" y="28" font-size="15" fill="currentColor" opacity="0.75">The compromise envelope: pick two, apologize for the third</text>
+  <polygon points="280,70 90,360 470,360" fill="#818cf8" fill-opacity="0.08" stroke="currentColor" stroke-width="1.5"/>
+  <g font-size="15" text-anchor="middle" fill="currentColor">
+    <text x="280" y="52">Narrative depth</text>
+    <text x="90" y="392">Visual velocity</text>
+    <text x="470" y="392">Scale</text>
+  </g>
+  <g font-size="12" text-anchor="middle" fill="currentColor" opacity="0.7">
+    <text x="205" y="235">Stoppard in rooms</text>
+    <text x="355" y="235">Avatar, 2009</text>
+    <text x="280" y="330">Akira, 1988</text>
+  </g>
+  <text x="280" y="262" font-size="14" text-anchor="middle" fill="#818cf8">liquidated at</text>
+  <text x="280" y="282" font-size="14" text-anchor="middle" fill="#818cf8">zero marginal cost</text>
+  <text x="30" y="450" font-size="12" fill="currentColor" opacity="0.65">Fig. 4 — Every classic is a corner made beautiful. The miracle priced the third corner at zero.</text>
+</svg>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Side - Economics of Hyperart: the Price File - On Hyperart</title>
+  <style>
+:root {
+  --bg: #09090b; --surface: #18181b; --border: #27272a;
+  --text: #e4e4e7; --text-muted: #a1a1aa; --heading: #fafafa;
+  --accent: #818cf8; --accent-visited: #c4b5fd; --code-bg: #1f1f23;
+  --callout-border: #6366f1;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--text); margin: 0; padding: 0;
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
+}
+main { max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+nav.top {
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  padding: 0.85rem 1.5rem; border-bottom: 1px solid var(--border);
+  background: rgba(9, 9, 11, 0.85); backdrop-filter: blur(8px);
+  position: sticky; top: 0; z-index: 100; font-size: 0.9rem;
+}
+nav.top a { color: var(--text); text-decoration: none; font-weight: 500; }
+nav.top a:hover { color: var(--accent); }
+nav.top .links { display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap; }
+nav.top .lang-switch { border: 1px solid var(--border); padding: 0.2rem 0.6rem; border-radius: 4px; color: var(--text-muted); }
+nav.top .epub-tag {
+  background: #312e81; color: #c7d2fe; padding: 0.2rem 0.6rem;
+  border-radius: 9999px; font-size: 0.8rem; font-weight: 600;
+}
+nav.top .epub-tag:hover { background: #3730a3; color: #ffffff; }
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+a:visited { color: var(--accent-visited); }
+a:hover { color: #a5b4fc; }
+h1, h2, h3, h4 { line-height: 1.28; color: var(--heading); margin-top: 2em; margin-bottom: 0.6em; font-weight: 600; }
+h1 { font-size: 2rem; margin-top: 1em; border-bottom: 1px solid var(--border); padding-bottom: 0.4em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+code {
+  background: var(--code-bg); padding: 0.15em 0.4em; border-radius: 0.35em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace; font-size: 0.88em; color: #f472b6;
+}
+pre { background: var(--surface); border: 1px solid var(--border); padding: 1rem 1.2rem; border-radius: 0.5rem; overflow-x: auto; }
+pre code { background: none; padding: 0; color: var(--text); font-size: 0.9em; }
+table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 0.95rem; display: block; overflow-x: auto; }
+th, td { border: 1px solid var(--border); padding: 0.55rem 0.8rem; text-align: start; }
+th { background: var(--surface); color: var(--heading); font-weight: 600; }
+blockquote {
+  border-inline-start: 3px solid var(--callout-border); background: rgba(99, 102, 241, 0.05);
+  margin: 1.5rem 0; padding: 0.5rem 1.25rem; color: var(--text-muted); border-radius: 0.4rem;
+}
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+.notice { border: 1px dashed var(--border); color: var(--text-muted); padding: 0.5rem 0.9rem; border-radius: 0.4rem; font-size: 0.9rem; }
+section.endnotes { margin-top: 2.5rem; }
+footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.95rem; }
+.btn-box {
+  display: inline-flex; align-items: center; gap: 0.5rem; background: #312e81; color: #e0e7ff !important;
+  text-decoration: none !important; padding: 0.6rem 1.2rem; border-radius: 0.4rem; font-weight: 600; margin: 1rem 0 2rem;
+}
+.btn-box:hover { background: #3730a3; }
+.toc-list { list-style: none; padding-inline-start: 0; }
+.hero { display: flex; gap: 2rem; align-items: flex-start; margin: 1rem 0 2rem; flex-wrap: wrap; }
+.hero img.cover { width: 200px; max-width: 40vw; border: 1px solid var(--border); border-radius: 0.4rem; }
+.hero .sub { font-size: 1.25rem; font-style: italic; color: var(--heading); }
+.hero .epigraph { font-style: italic; color: var(--text-muted); border-inline-start: 3px solid var(--callout-border); padding-inline-start: 1rem; margin: 1.2rem 0; }
+.progress { margin: 1.2rem 0; font-size: 0.9rem; color: var(--text-muted); }
+.progress .bar { height: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 9999px; overflow: hidden; margin-top: 0.4rem; }
+.progress .bar > div { height: 100%; background: #818cf8; }
+.toc-list li:hover { background: var(--surface); border-color: var(--border); }
+.toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
+.toc-list a:hover { color: var(--accent); }
+audio { width: 100%; margin: 1.2rem 0; }
+</style>
+</head>
+<body>
+  <nav class="top">
+    <a href="index.html"><strong>On Hyperart</strong></a>
+    <div class="links">
+      <a href="index.html">Contents</a>
+      <a href="assessment.html">Assessment</a>
+      <a href="references.html">References</a>
+      <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
+    </div>
+  </nav>
+  <main>
+    <h1>Side - Economics of Hyperart: the Price File</h1>
+    
+    
+    <p>Method: every row dated or flagged. Proxies labelled as proxies. No curve without its unit.</p>
+<h2 id="table-1-tentpole-budget-vs-script-spend">Table 1 — Tentpole budget vs script spend</h2>
+<table><thead><tr><th>Date</th><th>Work</th><th>Production cost</th><th>Script/draft spend</th><th>Ratio</th><th>Source</th></tr></thead><tbody><tr><td>2009-12</td><td><em>Avatar</em></td><td>~$237M</td><td><code>[construction: verify]</code></td><td><code>[construction]</code></td><td>trade press, verify</td></tr><tr><td>1988-07</td><td><em>Akira</em></td><td><code>[construction: ¥ figures + yen rate]</code></td><td><code>[construction]</code></td><td><code>[construction]</code></td><td>production accounts</td></tr><tr><td>2026</td><td>model-assisted feature</td><td><code>[construction: render + licences]</code></td><td><code>[construction]</code></td><td><code>[construction]</code></td><td>none public yet</td></tr></tbody></table>
+<p>What the table is for: the historical claim is not "scripts got worse," it is "script spend as a share of capex fell, because capex had to be defended in every market simultaneously." The ratio is the argument; the totals are trivia.</p>
+<h2 id="table-2-star-compensation-vs-synthesis-cost">Table 2 — Star compensation vs synthesis cost</h2>
+<table><thead><tr><th>Date</th><th>Instrument</th><th>Cost</th><th>Notes</th></tr></thead><tbody><tr><td>~2010s-2020s</td><td>lead star deal</td><td>$20M per face <code>[construction: verify individual deals]</code></td><td>clumsy fleshy vessel for archetypes</td></tr><tr><td>2025-09-30</td><td>Tilly Norwood (Particle6/Xicoia)</td><td><code>[construction: agency terms]</code></td><td>first real Threshold C row; SAG-AFTRA statement</td></tr><tr><td>2025-10 / 2025-11-25</td><td>UMG-Udio, WMG-Suno settlements</td><td><code>[construction: terms]</code></td><td>licensing replaces prohibition: L3 brake</td></tr><tr><td>2025-03-18</td><td><em>Thaler v. Perlmutter</em></td><td>—</td><td>uncopyrightable output starves the balance sheet</td></tr></tbody></table>
+<p>What the table is for: the $20M face was not expensive because faces are scarce; it was expensive because <em>contracts</em> made it ownable. Thaler attacks the ownership, not the face. The licensing settlements then rebuild ownership around the catalog instead of the performer. Both moves are L3.</p>
+<h2 id="table-3-window-length-vs-breach-date">Table 3 — Window length vs breach date</h2>
+<table><thead><tr><th>Date</th><th>Window</th><th>Event</th></tr></thead><tbody><tr><td>pre-2019</td><td>90 days theatrical→home</td><td>baseline custom</td></tr><tr><td>2020</td><td>45 days and collapsing</td><td>pandemic compression <code>[construction: verify per studio]</code></td></tr><tr><td>2021-2024</td><td>day-and-date normalised</td><td><code>[construction: Issue #4 rows]</code></td></tr><tr><td>2025-2026</td><td>window described as "flexible" in trade language</td><td>Threshold D in motion: identity, not length, is the remaining test</td></tr></tbody></table>
+<h2 id="what-this-side-cannot-yet-price">What this side cannot yet price</h2>
+<ul><li>Personalised/generated runtime (Threshold D'): no market price exists because no market exists. That absence is itself a datum.</li><li>Human-jury variance (descent ladder rung 3): priced only as subsidy.</li><li>The preserve (rung 1): lease + labour, no revenue model.</li></ul>
+<p><code>[construction: fill each row with a primary source; a filled row with a wrong number is worse than an empty row with a flag.]</code></p>
+    <footer class="pn"><a href="side-glossary.html">&larr; Side - Glossary — on-hyperart</a><span></span></footer>
+  </main>
+</body>
+</html>
