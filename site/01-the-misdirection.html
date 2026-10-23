@@ -63,7 +63,13 @@ footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top
 }
 .btn-box:hover { background: #3730a3; }
 .toc-list { list-style: none; padding-inline-start: 0; }
-.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.hero { display: flex; gap: 2rem; align-items: flex-start; margin: 1rem 0 2rem; flex-wrap: wrap; }
+.hero img.cover { width: 200px; max-width: 40vw; border: 1px solid var(--border); border-radius: 0.4rem; }
+.hero .sub { font-size: 1.25rem; font-style: italic; color: var(--heading); }
+.hero .epigraph { font-style: italic; color: var(--text-muted); border-inline-start: 3px solid var(--callout-border); padding-inline-start: 1rem; margin: 1.2rem 0; }
+.progress { margin: 1.2rem 0; font-size: 0.9rem; color: var(--text-muted); }
+.progress .bar { height: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 9999px; overflow: hidden; margin-top: 0.4rem; }
+.progress .bar > div { height: 100%; background: #818cf8; }
 .toc-list li:hover { background: var(--surface); border-color: var(--border); }
 .toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
@@ -77,7 +83,6 @@ audio { width: 100%; margin: 1.2rem 0; }
       <a href="index.html">Contents</a>
       <a href="assessment.html">Assessment</a>
       <a href="references.html">References</a>
-      <a href="glossary.html">Glossary</a>
       <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
     </div>
   </nav>
@@ -86,17 +91,20 @@ audio { width: 100%; margin: 1.2rem 0; }
     
     
     <h2 id="02-10-the-credit-block-still-empty">02:10, the credit block still empty</h2>
-<p>The junior had a folder of approvals and a command list. The folder said the client's legal team had signed off on the source, the sound bed, and the appearance release — all of it, weeks ago, in daylight, by people whose names he could produce. What the folder did not contain was anything about the four seconds where the mouth did not match the new line.</p>
-<p>He read the commands the way a cook reads a recipe written by someone who has never been hungry: in order, without trust. Frame range. Mask. Regenerate the mouth, keep the jawline. Match the grain. Then the part nobody had written down — the part that used to have a job title — the part where a person decides whether the mouth is doing grief or a dub.</p>
-<p>At 02:10 he decided. Nobody countersigned, because the thing he decided had no name in the budget: not the take, not the frame, not the cut. He decided what the face was doing while it said the line.</p>
-<p>The delivery note went out at 02:31 with his name in a field labeled "operator." The credit block would be assembled in the morning by someone with a legal checklist and no memory of the four seconds. And the four seconds were, by the time anyone looked, simply part of the film.</p>
+<p>The junior compositor in the studio bay was not an auteur; he was an operator racing a delivery deadline. On his desk was a legal folder signed weeks ago in daylight: actor appearance releases, union riders, licensing clearance. Every lawyer had agreed that the studio held the rights to replace the lead actor's mouth for a translated foreign line.</p>
+<p>What the legal folder could not tell him was how that mouth should move.</p>
+<p>The neural model had generated ten candidates. They sat in a horizontal strip across his monitor — ten micro-variations of a human lip trembling over a syllable. Option 3 looked like a mechanical dub. Option 5 looked vacant. Option 7 had a slight, ragged hesitation at the corner of the lower lip that read as heartbreaking, suppressed grief.</p>
+<p>In 1995, that hesitation would have required an actor digging into personal loss on a soundstage, a director demanding take twelve, and an editor fighting to keep the frame.</p>
+<p>At 02:10 AM, with dry eyes and the night guard rattling keys down the hall, the junior clicked Option 7 because red meant another hour and green meant going home.</p>
+<p>Nobody countersigned. In the production budget, his choice had no line item: not a take, not a shoot, not performance direction. He decided what the face was doing while it said the line from a row of machine candidates, and at 02:31 the delivery note went out to the client server with his name in a field labeled "operator." In the morning, the credit block would attribute the grief to the famous actor whose face had been borrowed, the restraint to the director who had never seen the file, and the production to a studio that claims its films are strictly human craft.</p>
+<p>This is the misdirection. The culture watches for the day an AI claims an auteur credit in the opening titles, waiting for a mechanical god to walk through the front door. Meanwhile, the machine enters through the basement at two in the morning, generating the emotional peak of the film, ratified only by an exhausted technician whose sole aesthetic criterion was the clock on the wall. And the four seconds were, by the time anyone looked, simply part of the film.</p>
 <p><code>[construction: the production-tool rows behind this scene — Crafting Apps / ArtCraft, Band III — enter Ch V with dates or the scene stays generic. The scene is written to need none of them.]</code></p>
 <h2 id="at-what-frame-rate-does-authorship-become-ceremonial">At what frame rate does authorship become ceremonial?</h2>
 <p>Not "will machines make art" — they already do, daily, on every feed. The question is narrower and harder: which human, with what authority, can still say no to a shipped artifact, how fast, and what happens when the answer arrives after the premiere?</p>
 <p>Three slides, and only three. <strong>In the loop:</strong> the human decides every cut; the machine executes. A key animator in 1988 drawing a smear frame she chose. <strong>On the loop:</strong> the machine nominates, the human approves — a dubbing mixer at 02:00 approving the tenth "final" stem that night, ears fatigued, pressing green because red means another hour. <strong>Told afterwards:</strong> the machine ships, the human reads the credits. Everything in this book is an attempt to date, per rung and per artifact, which slide we are on — because studios claim the first, practice lives in the second, and the third arrives without announcement. The scene above is the second slide wearing a delivery note.</p>
 <p><code>[construction: Ch V will carry the dated rows. Candidate anchors under verification: Farinelli-IRCAM 1994 splice (Issue #1), 2024-2026 song-stack substitution rows, sakuga-model rows. No artifact asserted here without a Ch V date.]</code></p>
 <h2 id="the-wall-and-the-playground">The wall and the playground</h2>
-<p>The twentieth-century futurist consensus made one bet, twice, from opposite sides of the table. The evangelists (Kurzweil 2005, Moravec) promised heavy matter transformed: molecular assembly, abundant fusion, orbital industry. The catastrophists (Bostrom 2014, Yudkowsky) warned of a cold optimizer turning heavy matter into paperclips or computronium. Both placed the singularity in physics. Both treated art, narrative, pathos — the things that make apes weep at arranged light — as the last redoubt of biology, guarded by qualia, mortality, soul.</p>
+<p>The twentieth-century futurist consensus made one bet, twice, from opposite sides of the table. The evangelists (Kurzweil 2005, Moravec) promised heavy matter transformed: molecular assembly, abundant fusion, orbital industry. The catastrophists (Bostrom 2014, Yudkowsky) warned of a cold optimizer turning heavy matter into paperclips or computronium. Both placed the singularity in physics. Both treated art, narrative, pathos — the things that make mortal creatures weep at arranged light — as the last redoubt of biology, guarded by qualia, mortality, soul.</p>
 <p>They inverted the physics.</p>
 <p>Moving concrete is slow. Smelting titanium is slow. Permits are slow. Fatigue is real: vocal folds hemorrhage, hands cramp, schedules slip by years drawing 24 frames per second at peak intensity for 100 minutes (Akira, 1988; Redline, 2009 — cites in Issue #5). The speed of light is not negotiable and neither is payroll.</p>
 <p>Semantic space has no such drag. A latent step costs matrix multiplication. A harmonic shift costs nothing to re-render. A face costs nothing to re-interpolate once the encoder exists. A sculpture of sheer light needs no foundry, no bronze, no shipping, no insurance, and no audience that has ever seen one. The aesthetic singularity did not need to solve thermodynamics. It needed the complete map of the keyboard — and five millennia of human civilization had obligingly published it: poetics, counterpoint, chiaroscuro manuals, screenwriting beats, honkaku deduction rules, melodrama cue sheets. An unauthenticated interface, scraped at scale.</p>

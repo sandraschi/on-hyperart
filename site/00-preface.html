@@ -63,7 +63,13 @@ footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top
 }
 .btn-box:hover { background: #3730a3; }
 .toc-list { list-style: none; padding-inline-start: 0; }
-.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.hero { display: flex; gap: 2rem; align-items: flex-start; margin: 1rem 0 2rem; flex-wrap: wrap; }
+.hero img.cover { width: 200px; max-width: 40vw; border: 1px solid var(--border); border-radius: 0.4rem; }
+.hero .sub { font-size: 1.25rem; font-style: italic; color: var(--heading); }
+.hero .epigraph { font-style: italic; color: var(--text-muted); border-inline-start: 3px solid var(--callout-border); padding-inline-start: 1rem; margin: 1.2rem 0; }
+.progress { margin: 1.2rem 0; font-size: 0.9rem; color: var(--text-muted); }
+.progress .bar { height: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 9999px; overflow: hidden; margin-top: 0.4rem; }
+.progress .bar > div { height: 100%; background: #818cf8; }
 .toc-list li:hover { background: var(--surface); border-color: var(--border); }
 .toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
@@ -77,7 +83,6 @@ audio { width: 100%; margin: 1.2rem 0; }
       <a href="index.html">Contents</a>
       <a href="assessment.html">Assessment</a>
       <a href="references.html">References</a>
-      <a href="glossary.html">Glossary</a>
       <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
     </div>
   </nav>
@@ -92,7 +97,7 @@ audio { width: 100%; margin: 1.2rem 0; }
 <h2 id="the-allgemeinbildung-problem-answered-with-apparatus">The Allgemeinbildung problem, answered with apparatus</h2>
 <p>Nobody has unlimited general education, and this book's whole bet is a collision no single reader arrives equipped for. I hope a philosophy professor reads this — but he will not know the term sakuga<sup><a href="#fn-sakuga" id="fnref-sakuga">1</a></sup>. I hope a sakuga fan reads this — but she may not have read Nagel's bat or the ELVIS Act<sup><a href="#fn-elvis" id="fnref-elvis">2</a></sup>, and why should she have. Honkaku<sup><a href="#fn-honkaku" id="fnref-honkaku">3</a></sup> sits three pages from Searle's Chinese Room, and each half of that pairing is obvious to someone and opaque to someone else.</p>
 <p>So the apparatus is not decoration. It is the book's load-bearing response to its own thesis:</p>
-<ul><li><strong>Endnotes on every chapter.</strong> Any term of art outside common undergraduate vocabulary gets a note on first use: one line, checkable, no condescension. Follow them downward (professor: sakuga awaits) or upward (fan: Nagel awaits).</li><li><strong>Glossary</strong> (<code>docs/GLOSSARY.md</code>, built as a reader page): the full entries the notes abbreviate. New term in a chapter means a new entry here first — house rule, enforced by review, not by hope.</li><li><strong>References</strong> with dates: every factual claim about the present points at something dated. The rest carries a flag, described next.</li><li><strong><code>[construction]</code> flags:</strong> asserted, not yet evidenced — a promise of evidence, never evidence. You will see dozens. Each is an invitation to do what the sisters' readers do: open an issue naming the claim, what's wrong with it, and what would fix it. The version history of <em>why</em> a claim moved is as much the point as the claim.</li><li><strong>Read-aloud gate:</strong> every chapter must survive being spoken by synthetic voice before it ships (<code>just declaim</code>). Kahn-flat prose is a feature of the audiobook, not just the page. If a sentence cannot be read aloud without embarrassment, it is rewritten, not defended.</li></ul>
+<ul><li><strong>Endnotes on every chapter.</strong> Any term of art outside common undergraduate vocabulary gets a note on first use: one line, checkable, no condescension. Follow them downward (professor: sakuga awaits) or upward (fan: Nagel awaits).</li><li><strong>Glossary</strong> (Side - Glossary, in this book): the full entries the notes abbreviate. New term in a chapter means a new entry here first — house rule, enforced by review, not by hope.</li><li><strong>References</strong> with dates: every factual claim about the present points at something dated. The rest carries a flag, described next.</li><li><strong><code>[construction]</code> flags:</strong> asserted, not yet evidenced — a promise of evidence, never evidence. You will see dozens. Each is an invitation to do what the sisters' readers do: open an issue naming the claim, what's wrong with it, and what would fix it. The version history of <em>why</em> a claim moved is as much the point as the claim.</li><li><strong>Read-aloud gate:</strong> every chapter must survive being spoken by synthetic voice before it ships (<code>just declaim</code>). Kahn-flat prose is a feature of the audiobook, not just the page. If a sentence cannot be read aloud without embarrassment, it is rewritten, not defended.</li></ul>
 <h2 id="how-to-contest-this-book">How to contest this book</h2>
 <p>Disagree in public, with a date. GitHub Issues are the system of record; whatever starts in conversation gets mirrored there before it counts as resolved. Name the chapter and section, state what's wrong (wrong evidence, wrong position, not actually observable, duplicate), propose the change. Placement changes get their own commits — the <em>why it moved</em> stays one click from the <em>what</em>. Discord and conversation are fine front ends for typing; they are not the record, because scrollback has exactly the problem this tetralogy exists to fix: real disagreement happened, and six months later nobody can reconstruct why a position changed.</p>
 <h2 id="fleet-link">Fleet link</h2>

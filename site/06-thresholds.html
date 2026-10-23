@@ -63,7 +63,13 @@ footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top
 }
 .btn-box:hover { background: #3730a3; }
 .toc-list { list-style: none; padding-inline-start: 0; }
-.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.hero { display: flex; gap: 2rem; align-items: flex-start; margin: 1rem 0 2rem; flex-wrap: wrap; }
+.hero img.cover { width: 200px; max-width: 40vw; border: 1px solid var(--border); border-radius: 0.4rem; }
+.hero .sub { font-size: 1.25rem; font-style: italic; color: var(--heading); }
+.hero .epigraph { font-style: italic; color: var(--text-muted); border-inline-start: 3px solid var(--callout-border); padding-inline-start: 1rem; margin: 1.2rem 0; }
+.progress { margin: 1.2rem 0; font-size: 0.9rem; color: var(--text-muted); }
+.progress .bar { height: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 9999px; overflow: hidden; margin-top: 0.4rem; }
+.progress .bar > div { height: 100%; background: #818cf8; }
 .toc-list li:hover { background: var(--surface); border-color: var(--border); }
 .toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
@@ -77,7 +83,6 @@ audio { width: 100%; margin: 1.2rem 0; }
       <a href="index.html">Contents</a>
       <a href="assessment.html">Assessment</a>
       <a href="references.html">References</a>
-      <a href="glossary.html">Glossary</a>
       <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
     </div>
   </nav>
@@ -89,7 +94,7 @@ audio { width: 100%; margin: 1.2rem 0; }
 <p>"Withhold synthesis as needed" is not a policy. It is the shape of a policy that has nowhere to be written down — Pachocki's alien-mind phrasing (OpenAI, Sept 2026: commitments to withhold scaling "as needed", with no threshold to attach them to <code>[construction: verify cite]</code>) applies word for word to the studio that promises restraint without naming the line. A rung describes. A threshold binds: do not cross without an audit regime, a named owner, and a verification the rival can observe. Kahn's thresholds had names crews could remember in the dark — Don't Rock the Boat, No Nuclear Use, Central Sanctuary. Ours need the same memorability, because the crossing will happen at 02:00 with a fatigued mixer at the desk, and nobody reads footnotes at 02:00.</p>
 <p>Each threshold below: definition, crossing test, owner, precedent. A threshold nobody owns is a wish. Wishes are Chapter VII's subject, not this one's.</p>
 <h2 id="a-the-last-take-vocal">A — The Last Take (vocal)</h2>
-<p><strong>Definition:</strong> the last shipped lead vocal whose credited performer sang that line, in some take. <strong>Crossing test:</strong> the performer never sang it — no session producible in which they did. Comping, tuning, and punch-ins stay human; substitution does not. (The naive version — one room, one unbroken take — fell decades ago to multitrack comping and pitch correction: Cher, "Believe", 1998 <code>[construction: verify]</code>; the DAW era made the unbroken take a choice, then a rarity. This threshold is drawn past them on purpose.) <strong>Owner:</strong> labels and unions first, statute second <code>[construction: ELVIS Act + AB 1836/2602 — Issue #2; SAG-AFTRA digital-replica provisions, WGA AI clauses with dates]</code>. <strong>Precedent:</strong> the temp that stayed. Every mixer alive has kept a scratch vocal because the "real" session never beat it for feel. Threshold A is the day the scratch stops being the exception and becomes the master, and nobody writes it down because writing it down would require a meeting about what a singer is.</p>
+<p><strong>Definition:</strong> the last shipped lead vocal whose credited performer sang that line, in some take. <strong>Crossing test:</strong> the performer never sang it — no session producible in which they did. Comping<sup><a href="#fn-comping" id="fnref-comping">1</a></sup>, tuning, and punch-ins stay human; substitution does not. (The naive version — one room, one unbroken take — fell decades ago to multitrack comping and pitch correction: Cher, "Believe", 1998 <code>[construction: verify]</code>; the DAW era made the unbroken take a choice, then a rarity. This threshold is drawn past them on purpose.) <strong>Owner:</strong> labels and unions first, statute second <code>[construction: ELVIS Act + AB 1836/2602 — Issue #2; SAG-AFTRA digital-replica provisions, WGA AI clauses with dates]</code>. <strong>Precedent:</strong> the temp that stayed. Every mixer alive has kept a scratch vocal because the "real" session never beat it for feel. Threshold A is the day the scratch stops being the exception and becomes the master, and nobody writes it down because writing it down would require a meeting about what a singer is.</p>
 <p>The terror here is not replacement. It is continuity: the audience will not notice. The formant does not check provenance; the listener's beliefs do — and beliefs are trainable.</p>
 <h2 id="b-the-last-frame-visual-labor">B — The Last Frame (visual labor)</h2>
 <p><strong>Definition:</strong> the last shipped cut whose key animation a studio can attribute to a named human. <strong>Crossing test:</strong> the studio cannot name a key animator (genga) per cut, on demand — from credit sheets, not memory. (The naive version — the hand-drawn frame — fell in 1990 to Disney CAPS ink-and-paint, <em>The Rescuers Down Under</em> <code>[construction: verify]</code>, and CG in-betweening finished the job. This threshold is about authorship records, not graphite.) <strong>Owner:</strong> studios and unions <code>[construction: SAG-AFTRA/WGA AI clauses, Animation Guild positions with dates]</code>; award bodies as secondary witnesses. <strong>Precedent:</strong> previz lock. The previsualization cut, once a sketch, became the film before casting finished — the sketch that ate the shoot. The Last Frame is previz's final victory: the drawing that was never a drawing, only a prompt's confident child.</p>
@@ -108,6 +113,11 @@ audio { width: 100%; margin: 1.2rem 0; }
 <p><code>[construction: Opus pass — one-page distillations per threshold, boxed, with owner contact-class (not person, office). Kahn's thresholds fit on index cards; so must these.]</code></p>
 <h2 id="fleet-link">Fleet link</h2>
 <p>Takeover-book's Threshold B (Audit Floor) is "no human institution can independently verify a claim about model behavior." Hyperwar's thresholds are export chokepoints and hotlines that work at machine speed. Ours are the same shape in the mirror: A-E mark where verification of human provenance stops being available. Four books, one sentence: the brake must be ownable before the crossing, or it is literature afterwards. This chapter aims to be hardware.</p>
+<section class="endnotes"><hr><h2>Notes</h2>
+<ol>
+<li id="fn-comping">Composite tracking: compiling a single seamless master performance by splicing the best syllables, breaths, and notes from multiple recorded takes. Full entry in the Glossary. <a href="#fnref-comping">↩</a></li>
+</ol>
+</section>
     <footer class="pn"><a href="05-locating-the-present.html">&larr; V. Locating the Present</a><a href="07-control-case.html">VII. The Control Case and Why It Fails &rarr;</a></footer>
   </main>
 </body>
