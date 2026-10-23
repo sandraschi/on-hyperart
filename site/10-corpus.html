@@ -63,7 +63,13 @@ footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top
 }
 .btn-box:hover { background: #3730a3; }
 .toc-list { list-style: none; padding-inline-start: 0; }
-.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.hero { display: flex; gap: 2rem; align-items: flex-start; margin: 1rem 0 2rem; flex-wrap: wrap; }
+.hero img.cover { width: 200px; max-width: 40vw; border: 1px solid var(--border); border-radius: 0.4rem; }
+.hero .sub { font-size: 1.25rem; font-style: italic; color: var(--heading); }
+.hero .epigraph { font-style: italic; color: var(--text-muted); border-inline-start: 3px solid var(--callout-border); padding-inline-start: 1rem; margin: 1.2rem 0; }
+.progress { margin: 1.2rem 0; font-size: 0.9rem; color: var(--text-muted); }
+.progress .bar { height: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 9999px; overflow: hidden; margin-top: 0.4rem; }
+.progress .bar > div { height: 100%; background: #818cf8; }
 .toc-list li:hover { background: var(--surface); border-color: var(--border); }
 .toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
@@ -77,7 +83,6 @@ audio { width: 100%; margin: 1.2rem 0; }
       <a href="index.html">Contents</a>
       <a href="assessment.html">Assessment</a>
       <a href="references.html">References</a>
-      <a href="glossary.html">Glossary</a>
       <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
     </div>
   </nav>
@@ -100,7 +105,7 @@ audio { width: 100%; margin: 1.2rem 0; }
 <p>Four books, one method. <em>On Hyperwar</em>: decision speed as the weapon — where the human leaves the kill chain. <em>On AI Takeover</em>: reversibility of control — which rung, what moves us up one, who can still attach brakes. <em>On Hyperart</em>: reversibility of gatekeeping — which human can still say no to a shipped artifact, and what happens when the answer arrives after the premiere. <em>On MetaCraft</em>: the labor cost of reimplementing the tools that open the artifact. Same ladder math, four domains: the clock, the switch, the stage, the foundry.</p>
 <h2 id="charge">Charge</h2>
 <p>Date everything. Keep the guitar. Contest the rungs. And write as if the subject reads — because it does.</p>
-    <footer class="pn"><a href="09-day-two.html">&larr; IX. Day Two</a><a href="side-acoustic-leviathan.html">Side — Acoustic Leviathan (deep dive) &rarr;</a></footer>
+    <footer class="pn"><a href="09-day-two.html">&larr; IX. Day Two</a><a href="11-llm-writing.html">XI. LLM Writing and Its Discontents &rarr;</a></footer>
   </main>
 </body>
 </html>

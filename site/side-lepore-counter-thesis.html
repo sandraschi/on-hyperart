@@ -63,7 +63,13 @@ footer.pn { display: flex; justify-content: space-between; gap: 1rem; margin-top
 }
 .btn-box:hover { background: #3730a3; }
 .toc-list { list-style: none; padding-inline-start: 0; }
-.toc-list li { margin: 0.6rem 0; padding: 0.6rem 0.8rem; border-radius: 0.4rem; border: 1px solid transparent; }
+.hero { display: flex; gap: 2rem; align-items: flex-start; margin: 1rem 0 2rem; flex-wrap: wrap; }
+.hero img.cover { width: 200px; max-width: 40vw; border: 1px solid var(--border); border-radius: 0.4rem; }
+.hero .sub { font-size: 1.25rem; font-style: italic; color: var(--heading); }
+.hero .epigraph { font-style: italic; color: var(--text-muted); border-inline-start: 3px solid var(--callout-border); padding-inline-start: 1rem; margin: 1.2rem 0; }
+.progress { margin: 1.2rem 0; font-size: 0.9rem; color: var(--text-muted); }
+.progress .bar { height: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 9999px; overflow: hidden; margin-top: 0.4rem; }
+.progress .bar > div { height: 100%; background: #818cf8; }
 .toc-list li:hover { background: var(--surface); border-color: var(--border); }
 .toc-list a { text-decoration: none; font-weight: 500; color: var(--heading); display: block; }
 .toc-list a:hover { color: var(--accent); }
@@ -77,7 +83,6 @@ audio { width: 100%; margin: 1.2rem 0; }
       <a href="index.html">Contents</a>
       <a href="assessment.html">Assessment</a>
       <a href="references.html">References</a>
-      <a href="glossary.html">Glossary</a>
       <a class="epub-tag" href="on-hyperart.epub" download>EPUB</a>
     </div>
   </nav>
@@ -104,7 +109,7 @@ audio { width: 100%; margin: 1.2rem 0; }
 <h2 id="transferable-dated-rows-candidates-for-ch-ii-ch-v">Transferable dated rows (candidates for Ch II / Ch V)</h2>
 <table><thead><tr><th>Date</th><th>Artifact</th><th>What it proves</th></tr></thead><tbody><tr><td>1932</td><td>"The Cerebral Library" (David H. Keller, <em>Amazing Stories</em>): 503 readers' brains wired to answer any question from 750,000 books</td><td>anticipation of the LLM query a century early — flagged, verify in Lepore's notes</td></tr><tr><td>1946 / 1955</td><td>Asimov, "Evidence" / "Franchise": robot mayor, machine elects the president</td><td>the Artificial State is Asimov's actual subject, not the interiority-test android</td></tr><tr><td>1978</td><td>Adams, <em>Hitchhiker's Guide</em>: satire of Asimov's Foundation, read by Musk as a lesson in asking better questions</td><td>cautionary tale consumed as manual — the mechanism, dated and named</td></tr><tr><td>2026-10-15</td><td>Lepore, <em>The Rise and Fall of the Artificial State</em></td><td>the counter-thesis, in print, with a publisher and a Lanier blurb</td></tr></tbody></table>
 <p><code>[construction: verify Keller 1932 issue and Asimov story dates against Lepore's Notes (EPUB notes section) or the primary texts before these enter a chapter. Page cites pending print copy.]</code></p>
-    <footer class="pn"><a href="side-what-scifi-gets-wrong.html">&larr; Side — What Sci-Fi Gets Wrong (hyperart cut)</a><span></span></footer>
+    <footer class="pn"><a href="side-what-scifi-gets-wrong.html">&larr; Side — What Sci-Fi Gets Wrong (hyperart cut)</a><a href="side-on-slop.html">Side — On Human and Synthetic Slop &rarr;</a></footer>
   </main>
 </body>
 </html>
